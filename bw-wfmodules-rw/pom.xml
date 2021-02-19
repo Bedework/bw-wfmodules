@@ -109,9 +109,17 @@
               <name>org.bedework.util.tz</name>
             </moduleDependency>
 
-            <!-- ============== generated elsewhere ========== -->
+            <!-- ============== others ========== -->
+            <moduleDependency>
+              <name>org.bedework.apache.jdkim.library</name>
+            </moduleDependency>
+
             <moduleDependency>
               <name>org.bedework.ical4j</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>wildflyee.api</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

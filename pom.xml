@@ -60,6 +60,7 @@
     <module>bw-wfmodules-rw</module>
     <module>bw-wfmodules-jasig-cas</module>
     <module>bw-wfmodules-ical4j</module>
+    <module>bw-wfmodules-apache-jdkim-library</module>
   </modules>
 
   <developers>
