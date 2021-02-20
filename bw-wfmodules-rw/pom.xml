@@ -109,6 +109,12 @@
               <name>org.bedework.util.servlet-filters</name>
             </moduleDependency>
 
+            <!-- ================ bw-util-security ================ -->
+
+            <moduleDependency>
+              <name>org.bedework.util.security</name>
+            </moduleDependency>
+
             <!-- ================ bw-util-tz ================ -->
 
             <moduleDependency>

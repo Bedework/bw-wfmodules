@@ -12,4 +12,25 @@
   <artifactId>bw-wfmodules-ro</artifactId>
   <name>bw-wfmodules-ro</name>
 
+  <!--
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
+        <version>${bw-util-deploy.version}</version>
+
+        <executions>
+          <execution>
+            <id></id>
+            <phase>install</phase>
+            <goals>
+              <goal>bw-deploy-wfmodule</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  -->
 </project>
