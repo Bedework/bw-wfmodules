@@ -12,7 +12,6 @@
   <artifactId>bw-wfmodules-ro</artifactId>
   <name>bw-wfmodules-ro</name>
 
-  <!--
   <build>
     <plugins>
       <plugin>
@@ -22,15 +21,112 @@
 
         <executions>
           <execution>
-            <id></id>
             <phase>install</phase>
             <goals>
               <goal>bw-deploy-wfmodule</goal>
             </goals>
           </execution>
         </executions>
+
+        <configuration>
+          <moduleName>org.bedework.wfmodules.ro</moduleName>
+          <noArtifact>true</noArtifact>
+
+          <moduleDependencies>
+            <moduleDependency>
+              <name>org.bedework.logging</name>
+            </moduleDependency>
+
+            <!-- ================= bw-util ================= -->
+
+            <moduleDependency>
+              <name>org.bedework.util.caching</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util.directory</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util.jms</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util.json</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util.misc</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util.xml</name>
+            </moduleDependency>
+
+            <!-- ================ bw-util-conf ================ -->
+
+            <moduleDependency>
+              <name>org.bedework.util.config</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.jmx</name>
+            </moduleDependency>
+
+            <!-- ================ bw-util-index ================ -->
+
+            <moduleDependency>
+              <name>org.bedework.util.indexing</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util.indexing.elasticsearch</name>
+            </moduleDependency>
+
+            <!-- ================ bw-util-network ================ -->
+
+            <moduleDependency>
+              <name>org.bedework.util.config-http</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util.dav</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util.http</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util.servlet</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util.servlet-filters</name>
+            </moduleDependency>
+
+            <!-- ================ bw-util-security ================ -->
+
+            <moduleDependency>
+              <name>org.bedework.util.security</name>
+            </moduleDependency>
+
+            <!-- ================ bw-util-tz ================ -->
+
+            <moduleDependency>
+              <name>org.bedework.util.tz</name>
+            </moduleDependency>
+
+            <!-- ============== others ========== -->
+
+            <moduleDependency>
+              <name>org.bedework.apache.jdkim.library</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.ical4j</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.ical4j-vcard</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>wildflyee.api</name>
+            </moduleDependency>
+          </moduleDependencies>
+        </configuration>
       </plugin>
     </plugins>
   </build>
-  -->
 </project>
