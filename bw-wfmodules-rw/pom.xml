@@ -76,6 +76,12 @@
               <name>org.bedework.util.jmx</name>
             </moduleDependency>
 
+            <!-- ================ bw-util-hibernate ================ -->
+
+            <moduleDependency>
+              <name>org.bedework.util.hibernate</name>
+            </moduleDependency>
+
             <!-- ================ bw-util-index ================ -->
 
             <moduleDependency>
