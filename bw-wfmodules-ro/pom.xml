@@ -107,6 +107,45 @@
               <name>org.bedework.util.tz</name>
             </moduleDependency>
 
+            <!-- ================ bw-util2 ================ -->
+
+            <moduleDependency>
+              <name>org.bedework.util2.calendar</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util2.vcard</name>
+            </moduleDependency>
+
+            <!-- ================ bw-access ================ -->
+
+            <moduleDependency>
+              <name>org.bedework.access</name>
+            </moduleDependency>
+
+            <!-- ================ bw-jsforj ================ -->
+
+            <moduleDependency>
+              <name>org.bedework.jsforj</name>
+            </moduleDependency>
+
+            <!-- ================ bw-xml ================ -->
+
+            <moduleDependency>
+              <name>org.bedework.xml.caldav</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.xml.calws.soap</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.xml.icalendar</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.xml.synchws</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.xml.tzsvr</name>
+            </moduleDependency>
+
             <!-- ============== others ========== -->
 
             <moduleDependency>
