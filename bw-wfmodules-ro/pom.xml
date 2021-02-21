@@ -131,25 +131,25 @@
             <!-- ================ bw-xml ================ -->
 
             <moduleDependency>
-              <name>org.bedework.xml.caldav</name>
+              <name>org.bedework.xml</name>
             </moduleDependency>
+
             <moduleDependency>
-              <name>org.bedework.xml.calws.soap</name>
+              <name>org.bedework.webdav</name>
             </moduleDependency>
+
             <moduleDependency>
-              <name>org.bedework.xml.icalendar</name>
+              <name>org.bedework.caldav.server</name>
             </moduleDependency>
+
             <moduleDependency>
-              <name>org.bedework.xml.synchws</name>
-            </moduleDependency>
-            <moduleDependency>
-              <name>org.bedework.xml.tzsvr</name>
+              <name>org.bedework.caldav.util</name>
             </moduleDependency>
 
             <!-- ============== others ========== -->
 
             <moduleDependency>
-              <name>org.bedework.apache.jdkim.library</name>
+              <name>org.bedework.org.apache.jdkim.library</name>
             </moduleDependency>
 
             <moduleDependency>

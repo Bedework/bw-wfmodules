@@ -90,7 +90,7 @@
         </executions>
 
         <configuration>
-          <moduleName>org.bedework.apache.jdkim.library</moduleName>
+          <moduleName>org.bedework.org.apache.jdkim.library</moduleName>
           <noArtifact>true</noArtifact>
 
           <jarResources>

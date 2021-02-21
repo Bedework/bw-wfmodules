@@ -33,7 +33,7 @@
 
         <executions>
           <execution>
-            <id>org.bedework.jasig.cas</id>
+            <id>org.bedework.org.jasig.cas</id>
             <phase>install</phase>
             <goals>
               <goal>bw-deploy-wfmodule</goal>
@@ -42,12 +42,12 @@
         </executions>
 
         <configuration>
-          <moduleName>org.bedework.jasig.cas</moduleName>
+          <moduleName>org.bedework.org.jasig.cas</moduleName>
           <noArtifact>true</noArtifact>
 
           <jarDependencies>
             <jarDependency>
-              <moduleName>org.bedework.jasig.cas.client</moduleName>
+              <moduleName>org.bedework.org.jasig.cas.client</moduleName>
               <groupId>org.jasig.cas.client</groupId>
               <artifactId>cas-client-core</artifactId>
               <version>${jasig.cas.version}</version>
