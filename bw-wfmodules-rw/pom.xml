@@ -60,7 +60,45 @@
               <name>org.bedework.xml</name>
             </moduleDependency>
 
+            <!-- ============== engine ========== -->
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.api</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.chgnote</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.core.rw</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.dumprestore</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.indexer</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.inoutsched</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.mail</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.tools</name>
+            </moduleDependency>
+
             <!-- ============== others ========== -->
+
+            <moduleDependency>
+              <name>org.bedework.org.apache.jdkim.library</name>
+            </moduleDependency>
           </moduleDependencies>
         </configuration>
       </plugin>

@@ -146,22 +146,18 @@
               <name>org.bedework.caldav.util</name>
             </moduleDependency>
 
-            <!-- ============== others ========== -->
+            <!-- ============== engine ========== -->
 
             <moduleDependency>
               <name>org.bedework.calendar.engine.annotations</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.calendar.engine.api</name>
+              <name>org.bedework.calendar.engine.api-ro</name>
             </moduleDependency>
 
             <moduleDependency>
               <name>org.bedework.calendar.engine.caldav</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.calendar.engine.chgnote</name>
             </moduleDependency>
 
             <moduleDependency>
@@ -173,14 +169,6 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.calendar.engine.core.rw</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.calendar.engine.dumprestore</name>
-            </moduleDependency>
-
-            <moduleDependency>
               <name>org.bedework.calendar.engine.facade</name>
             </moduleDependency>
 
@@ -189,19 +177,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.calendar.engine.indexer</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.calendar.engine.inoutsched</name>
-            </moduleDependency>
-
-            <moduleDependency>
               <name>org.bedework.calendar.engine.interfaces</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.calendar.engine.mail</name>
             </moduleDependency>
 
             <moduleDependency>
@@ -212,15 +188,7 @@
               <name>org.bedework.calendar.engine.sysevents.msgs</name>
             </moduleDependency>
 
-            <moduleDependency>
-              <name>org.bedework.calendar.engine.tools</name>
-            </moduleDependency>
-
             <!-- ============== others ========== -->
-
-            <moduleDependency>
-              <name>org.bedework.org.apache.jdkim.library</name>
-            </moduleDependency>
 
             <moduleDependency>
               <name>org.bedework.ical4j</name>
