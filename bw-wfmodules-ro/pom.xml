@@ -146,11 +146,21 @@
               <name>org.bedework.caldav.util</name>
             </moduleDependency>
 
-            <!-- ============== engine ========== -->
+            <!-- ============== common ========== -->
 
             <moduleDependency>
-              <name>org.bedework.calendar.engine.annotations</name>
+              <name>org.bedework.calendar.common.annotations</name>
             </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.common.convert</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.common.facade</name>
+            </moduleDependency>
+
+            <!-- ============== engine ========== -->
 
             <moduleDependency>
               <name>org.bedework.calendar.engine.api-ro</name>
@@ -161,15 +171,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.calendar.engine.convert</name>
-            </moduleDependency>
-
-            <moduleDependency>
               <name>org.bedework.calendar.engine.core.ro</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.calendar.engine.facade</name>
             </moduleDependency>
 
             <moduleDependency>
