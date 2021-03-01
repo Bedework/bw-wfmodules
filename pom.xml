@@ -62,6 +62,7 @@
     <module>bw-wfmodules-ical4j</module>
     <module>bw-wfmodules-apache-jdkim-library</module>
     <module>bw-wfmodules-ical4j-vcard</module>
+    <module>bw-wfmodules-digester</module>
   </modules>
 
   <developers>

@@ -157,11 +157,27 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.calendar.common.config</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.calendar.common.convert</name>
             </moduleDependency>
 
             <moduleDependency>
               <name>org.bedework.calendar.common.facade</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.common.mail</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.common.sysevents.common</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.common.sysevents.msgs</name>
             </moduleDependency>
 
             <!-- ============== engine ========== -->
@@ -182,12 +198,18 @@
               <name>org.bedework.calendar.engine.interfaces</name>
             </moduleDependency>
 
+            <!-- ============== client ========== -->
+
             <moduleDependency>
-              <name>org.bedework.calendar.engine.sysevents.common</name>
+              <name>org.bedework.calendar.client.appcommon</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.calendar.engine.sysevents.msgs</name>
+              <name>org.bedework.calendar.client.webcommon</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.client.util</name>
             </moduleDependency>
 
             <!-- ============== others ========== -->

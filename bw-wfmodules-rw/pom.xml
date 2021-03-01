@@ -87,10 +87,6 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.calendar.engine.mail</name>
-            </moduleDependency>
-
-            <moduleDependency>
               <name>org.bedework.calendar.engine.tools</name>
             </moduleDependency>
 
