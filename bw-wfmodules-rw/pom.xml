@@ -96,6 +96,10 @@
               <name>org.bedework.calendar.client.admin</name>
             </moduleDependency>
 
+            <moduleDependency>
+              <name>org.bedework.calendar.client.rw</name>
+            </moduleDependency>
+
             <!-- ============== others ========== -->
 
             <moduleDependency>
