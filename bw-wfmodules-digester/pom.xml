@@ -12,21 +12,20 @@
   <artifactId>bw-wfmodules-digester</artifactId>
   <packaging>pom</packaging>
 
-  <properties>
-    <digester-version>1.8</digester-version>
-  </properties>
-
   <dependencies>
-    <dependency>
-      <groupId>commons-digester</groupId>
-      <artifactId>commons-digester</artifactId>
-      <version>${digester-version}</version>
-    </dependency>
-
     <dependency>
       <groupId>commons-beanutils</groupId>
       <artifactId>commons-beanutils</artifactId>
-      <version>1.7.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>commons-collections</groupId>
+      <artifactId>commons-collections</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>commons-digester</groupId>
+      <artifactId>commons-digester</artifactId>
     </dependency>
   </dependencies>
 
@@ -54,7 +53,7 @@
             <jarResource>
               <groupId>commons-digester</groupId>
               <artifactId>commons-digester</artifactId>
-              <version>${digester-version}</version>
+              <version>${commons-digester-version}</version>
             </jarResource>
           </jarResources>
 
@@ -63,7 +62,7 @@
               <moduleName>org.bedework.commons-beanutils</moduleName>
               <groupId>commons-beanutils</groupId>
               <artifactId>commons-beanutils</artifactId>
-              <version>1.7.0</version>
+              <version>${commons-beanutils.version}</version>
 
               <moduleDependencies>
               <moduleDependency>
@@ -76,7 +75,7 @@
               <moduleName>org.bedework.commons-collections</moduleName>
               <groupId>commons-collections</groupId>
               <artifactId>commons-collections</artifactId>
-              <version>3.2</version>
+              <version>${commons-collections.version}</version>
             </jarDependency>
           </jarDependencies>
 
@@ -93,6 +92,10 @@
             </moduleDependency>
           </moduleDependencies>
         </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
       </plugin>
     </plugins>
   </build>
