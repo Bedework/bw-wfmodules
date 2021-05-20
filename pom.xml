@@ -21,7 +21,7 @@
     <bw-timezone-server-version>4.0.8-SNAPSHOT</bw-timezone-server-version>
     <bw-util-logging.version>4.0.6</bw-util-logging.version>
     <bw-util.version>4.0.28</bw-util.version>
-    <bw-util-conf.version>4.1.1-SNAPSHOT</bw-util-conf.version>
+    <bw-util-conf.version>4.1.1</bw-util-conf.version>
     <bw-util-index.version>4.1.1-SNAPSHOT</bw-util-index.version>
     <bw-util-network.version>4.1.1-SNAPSHOT</bw-util-network.version>
     <bw-util-tz.version>4.1.1-SNAPSHOT</bw-util-tz.version>
