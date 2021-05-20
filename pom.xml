@@ -85,6 +85,7 @@
     <module>bw-wfmodules-logging</module>
     <module>bw-wfmodules-util</module>
     <module>bw-wfmodules-xml</module>
+    <module>bw-wfmodules-util-conf</module>
   </modules>
 
   <developers>
@@ -167,6 +168,12 @@
       <dependency>
         <groupId>org.bedework</groupId>
         <artifactId>bw-util-config</artifactId>
+        <version>${bw-util-conf.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util-jmx</artifactId>
         <version>${bw-util-conf.version}</version>
       </dependency>
 
