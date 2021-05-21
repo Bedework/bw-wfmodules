@@ -112,15 +112,20 @@
     <module>bw-wfmodules-apache-http</module>
     <module>bw-wfmodules-security</module>
     <module>bw-wfmodules-commons-codec</module>
+    <module>bw-wfmodules-commons-logging</module>
+    <module>bw-wfmodules-commons-collections</module>
+    <module>bw-wfmodules-commons-beanutils</module>
+    <module>bw-wfmodules-commons-io</module>
+    <module>bw-wfmodules-commons-lang</module>
   </modules>
 
   <developers>
     <developer>
       <name>Mike Douglass</name>
       <organization>
-        Spherical Cow Group
+        Bedework Commercial Services
       </organization>
-      <organizationUrl>http://sphericalcowgroup.com/</organizationUrl>
+      <organizationUrl>https://bedework.com/</organizationUrl>
     </developer>
     <developer>
       <name>Arlen Johnson</name>

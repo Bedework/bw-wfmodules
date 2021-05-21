@@ -25,11 +25,6 @@
     </dependency>
 
     <dependency>
-      <groupId>commons-codec</groupId>
-      <artifactId>commons-codec</artifactId>
-    </dependency>
-
-    <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
     </dependency>
@@ -37,11 +32,6 @@
     <dependency>
       <groupId>commons-lang</groupId>
       <artifactId>commons-lang</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>commons-logging</groupId>
-      <artifactId>commons-logging</artifactId>
     </dependency>
   </dependencies>
 
@@ -80,40 +70,27 @@
               <artifactId>slf4j-api</artifactId>
               <version>1.7.25</version>
             </jarDependency>
-
-            <jarDependency>
-              <moduleName>org.bedework.commons-codec</moduleName>
-              <groupId>commons-codec</groupId>
-              <artifactId>commons-codec</artifactId>
-              <version>${commons-codec.version}</version>
-              <type>jar</type>
-            </jarDependency>
-
-            <jarDependency>
-              <moduleName>org.bedework.commons-io</moduleName>
-              <groupId>commons-io</groupId>
-              <artifactId>commons-io</artifactId>
-              <version>${commons-io.version}</version>
-            </jarDependency>
-
-            <jarDependency>
-              <moduleName>org.bedework.commons-lang</moduleName>
-              <groupId>commons-lang</groupId>
-              <artifactId>commons-lang</artifactId>
-              <version>${commons-lang.version}</version>
-            </jarDependency>
-
-            <jarDependency>
-              <moduleName>org.bedework.commons-logging</moduleName>
-              <groupId>commons-logging</groupId>
-              <artifactId>commons-logging</artifactId>
-              <version>${commons-logging.version}</version>
-            </jarDependency>
           </jarDependencies>
 
           <moduleDependencies>
             <moduleDependency>
               <name>org.bedework.ical4j</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.commons-codec</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.commons-io</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.commons-lang</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.commons-logging</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>
