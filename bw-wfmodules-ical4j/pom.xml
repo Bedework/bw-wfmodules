@@ -10,15 +10,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>bw-wfmodules-ical4j</artifactId>
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-    <commons-codec.version>1.15</commons-codec.version>
-    <commons-lang3.version>3.8.1</commons-lang3.version>
-    <slf4j.api.version>1.7.25</slf4j.api.version>
-    <sun.mail.version>1.6.2</sun.mail.version>
-  </properties>
+  <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
@@ -35,36 +27,21 @@
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
-      <version>${slf4j.api.version}</version>
-      <scope>compile</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>commons-codec</groupId>
-      <artifactId>commons-codec</artifactId>
-      <version>${commons-codec.version}</version>
-      <scope>compile</scope>
     </dependency>
 
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
-      <version>${commons-lang3.version}</version>
-      <scope>compile</scope>
     </dependency>
 
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-collections4</artifactId>
-      <version>4.1</version>
-      <scope>compile</scope>
     </dependency>
 
     <dependency>
       <groupId>com.sun.mail</groupId>
       <artifactId>javax.mail</artifactId>
-      <version>${sun.mail.version}</version>
-      <scope>compile</scope>
     </dependency>
   </dependencies>
 
@@ -105,14 +82,6 @@
             </jarDependency>
 
             <jarDependency>
-              <moduleName>org.bedework.commons-codec</moduleName>
-              <groupId>commons-codec</groupId>
-              <artifactId>commons-codec</artifactId>
-              <version>${commons-codec.version}</version>
-              <type>jar</type>
-            </jarDependency>
-
-            <jarDependency>
               <moduleName>org.bedework.commons-lang3</moduleName>
               <groupId>org.apache.commons</groupId>
               <artifactId>commons-lang3</artifactId>
@@ -132,8 +101,16 @@
             <moduleDependency>
               <name>org.apache.log4j</name>
             </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.commons-codec</name>
+            </moduleDependency>
           </moduleDependencies>
         </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
       </plugin>
     </plugins>
   </build>

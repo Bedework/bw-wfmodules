@@ -26,16 +26,18 @@
     <bw-util-index.version>4.1.1-SNAPSHOT</bw-util-index.version>
     <bw-util-network.version>4.1.1</bw-util-network.version>
     <bw-util-tz.version>4.1.1-SNAPSHOT</bw-util-tz.version>
-    <bw-util-security.version>4.1.1-SNAPSHOT</bw-util-security.version>
+    <bw-util-security.version>4.1.1</bw-util-security.version>
 
     <bw-xml.version>4.0.11-SNAPSHOT</bw-xml.version>
 
     <commons-beanutils.version>1.7.0</commons-beanutils.version>
     <commons-codec.version>1.15</commons-codec.version>
     <commons-collections.version>3.2</commons-collections.version>
+    <commons-collections4.version>4.1</commons-collections4.version>
     <commons-digester-version>1.8</commons-digester-version>
     <commons-io.version>2.3</commons-io.version>
     <commons-lang.version>2.3</commons-lang.version>
+    <commons-lang3.version>3.8.1</commons-lang3.version>
     <commons-logging.version>1.2</commons-logging.version>
     <commons.text.version>1.7</commons.text.version>
 
@@ -44,14 +46,17 @@
 
     <ical4j.groupId>org.bedework.ical4j</ical4j.groupId>
     <ical4j.artifactId>ical4j</ical4j.artifactId>
-    <ical4j.version>3.0.13-SNAPSHOT</ical4j.version>
+    <ical4j.version>3.0.13</ical4j.version>
 
     <ical4j-vcard.version>1.0.5</ical4j-vcard.version>
 
     <jackson.version>2.10.0</jackson.version>
+    <javax.cache-api.version>1.0.0</javax.cache-api.version>
+
     <leveldb.version>0.5</leveldb.version>
 
     <slf4j.version>1.7.25</slf4j.version>
+    <sun.mail.version>1.6.2</sun.mail.version>
 
     <bw-util-deploy.version>4.0.28</bw-util-deploy.version>
   </properties>
@@ -313,6 +318,12 @@
       </dependency>
 
       <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-collections4</artifactId>
+        <version>${commons-collections4.version}</version>
+      </dependency>
+
+      <dependency>
         <groupId>commons-digester</groupId>
         <artifactId>commons-digester</artifactId>
         <version>${commons-digester-version}</version>
@@ -328,6 +339,12 @@
         <groupId>commons-lang</groupId>
         <artifactId>commons-lang</artifactId>
         <version>${commons-lang.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+        <version>${commons-lang3.version}</version>
       </dependency>
 
       <dependency>
@@ -364,6 +381,18 @@
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-databind</artifactId>
         <version>${jackson.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>javax.cache</groupId>
+        <artifactId>cache-api</artifactId>
+        <version>${javax.cache-api.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.sun.mail</groupId>
+        <artifactId>javax.mail</artifactId>
+        <version>${sun.mail.version}</version>
       </dependency>
 
       <dependency>
