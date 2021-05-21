@@ -24,8 +24,9 @@
     <bw-util.version>4.0.28</bw-util.version>
     <bw-util-conf.version>4.1.1</bw-util-conf.version>
     <bw-util-index.version>4.1.1-SNAPSHOT</bw-util-index.version>
-    <bw-util-network.version>4.1.1-SNAPSHOT</bw-util-network.version>
+    <bw-util-network.version>4.1.1</bw-util-network.version>
     <bw-util-tz.version>4.1.1-SNAPSHOT</bw-util-tz.version>
+    <bw-util-security.version>4.1.1-SNAPSHOT</bw-util-security.version>
 
     <bw-xml.version>4.0.11-SNAPSHOT</bw-xml.version>
 
@@ -104,6 +105,8 @@
       bw-wfmodules-util-network/bw-wfmodules-util-servlet-filters
     </module>
     <module>bw-wfmodules-apache-http</module>
+    <module>bw-wfmodules-security</module>
+    <module>bw-wfmodules-commons-codec</module>
   </modules>
 
   <developers>
@@ -225,6 +228,14 @@
         <groupId>org.bedework</groupId>
         <artifactId>bw-util-servlet-filters</artifactId>
         <version>${bw-util-network.version}</version>
+      </dependency>
+
+      <!-- ================ bw-util-security ================ -->
+
+      <dependency>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util-security</artifactId>
+        <version>${bw-util-security.version}</version>
       </dependency>
 
       <!-- Bedework: XML -->
