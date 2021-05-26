@@ -6,7 +6,7 @@
   <formats>
     <format>zip</format>
   </formats>
-  <baseDirectory>org/bedework/org/apache/httpcomponents/httpclient/baseDirectory>
+  <baseDirectory>org/bedework/org/apache/httpcomponents/httpclient</baseDirectory>
   <fileSets>
     <fileSet>
       <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/org/apache/httpcomponents/httpclient</directory>
