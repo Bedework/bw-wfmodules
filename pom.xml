@@ -100,17 +100,8 @@
     <module>bw-wfmodules-xml</module>
     <module>bw-wfmodules-util-conf</module>
     <module>bw-wfmodules-util-network</module>
-    <module>bw-wfmodules-util-network/bw-wfmodules-util-config-http
-    </module>
-    <module>bw-wfmodules-util-network/bw-wfmodules-util-dav</module>
-    <module>bw-wfmodules-util-network/bw-wfmodules-util-http</module>
-    <module>bw-wfmodules-util-network/bw-wfmodules-util-servlet
-    </module>
-    <module>
-      bw-wfmodules-util-network/bw-wfmodules-util-servlet-filters
-    </module>
+    <module>bw-wfmodules-util-security</module>
     <module>bw-wfmodules-apache-http</module>
-    <module>bw-wfmodules-security</module>
     <module>bw-wfmodules-commons-codec</module>
     <module>bw-wfmodules-commons-logging</module>
     <module>bw-wfmodules-commons-collections</module>

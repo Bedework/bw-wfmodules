@@ -9,7 +9,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>bw-wfmodules-security</artifactId>
+  <artifactId>bw-wfmodules-util-security</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
