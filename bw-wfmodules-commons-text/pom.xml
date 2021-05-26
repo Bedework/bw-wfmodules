@@ -9,13 +9,13 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>bw-wfmodules-logging</artifactId>
+  <artifactId>bw-wfmodules-commons-text</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
-      <groupId>org.bedework</groupId>
-      <artifactId>bw-util-logging</artifactId>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-text</artifactId>
     </dependency>
   </dependencies>
 
@@ -25,28 +25,27 @@
         <groupId>org.bedework</groupId>
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
         <version>${bw-util-deploy.version}</version>
-        <configuration>
-          <moduleName>org.bedework.logging</moduleName>
 
+        <executions>
+          <execution>
+            <phase>install</phase>
+            <goals>
+              <goal>bw-deploy-wfmodule</goal>
+            </goals>
+          </execution>
+        </executions>
+
+        <configuration>
+          <moduleName>org.bedework.org.apache.commons.commons-text</moduleName>
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <jarResource>
-              <groupId>org.bedework</groupId>
-              <artifactId>bw-util-logging</artifactId>
-              <version>${bw-util-logging.version}</version>
+              <groupId>org.apache.commons</groupId>
+              <artifactId>commons-text</artifactId>
+              <version>${commons.text.version}</version>
             </jarResource>
           </jarResources>
-
-          <moduleDependencies>
-            <moduleDependency>
-              <name>org.apache.log4j</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.com.fasterxml.jackson.core.annotations</name>
-            </moduleDependency>
-          </moduleDependencies>
         </configuration>
       </plugin>
 

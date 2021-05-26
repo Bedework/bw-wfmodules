@@ -12,59 +12,8 @@
   <artifactId>bw-wfmodules-apache-http</artifactId>
   <packaging>pom</packaging>
 
-  <dependencies>
-    <dependency>
-      <groupId>org.apache.httpcomponents</groupId>
-      <artifactId>httpclient</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.httpcomponents</groupId>
-      <artifactId>httpcore</artifactId>
-    </dependency>
-  </dependencies>
-
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.bedework</groupId>
-        <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
-
-        <configuration>
-          <moduleName>org.bedework.org.apache.httpcomponents.httpclient</moduleName>
-          <noArtifact>true</noArtifact>
-
-          <jarResources>
-            <jarResource>
-              <groupId>org.apache.httpcomponents</groupId>
-              <artifactId>httpclient</artifactId>
-              <version>${http-client.version}</version>
-            </jarResource>
-          </jarResources>
-
-          <jarDependencies>
-            <jarDependency>
-              <moduleName>org.bedework.org.apache.httpcomponents.httpcore</moduleName>
-              <groupId>org.apache.httpcomponents</groupId>
-              <artifactId>httpcore</artifactId>
-              <version>${http-core.version}</version>
-              <type>jar</type>
-            </jarDependency>
-
-            <jarDependency>
-              <moduleName>org.bedework.commons-logging</moduleName>
-              <groupId>commons-logging</groupId>
-              <artifactId>commons-logging</artifactId>
-              <version>${commons-logging.version}</version>
-              <type>jar</type>
-            </jarDependency>
-          </jarDependencies>
-        </configuration>
-      </plugin>
-
-      <plugin>
-        <artifactId>maven-assembly-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </build>
+  <modules>
+    <module>bw-wfmodules-apache-httpclient</module>
+    <module>bw-wfmodules-apache-httpcore</module>
+  </modules>
 </project>

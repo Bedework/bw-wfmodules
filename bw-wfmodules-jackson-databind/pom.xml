@@ -9,24 +9,13 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>bw-wfmodules-ical4j</artifactId>
+  <artifactId>bw-wfmodules-jackson-databind</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
-      <groupId>${ical4j.groupId}</groupId>
-      <artifactId>${ical4j.artifactId}</artifactId>
-      <exclusions>
-        <exclusion>
-          <groupId>*</groupId>
-          <artifactId>*</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-
-    <dependency>
-      <groupId>com.sun.mail</groupId>
-      <artifactId>javax.mail</artifactId>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
     </dependency>
   </dependencies>
 
@@ -36,38 +25,26 @@
         <groupId>org.bedework</groupId>
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
         <version>${bw-util-deploy.version}</version>
-
         <configuration>
-          <moduleName>org.bedework.ical4j</moduleName>
+          <moduleName>org.bedework.com.fasterxml.jackson.core.databind</moduleName>
+
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <jarResource>
-              <groupId>${ical4j.groupId}</groupId>
-              <artifactId>${ical4j.artifactId}</artifactId>
-              <version>${ical4j.version}</version>
+              <groupId>com.fasterxml.jackson.core</groupId>
+              <artifactId>jackson-databind</artifactId>
+              <version>${jackson.version}</version>
             </jarResource>
           </jarResources>
 
           <moduleDependencies>
             <moduleDependency>
-              <name>org.apache.log4j</name>
+              <name>com.fasterxml.jackson.core.jackson-core</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.commons-codec</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.commons-lang3</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.org.slf4j.slf4j-api</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.com.sun.mail</name>
+              <name>org.bedework.com.fasterxml.jackson.core.annotations</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

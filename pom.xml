@@ -117,6 +117,12 @@
     <module>bw-wfmodules-commons-beanutils</module>
     <module>bw-wfmodules-commons-io</module>
     <module>bw-wfmodules-commons-lang</module>
+    <module>bw-wfmodules-jackson-annotations</module>
+    <module>bw-wfmodules-slf4j-api</module>
+    <module>bw-wfmodules-commons-lang3</module>
+    <module>bw-wfmodules-jackson-databind</module>
+    <module>bw-wfmodules-sun-mail</module>
+    <module>bw-wfmodules-commons-text</module>
   </modules>
 
   <developers>

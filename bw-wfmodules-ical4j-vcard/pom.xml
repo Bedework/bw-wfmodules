@@ -63,15 +63,6 @@
             </jarResource>
           </jarResources>
 
-          <jarDependencies>
-            <jarDependency>
-              <moduleName>org.bedework.org.slf4j.slf4j-api</moduleName>
-              <groupId>org.slf4j</groupId>
-              <artifactId>slf4j-api</artifactId>
-              <version>1.7.25</version>
-            </jarDependency>
-          </jarDependencies>
-
           <moduleDependencies>
             <moduleDependency>
               <name>org.bedework.ical4j</name>
@@ -91,6 +82,10 @@
 
             <moduleDependency>
               <name>org.bedework.commons-logging</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.slf4j.slf4j-api</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>
