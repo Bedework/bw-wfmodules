@@ -70,22 +70,12 @@
     </dependency>
   </dependencies>
 
-
   <build>
     <plugins>
       <plugin>
         <groupId>org.bedework</groupId>
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
         <version>${bw-util-deploy.version}</version>
-
-        <executions>
-          <execution>
-            <phase>install</phase>
-            <goals>
-              <goal>bw-deploy-wfmodule</goal>
-            </goals>
-          </execution>
-        </executions>
 
         <configuration>
           <moduleName>org.bedework.org.apache.jdkim.library</moduleName>
@@ -164,6 +154,10 @@
 
           </moduleDependencies>
         </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
       </plugin>
     </plugins>
   </build>
