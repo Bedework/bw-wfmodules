@@ -114,6 +114,7 @@
     <module>bw-wfmodules-jackson-databind</module>
     <module>bw-wfmodules-sun-mail</module>
     <module>bw-wfmodules-commons-text</module>
+    <module>bw-wfmodules-util-tz</module>
   </modules>
 
   <developers>
@@ -243,6 +244,14 @@
         <groupId>org.bedework</groupId>
         <artifactId>bw-util-security</artifactId>
         <version>${bw-util-security.version}</version>
+      </dependency>
+
+      <!-- ================= bw-util-tz ================= -->
+
+      <dependency>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util-tz</artifactId>
+        <version>${bw-util-tz.version}</version>
       </dependency>
 
       <!-- Bedework: XML -->
