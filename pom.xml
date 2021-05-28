@@ -50,7 +50,7 @@
 
     <ical4j-vcard.version>1.0.5</ical4j-vcard.version>
 
-    <jackson.version>2.10.0</jackson.version>
+    <jackson.version>2.11.0</jackson.version>
     <javax.cache-api.version>1.0.0</javax.cache-api.version>
 
     <leveldb.version>0.5</leveldb.version>
