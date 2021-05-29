@@ -40,7 +40,7 @@
 
           <moduleDependencies>
             <moduleDependency>
-              <name>org.apache.log4j</name>
+              <name>org.apache.logging.log4j.api</name>
             </moduleDependency>
 
             <moduleDependency>

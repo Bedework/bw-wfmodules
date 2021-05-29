@@ -13,7 +13,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="bw-timezone-server-common" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-config:4.1.1" level="project" />
-    <orderEntry type="library" name="Maven: org.bedework:bw-util-logging:4.0.6" level="project" />
+    <orderEntry type="module" module-name="bw-util-logging" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-xml:4.0.28" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-jmx:4.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-misc:4.0.28" level="project" />
