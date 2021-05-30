@@ -24,9 +24,9 @@
     <bw-util.version>4.0.28</bw-util.version>
     <bw-util-conf.version>4.1.1</bw-util-conf.version>
     <bw-util-index.version>4.1.1-SNAPSHOT</bw-util-index.version>
-    <bw-util-network.version>4.1.1</bw-util-network.version>
-    <bw-util-tz.version>4.1.1-SNAPSHOT</bw-util-tz.version>
-    <bw-util-security.version>4.1.1</bw-util-security.version>
+    <bw-util-network.version>4.1.2</bw-util-network.version>
+    <bw-util-tz.version>4.1.1</bw-util-tz.version>
+    <bw-util-security.version>4.1.2</bw-util-security.version>
 
     <bw-xml.version>4.0.11-SNAPSHOT</bw-xml.version>
 
@@ -35,11 +35,13 @@
     <commons-collections.version>3.2</commons-collections.version>
     <commons-collections4.version>4.1</commons-collections4.version>
     <commons-digester-version>1.8</commons-digester-version>
-    <commons-io.version>2.3</commons-io.version>
+    <commons-io.version>2.8.0</commons-io.version>
     <commons-lang.version>2.3</commons-lang.version>
     <commons-lang3.version>3.8.1</commons-lang3.version>
     <commons-logging.version>1.2</commons-logging.version>
     <commons.text.version>1.7</commons.text.version>
+
+    <elasticsearch.version>7.13.0</elasticsearch.version>
 
     <http-client.version>4.5.13</http-client.version>
     <http-core.version>4.4.14</http-core.version>
@@ -54,11 +56,13 @@
     <javax.cache-api.version>1.0.0</javax.cache-api.version>
 
     <leveldb.version>0.5</leveldb.version>
+    <!-- For elasticsearch dependencies -->
+    <lucene.version>8.8.2</lucene.version>
 
     <slf4j.version>1.7.25</slf4j.version>
     <sun.mail.version>1.6.2</sun.mail.version>
 
-    <bw-util-deploy.version>4.0.28</bw-util-deploy.version>
+    <bw-util-deploy.version>4.1.0</bw-util-deploy.version>
   </properties>
 
   <organization>
@@ -87,34 +91,37 @@
   </issueManagement>
 
   <modules>
-    <module>bw-wfmodules-ro</module>
-    <module>bw-wfmodules-rw</module>
-    <module>bw-wfmodules-jasig-cas</module>
-    <module>bw-wfmodules-ical4j</module>
-    <module>bw-wfmodules-apache-jdkim-library</module>
-    <module>bw-wfmodules-ical4j-vcard</module>
-    <module>bw-wfmodules-digester</module>
-    <module>bw-wfmodules-timezone-server</module>
-    <module>bw-wfmodules-logging</module>
-    <module>bw-wfmodules-util</module>
-    <module>bw-wfmodules-xml</module>
-    <module>bw-wfmodules-util-conf</module>
-    <module>bw-wfmodules-util-network</module>
-    <module>bw-wfmodules-util-security</module>
     <module>bw-wfmodules-apache-http</module>
-    <module>bw-wfmodules-commons-codec</module>
-    <module>bw-wfmodules-commons-logging</module>
-    <module>bw-wfmodules-commons-collections</module>
+    <module>bw-wfmodules-apache-jdkim-library</module>
     <module>bw-wfmodules-commons-beanutils</module>
+    <module>bw-wfmodules-commons-codec</module>
+    <module>bw-wfmodules-commons-collections</module>
     <module>bw-wfmodules-commons-io</module>
     <module>bw-wfmodules-commons-lang</module>
-    <module>bw-wfmodules-jackson-annotations</module>
-    <module>bw-wfmodules-slf4j-api</module>
     <module>bw-wfmodules-commons-lang3</module>
+    <module>bw-wfmodules-commons-logging</module>
+    <module>bw-wfmodules-commons-text</module>
+    <module>bw-wfmodules-digester</module>
+    <module>bw-wfmodules-elasticsearch</module>
+    <module>bw-wfmodules-elasticsearch-rest-high-level-client</module>
+    <module>bw-wfmodules-ical4j</module>
+    <module>bw-wfmodules-ical4j-vcard</module>
+    <module>bw-wfmodules-jackson-annotations</module>
+    <module>bw-wfmodules-jasig-cas</module>
+    <module>bw-wfmodules-logging</module>
+    <module>bw-wfmodules-ro</module>
+    <module>bw-wfmodules-rw</module>
+    <module>bw-wfmodules-slf4j-api</module>
     <module>bw-wfmodules-jackson-databind</module>
     <module>bw-wfmodules-sun-mail</module>
-    <module>bw-wfmodules-commons-text</module>
+    <module>bw-wfmodules-timezone-server</module>
+    <module>bw-wfmodules-util</module>
+    <module>bw-wfmodules-util-conf</module>
+    <module>bw-wfmodules-util-index</module>
+    <module>bw-wfmodules-util-network</module>
+    <module>bw-wfmodules-util-security</module>
     <module>bw-wfmodules-util-tz</module>
+    <module>bw-wfmodules-xml</module>
   </modules>
 
   <developers>
@@ -204,6 +211,20 @@
         <groupId>org.bedework</groupId>
         <artifactId>bw-util-jmx</artifactId>
         <version>${bw-util-conf.version}</version>
+      </dependency>
+
+      <!-- ================ bw-util-index ================ -->
+
+      <dependency>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util-elasticsearch</artifactId>
+        <version>${bw-util-index.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util-indexing</artifactId>
+        <version>${bw-util-index.version}</version>
       </dependency>
 
       <!-- ================ bw-util-network ================ -->
@@ -368,6 +389,78 @@
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-text</artifactId>
         <version>${commons.text.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.elasticsearch</groupId>
+        <artifactId>elasticsearch</artifactId>
+        <version>${elasticsearch.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.elasticsearch</groupId>
+        <artifactId>elasticsearch-core</artifactId>
+        <version>${elasticsearch.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.elasticsearch</groupId>
+        <artifactId>elasticsearch-secure-sm</artifactId>
+        <version>${elasticsearch.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.elasticsearch</groupId>
+        <artifactId>elasticsearch-x-content</artifactId>
+        <version>${elasticsearch.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.elasticsearch</groupId>
+        <artifactId>elasticsearch-geo</artifactId>
+        <version>${elasticsearch.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.elasticsearch</groupId>
+        <artifactId>elasticsearch-cli</artifactId>
+        <version>${elasticsearch.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.elasticsearch.client</groupId>
+        <artifactId>elasticsearch-rest-client</artifactId>
+        <version>${elasticsearch.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.elasticsearch.client</groupId>
+        <artifactId>elasticsearch-rest-high-level-client</artifactId>
+        <version>${elasticsearch.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.elasticsearch.plugin</groupId>
+        <artifactId>parent-join-client</artifactId>
+        <version>${elasticsearch.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.elasticsearch.plugin</groupId>
+        <artifactId>aggs-matrix-stats-client</artifactId>
+        <version>${elasticsearch.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.elasticsearch.plugin</groupId>
+        <artifactId>rank-eval-client</artifactId>
+        <version>${elasticsearch.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.elasticsearch.plugin</groupId>
+        <artifactId>lang-mustache-client</artifactId>
+        <version>${elasticsearch.version}</version>
       </dependency>
 
       <dependency>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>bw-wfmodules-util-index</artifactId>
+    <groupId>org.bedework</groupId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>bw-wfmodules-util-elasticsearch</artifactId>
+  <packaging>pom</packaging>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.bedework</groupId>
+      <artifactId>bw-util-elasticsearch</artifactId>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
+        <version>${bw-util-deploy.version}</version>
+
+        <configuration>
+          <moduleName>org.bedework.util.indexing.elasticsearch</moduleName>
+
+          <noArtifact>true</noArtifact>
+
+          <jarResources>
+            <jarResource>
+              <groupId>org.bedework</groupId>
+              <artifactId>bw-util-elasticsearch</artifactId>
+              <version>${bw-util-index.version}</version>
+            </jarResource>
+          </jarResources>
+
+          <moduleDependencies>
+            <moduleDependency>
+              <name>org.bedework.logging</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.config</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.indexing</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.jmx</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.misc</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.tz</name>
+              <!-- includes
+                   org.bedework.com.fasterxml.jackson.core</groupId>
+                  <artifactId>jackson-databind, core, annotations -->
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.elasticsearch.elasticsearch-rest-high-level-client</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.elasticsearch.elasticsearch</name>
+            </moduleDependency>
+          </moduleDependencies>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+</project>
