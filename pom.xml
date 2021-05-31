@@ -19,6 +19,7 @@
     <maven.source.plugin.version>2.1.2</maven.source.plugin.version>
 
     <!-- Bedework Versions -->
+    <bw-jsforj.version>1.0.1-SNAPSHOT</bw-jsforj.version>
     <bw-timezone-server-version>4.0.8-SNAPSHOT</bw-timezone-server-version>
     <bw-util-logging.version>5.0.0</bw-util-logging.version>
     <bw-util.version>4.0.28</bw-util.version>
@@ -27,7 +28,7 @@
     <bw-util-network.version>4.1.2</bw-util-network.version>
     <bw-util-tz.version>4.1.1</bw-util-tz.version>
     <bw-util-security.version>4.1.2</bw-util-security.version>
-    <bw-util2.version>4.0.7-SNAPSHOT</bw-util2.version>
+    <bw-util2.version>4.0.7</bw-util2.version>
 
     <bw-xml.version>4.0.11-SNAPSHOT</bw-xml.version>
 
@@ -124,6 +125,7 @@
     <module>bw-wfmodules-util-tz</module>
     <module>bw-wfmodules-util2</module>
     <module>bw-wfmodules-xml</module>
+    <module>bw-wfmodules-jsforj</module>
   </modules>
 
   <developers>
@@ -161,6 +163,14 @@
         <groupId>org.bedework</groupId>
         <artifactId>bw-util-logging</artifactId>
         <version>${bw-util-logging.version}</version>
+      </dependency>
+
+      <!-- ================= bw-jsforj ================= -->
+
+      <dependency>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-jsforj</artifactId>
+        <version>${bw-jsforj.version}</version>
       </dependency>
 
       <!-- ================= bw-util ================= -->
