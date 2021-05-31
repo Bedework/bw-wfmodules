@@ -11,8 +11,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.bedework:bw-util-dav:4.1.1" level="project" />
-    <orderEntry type="library" name="Maven: org.bedework:bw-util-http:4.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.bedework:bw-util-dav:4.1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.bedework:bw-util-http:4.1.2" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-config:4.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-jmx:4.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.13" level="project" />
@@ -21,7 +21,7 @@
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.14" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.0" level="project" />
-    <orderEntry type="module" module-name="bw-util-logging" />
+    <orderEntry type="library" name="Maven: org.bedework:bw-util-logging:5.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.0" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-xml:4.0.28" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-misc:4.0.28" level="project" />
