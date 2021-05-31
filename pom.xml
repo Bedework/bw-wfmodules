@@ -23,10 +23,11 @@
     <bw-util-logging.version>5.0.0</bw-util-logging.version>
     <bw-util.version>4.0.28</bw-util.version>
     <bw-util-conf.version>4.1.1</bw-util-conf.version>
-    <bw-util-index.version>4.1.1-SNAPSHOT</bw-util-index.version>
+    <bw-util-index.version>4.1.1</bw-util-index.version>
     <bw-util-network.version>4.1.2</bw-util-network.version>
     <bw-util-tz.version>4.1.1</bw-util-tz.version>
     <bw-util-security.version>4.1.2</bw-util-security.version>
+    <bw-util2.version>4.0.7-SNAPSHOT</bw-util2.version>
 
     <bw-xml.version>4.0.11-SNAPSHOT</bw-xml.version>
 
@@ -50,7 +51,7 @@
     <ical4j.artifactId>ical4j</ical4j.artifactId>
     <ical4j.version>3.0.13</ical4j.version>
 
-    <ical4j-vcard.version>1.0.5</ical4j-vcard.version>
+    <ical4j-vcard.version>1.0.7</ical4j-vcard.version>
 
     <jackson.version>2.11.0</jackson.version>
     <javax.cache-api.version>1.0.0</javax.cache-api.version>
@@ -121,6 +122,7 @@
     <module>bw-wfmodules-util-network</module>
     <module>bw-wfmodules-util-security</module>
     <module>bw-wfmodules-util-tz</module>
+    <module>bw-wfmodules-util2</module>
     <module>bw-wfmodules-xml</module>
   </modules>
 
@@ -273,6 +275,20 @@
         <groupId>org.bedework</groupId>
         <artifactId>bw-util-tz</artifactId>
         <version>${bw-util-tz.version}</version>
+      </dependency>
+
+      <!-- ================= bw-util2 ================= -->
+
+      <dependency>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util2-calendar</artifactId>
+        <version>${bw-util2.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util2-vcard</artifactId>
+        <version>${bw-util2.version}</version>
       </dependency>
 
       <!-- Bedework: XML -->
