@@ -195,12 +195,6 @@
 
             <fileInfo>
               <groupId>org.apache.lucene</groupId>
-              <artifactId>lucene-spatial</artifactId>
-              <version>${lucene.version}</version>
-            </fileInfo>
-
-            <fileInfo>
-              <groupId>org.apache.lucene</groupId>
               <artifactId>lucene-spatial-extras</artifactId>
               <version>${lucene.version}</version>
             </fileInfo>
