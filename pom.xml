@@ -19,11 +19,14 @@
     <maven.source.plugin.version>2.1.2</maven.source.plugin.version>
 
     <!-- Bedework Versions -->
-    <bw-jsforj.version>1.0.1-SNAPSHOT</bw-jsforj.version>
+    <bw-jsforj.version>1.0.1</bw-jsforj.version>
+
     <bw-timezone-server-version>4.0.8-SNAPSHOT</bw-timezone-server-version>
+
     <bw-util-logging.version>5.0.0</bw-util-logging.version>
     <bw-util.version>4.0.28</bw-util.version>
     <bw-util-conf.version>4.1.1</bw-util-conf.version>
+    <bw-util-hibernate.version>4.0.24-SNAPSHOT</bw-util-hibernate.version>
     <bw-util-index.version>4.1.1</bw-util-index.version>
     <bw-util-network.version>4.1.2</bw-util-network.version>
     <bw-util-tz.version>4.1.1</bw-util-tz.version>
@@ -47,6 +50,7 @@
 
     <http-client.version>4.5.13</http-client.version>
     <http-core.version>4.4.14</http-core.version>
+    <h2.version>1.4.190</h2.version>
 
     <ical4j.groupId>org.bedework.ical4j</ical4j.groupId>
     <ical4j.artifactId>ical4j</ical4j.artifactId>
@@ -64,7 +68,7 @@
     <slf4j.version>1.7.25</slf4j.version>
     <sun.mail.version>1.6.2</sun.mail.version>
 
-    <bw-util-deploy.version>4.1.0</bw-util-deploy.version>
+    <bw-util-deploy.version>4.1.1-SNAPSHOT</bw-util-deploy.version>
   </properties>
 
   <organization>
@@ -126,6 +130,9 @@
     <module>bw-wfmodules-util2</module>
     <module>bw-wfmodules-xml</module>
     <module>bw-wfmodules-jsforj</module>
+    <module>bw-wfmodules-util-hibernate</module>
+    <module>bw-wfmodules-hibernate-core</module>
+    <module>bw-wfmodules-h2</module>
   </modules>
 
   <developers>
@@ -223,6 +230,14 @@
         <groupId>org.bedework</groupId>
         <artifactId>bw-util-jmx</artifactId>
         <version>${bw-util-conf.version}</version>
+      </dependency>
+
+      <!-- ================ bw-util-hibernate ================ -->
+
+      <dependency>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util-hibernate</artifactId>
+        <version>${bw-util-hibernate.version}</version>
       </dependency>
 
       <!-- ================ bw-util-index ================ -->
@@ -499,6 +514,12 @@
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpcore</artifactId>
         <version>${http-core.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.h2database</groupId>
+        <artifactId>h2</artifactId>
+        <version>${h2.version}</version>
       </dependency>
 
       <dependency>
