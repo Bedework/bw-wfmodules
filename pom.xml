@@ -21,6 +21,8 @@
     <!-- Bedework Versions -->
     <bw-access.version>4.0.9</bw-access.version>
 
+    <bw-caldav.version>4.0.10</bw-caldav.version>
+
     <bw-jsforj.version>1.0.1</bw-jsforj.version>
 
     <bw-timezone-server-version>4.0.8-SNAPSHOT</bw-timezone-server-version>
@@ -35,7 +37,7 @@
     <bw-util-security.version>4.1.2</bw-util-security.version>
     <bw-util2.version>4.0.7</bw-util2.version>
 
-    <bw-webdav.version>4.0.10-SNAPSHOT</bw-webdav.version>
+    <bw-webdav.version>4.0.10</bw-webdav.version>
 
     <bw-xml.version>4.0.11-SNAPSHOT</bw-xml.version>
 
@@ -101,8 +103,10 @@
   </issueManagement>
 
   <modules>
+    <module>bw-wfmodules-access</module>
     <module>bw-wfmodules-apache-http</module>
     <module>bw-wfmodules-apache-jdkim-library</module>
+    <module>bw-wfmodules-caldav</module>
     <module>bw-wfmodules-commons-beanutils</module>
     <module>bw-wfmodules-commons-codec</module>
     <module>bw-wfmodules-commons-collections</module>
@@ -114,31 +118,30 @@
     <module>bw-wfmodules-digester</module>
     <module>bw-wfmodules-elasticsearch</module>
     <module>bw-wfmodules-elasticsearch-rest-high-level-client</module>
+    <module>bw-wfmodules-hibernate-core</module>
+    <module>bw-wfmodules-h2</module>
     <module>bw-wfmodules-ical4j</module>
     <module>bw-wfmodules-ical4j-vcard</module>
     <module>bw-wfmodules-jackson-annotations</module>
+    <module>bw-wfmodules-jackson-databind</module>
     <module>bw-wfmodules-jasig-cas</module>
+    <module>bw-wfmodules-jsforj</module>
     <module>bw-wfmodules-logging</module>
     <module>bw-wfmodules-ro</module>
     <module>bw-wfmodules-rw</module>
     <module>bw-wfmodules-slf4j-api</module>
-    <module>bw-wfmodules-jackson-databind</module>
     <module>bw-wfmodules-sun-mail</module>
     <module>bw-wfmodules-timezone-server</module>
     <module>bw-wfmodules-util</module>
     <module>bw-wfmodules-util-conf</module>
+    <module>bw-wfmodules-util-hibernate</module>
     <module>bw-wfmodules-util-index</module>
     <module>bw-wfmodules-util-network</module>
     <module>bw-wfmodules-util-security</module>
     <module>bw-wfmodules-util-tz</module>
     <module>bw-wfmodules-util2</module>
-    <module>bw-wfmodules-xml</module>
-    <module>bw-wfmodules-jsforj</module>
-    <module>bw-wfmodules-util-hibernate</module>
-    <module>bw-wfmodules-hibernate-core</module>
-    <module>bw-wfmodules-h2</module>
-    <module>bw-wfmodules-access</module>
     <module>bw-wfmodules-webdav</module>
+    <module>bw-wfmodules-xml</module>
   </modules>
 
   <developers>
@@ -184,6 +187,20 @@
         <groupId>org.bedework</groupId>
         <artifactId>bw-access</artifactId>
         <version>${bw-access.version}</version>
+      </dependency>
+
+      <!-- ================= bw-caldav ================= -->
+
+      <dependency>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-caldav-server</artifactId>
+        <version>${bw-caldav.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-caldav-util</artifactId>
+        <version>${bw-caldav.version}</version>
       </dependency>
 
       <!-- ================= bw-jsforj ================= -->
