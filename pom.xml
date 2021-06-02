@@ -19,7 +19,7 @@
     <maven.source.plugin.version>2.1.2</maven.source.plugin.version>
 
     <!-- Bedework Versions -->
-    <bw-access.version>4.0.8</bw-access.version>
+    <bw-access.version>4.0.9</bw-access.version>
 
     <bw-jsforj.version>1.0.1</bw-jsforj.version>
 
@@ -34,6 +34,8 @@
     <bw-util-tz.version>4.1.1</bw-util-tz.version>
     <bw-util-security.version>4.1.2</bw-util-security.version>
     <bw-util2.version>4.0.7</bw-util2.version>
+
+    <bw-webdav.version>4.0.10-SNAPSHOT</bw-webdav.version>
 
     <bw-xml.version>4.0.11-SNAPSHOT</bw-xml.version>
 
@@ -136,6 +138,7 @@
     <module>bw-wfmodules-hibernate-core</module>
     <module>bw-wfmodules-h2</module>
     <module>bw-wfmodules-access</module>
+    <module>bw-wfmodules-webdav</module>
   </modules>
 
   <developers>
@@ -325,6 +328,14 @@
         <groupId>org.bedework</groupId>
         <artifactId>bw-util2-vcard</artifactId>
         <version>${bw-util2.version}</version>
+      </dependency>
+
+      <!-- ================= bw-webdav ================= -->
+
+      <dependency>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-webdav</artifactId>
+        <version>${bw-webdav.version}</version>
       </dependency>
 
       <!-- Bedework: XML -->
