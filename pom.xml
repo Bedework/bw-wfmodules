@@ -19,6 +19,8 @@
     <maven.source.plugin.version>2.1.2</maven.source.plugin.version>
 
     <!-- Bedework Versions -->
+    <bw-access.version>4.0.8</bw-access.version>
+
     <bw-jsforj.version>1.0.1</bw-jsforj.version>
 
     <bw-timezone-server-version>4.0.8-SNAPSHOT</bw-timezone-server-version>
@@ -133,6 +135,7 @@
     <module>bw-wfmodules-util-hibernate</module>
     <module>bw-wfmodules-hibernate-core</module>
     <module>bw-wfmodules-h2</module>
+    <module>bw-wfmodules-access</module>
   </modules>
 
   <developers>
@@ -170,6 +173,14 @@
         <groupId>org.bedework</groupId>
         <artifactId>bw-util-logging</artifactId>
         <version>${bw-util-logging.version}</version>
+      </dependency>
+
+      <!-- ================= bw-access ================= -->
+
+      <dependency>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-access</artifactId>
+        <version>${bw-access.version}</version>
       </dependency>
 
       <!-- ================= bw-jsforj ================= -->
