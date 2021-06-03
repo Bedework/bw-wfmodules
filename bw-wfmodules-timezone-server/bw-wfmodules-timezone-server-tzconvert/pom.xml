@@ -6,17 +6,16 @@
     <artifactId>bw-wfmodules-timezone-server</artifactId>
     <groupId>org.bedework</groupId>
     <version>1.0.0-SNAPSHOT</version>
-    <relativePath>../pom.xml</relativePath>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>bw-wfmodules-timezone-server-common</artifactId>
+  <artifactId>bw-wfmodules-timezone-server-tzconvert</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
       <groupId>org.bedework.bw-tzsvr</groupId>
-      <artifactId>bw-timezone-server-common</artifactId>
+      <artifactId>bw-timezone-server-tzconvert</artifactId>
       <version>${bw-timezone-server-version}</version>
     </dependency>
 
@@ -35,7 +34,7 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.timezone.server.common</moduleName>
+          <moduleName>org.bedework.timezone.server.tzconvert</moduleName>
 
           <noArtifact>true</noArtifact>
 
@@ -48,7 +47,7 @@
 
             <jarResource>
               <groupId>org.bedework.bw-tzsvr</groupId>
-              <artifactId>bw-timezone-server-common</artifactId>
+              <artifactId>bw-timezone-server-tzconvert</artifactId>
               <version>${bw-timezone-server-version}</version>
             </jarResource>
           </jarResources>

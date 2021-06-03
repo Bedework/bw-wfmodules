@@ -211,6 +211,26 @@
         <version>${bw-jsforj.version}</version>
       </dependency>
 
+      <!-- ============ bw-timezone-server =========== -->
+
+      <dependency>
+        <groupId>org.bedework.bw-tzsvr</groupId>
+        <artifactId>bw-timezone-server-common</artifactId>
+        <version>${bw-timezone-server-version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.bedework.bw-tzsvr</groupId>
+        <artifactId>bw-timezone-server-tzconvert</artifactId>
+        <version>${bw-timezone-server-version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.bedework.bw-tzsvr</groupId>
+        <artifactId>bw-timezone-server-web</artifactId>
+        <version>${bw-timezone-server-version}</version>
+      </dependency>
+
       <!-- ================= bw-util ================= -->
 
       <dependency>
