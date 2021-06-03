@@ -21,7 +21,7 @@
     <!-- Bedework Versions -->
     <bw-access.version>4.0.9</bw-access.version>
 
-    <bw-caldav.version>4.0.11</bw-caldav.version>
+    <bw-caldav.version>4.0.12</bw-caldav.version>
 
     <bw-jsforj.version>1.0.1</bw-jsforj.version>
 
@@ -60,7 +60,7 @@
 
     <ical4j.groupId>org.bedework.ical4j</ical4j.groupId>
     <ical4j.artifactId>ical4j</ical4j.artifactId>
-    <ical4j.version>3.0.13</ical4j.version>
+    <ical4j.version>3.0.14</ical4j.version>
 
     <ical4j-vcard.version>1.0.7</ical4j-vcard.version>
 
