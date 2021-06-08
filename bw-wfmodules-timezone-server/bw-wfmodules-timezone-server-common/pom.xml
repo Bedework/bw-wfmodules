@@ -19,13 +19,6 @@
       <artifactId>bw-timezone-server-common</artifactId>
       <version>${bw-timezone-server-version}</version>
     </dependency>
-
-    <dependency>
-      <groupId>org.iq80.leveldb</groupId>
-      <artifactId>leveldb</artifactId>
-      <classifier>min</classifier>
-      <version>${leveldb.version}</version>
-    </dependency>
   </dependencies>
 
   <build>
@@ -40,12 +33,6 @@
           <noArtifact>true</noArtifact>
 
           <jarResources>
-            <jarResource>
-              <groupId>org.iq80.leveldb</groupId>
-              <artifactId>leveldb</artifactId>
-              <version>${leveldb.version}</version>
-            </jarResource>
-
             <jarResource>
               <groupId>org.bedework.bw-tzsvr</groupId>
               <artifactId>bw-timezone-server-common</artifactId>
@@ -88,6 +75,10 @@
 
             <moduleDependency>
               <name>org.bedework.ical4j</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.leveldb</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>
