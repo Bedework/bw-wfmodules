@@ -25,6 +25,8 @@
 
     <bw-jsforj.version>1.0.1</bw-jsforj.version>
 
+    <bw-synch-version>4.0.9-SNAPSHOT</bw-synch-version>
+
     <bw-timezone-server-version>4.0.9</bw-timezone-server-version>
 
     <bw-util-logging.version>5.0.0</bw-util-logging.version>
@@ -143,6 +145,7 @@
     <module>bw-wfmodules-util2</module>
     <module>bw-wfmodules-webdav</module>
     <module>bw-wfmodules-xml</module>
+    <module>bw-wfmodules-synch</module>
   </modules>
 
   <developers>
@@ -210,6 +213,26 @@
         <groupId>org.bedework</groupId>
         <artifactId>bw-jsforj</artifactId>
         <version>${bw-jsforj.version}</version>
+      </dependency>
+
+      <!-- ================= bw-synch ================= -->
+
+      <dependency>
+        <groupId>org.bedework.bw-synch</groupId>
+        <artifactId>bw-synch-shared</artifactId>
+        <version>${bw-synch-version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.bedework.bw-synch</groupId>
+        <artifactId>bw-synch-common</artifactId>
+        <version>${bw-synch-version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.bedework.bw-synch</groupId>
+        <artifactId>bw-synch-web</artifactId>
+        <version>${bw-synch-version}</version>
       </dependency>
 
       <!-- ============ bw-timezone-server =========== -->
