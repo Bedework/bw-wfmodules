@@ -67,7 +67,7 @@
     <jackson.version>2.11.0</jackson.version>
     <javax.cache-api.version>1.0.0</javax.cache-api.version>
 
-    <leveldb.version>0.5</leveldb.version>
+    <leveldb.version>1.2</leveldb.version>
     <!-- For elasticsearch dependencies -->
     <lucene.version>8.8.2</lucene.version>
 
@@ -126,6 +126,7 @@
     <module>bw-wfmodules-jackson-databind</module>
     <module>bw-wfmodules-jasig-cas</module>
     <module>bw-wfmodules-jsforj</module>
+    <module>bw-wfmodules-leveldb</module>
     <module>bw-wfmodules-logging</module>
     <module>bw-wfmodules-ro</module>
     <module>bw-wfmodules-rw</module>
@@ -603,6 +604,12 @@
         <groupId>com.sun.mail</groupId>
         <artifactId>javax.mail</artifactId>
         <version>${sun.mail.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>io.github.pcmind</groupId>
+        <artifactId>leveldb</artifactId>
+        <version>${leveldb.version}</version>
       </dependency>
 
       <dependency>
