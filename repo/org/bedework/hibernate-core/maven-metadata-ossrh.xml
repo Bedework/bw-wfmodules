@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>org.bedework</groupId>
+  <groupId>org.bedework.deploy</groupId>
   <artifactId>hibernate-core</artifactId>
   <versioning>
     <release>5.2.5.FinalBwPatched</release>

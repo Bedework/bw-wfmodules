@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.bedework</groupId>
+  <groupId>org.bedework.deploy</groupId>
   <artifactId>bw-wfmodules</artifactId>
   <version>1.0.0-SNAPSHOT</version>
 
@@ -134,6 +134,7 @@
     <module>bw-wfmodules-rw</module>
     <module>bw-wfmodules-slf4j-api</module>
     <module>bw-wfmodules-sun-mail</module>
+    <module>bw-wfmodules-synch</module>
     <module>bw-wfmodules-timezone-server</module>
     <module>bw-wfmodules-util</module>
     <module>bw-wfmodules-util-conf</module>
@@ -145,7 +146,6 @@
     <module>bw-wfmodules-util2</module>
     <module>bw-wfmodules-webdav</module>
     <module>bw-wfmodules-xml</module>
-    <module>bw-wfmodules-synch</module>
   </modules>
 
   <developers>
