@@ -42,15 +42,6 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
         <version>${bw-util-deploy.version}</version>
 
-        <executions>
-          <execution>
-            <phase>install</phase>
-            <goals>
-              <goal>bw-deploy-wfmodule</goal>
-            </goals>
-          </execution>
-        </executions>
-
         <configuration>
           <moduleName>org.bedework.ical4j-vcard</moduleName>
           <noArtifact>true</noArtifact>
@@ -69,23 +60,23 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.commons-codec</name>
+              <name>org.bedework.commons.codec</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.commons-io</name>
+              <name>org.bedework.commons.io</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.commons-lang</name>
+              <name>org.bedework.commons.lang</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.commons-logging</name>
+              <name>org.bedework.commons.logging</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.org.slf4j.slf4j-api</name>
+              <name>org.bedework.org.slf4j.slf4j.api</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

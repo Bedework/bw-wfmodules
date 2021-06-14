@@ -26,17 +26,8 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
         <version>${bw-util-deploy.version}</version>
 
-        <executions>
-          <execution>
-            <phase>install</phase>
-            <goals>
-              <goal>bw-deploy-wfmodule</goal>
-            </goals>
-          </execution>
-        </executions>
-
         <configuration>
-          <moduleName>org.bedework.commons-io</moduleName>
+          <moduleName>org.bedework.commons.io</moduleName>
           <noArtifact>true</noArtifact>
 
           <jarResources>

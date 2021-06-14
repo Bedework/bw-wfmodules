@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+    <output url="file://$MODULE_DIR$/../bw-wfmodules-commons-digester/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../bw-wfmodules-commons-digester/target/test-classes" />
+    <content url="file://$MODULE_DIR$/../bw-wfmodules-commons-digester">
+      <sourceFolder url="file://$MODULE_DIR$/../bw-wfmodules-commons-digester/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bw-wfmodules-commons-digester/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bw-wfmodules-commons-digester/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../bw-wfmodules-commons-digester/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.7.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-digester:commons-digester:1.8" level="project" />
+  </component>
+</module>

@@ -25,14 +25,6 @@
         <groupId>org.bedework</groupId>
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
         <version>${bw-util-deploy.version}</version>
-        <executions>
-          <execution>
-            <phase>install</phase>
-            <goals>
-              <goal>bw-deploy-wfmodule</goal>
-            </goals>
-          </execution>
-        </executions>
 
         <configuration>
           <moduleName>org.bedework.util.security</moduleName>
@@ -65,7 +57,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.commons-codec</name>
+              <name>org.bedework.commons.codec</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

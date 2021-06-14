@@ -27,7 +27,7 @@
         <version>${bw-util-deploy.version}</version>
 
         <configuration>
-          <moduleName>org.bedework.commons-lang3</moduleName>
+          <moduleName>org.bedework.commons.lang3</moduleName>
           <noArtifact>true</noArtifact>
 
           <jarResources>

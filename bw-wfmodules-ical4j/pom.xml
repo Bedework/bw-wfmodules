@@ -50,15 +50,15 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.commons-codec</name>
+              <name>org.bedework.commons.codec</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.commons-lang3</name>
+              <name>org.bedework.commons.lang3</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.org.slf4j.slf4j-api</name>
+              <name>org.bedework.org.slf4j.slf4j.api</name>
             </moduleDependency>
 
             <moduleDependency>

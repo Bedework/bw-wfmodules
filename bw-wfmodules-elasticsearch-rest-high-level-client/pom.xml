@@ -103,8 +103,9 @@
             <moduleDependency>
               <name>org.bedework.org.apache.httpcomponents.httpclient</name>
             </moduleDependency>
+
             <moduleDependency>
-              <name>org.bedework.commons-logging</name>
+              <name>org.bedework.commons.logging</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

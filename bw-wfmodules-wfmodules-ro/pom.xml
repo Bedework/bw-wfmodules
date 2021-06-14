@@ -1,0 +1,223 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.bedework.deploy</groupId>
+    <artifactId>bw-wfmodules</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+
+  <packaging>pom</packaging>
+
+  <artifactId>bw-wfmodules-wfmodules-ro</artifactId>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
+        <version>${bw-util-deploy.version}</version>
+
+        <configuration>
+          <moduleName>org.bedework.wfmodules.ro</moduleName>
+          <noArtifact>true</noArtifact>
+
+          <moduleDependencies>
+            <moduleDependency>
+              <name>org.bedework.logging</name>
+            </moduleDependency>
+
+            <!-- ================= bw-util ================= -->
+
+            <moduleDependency>
+              <name>org.bedework.util.caching</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util.directory</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util.jms</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util.json</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util.misc</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util.xml</name>
+            </moduleDependency>
+
+            <!-- ================ bw-util-conf ================ -->
+
+            <moduleDependency>
+              <name>org.bedework.util.config</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.jmx</name>
+            </moduleDependency>
+
+            <!-- ================ bw-util-index ================ -->
+
+            <moduleDependency>
+              <name>org.bedework.util.indexing</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util.indexing.elasticsearch</name>
+            </moduleDependency>
+
+            <!-- ================ bw-util-network ================ -->
+
+            <moduleDependency>
+              <name>org.bedework.util.config.http</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util.dav</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util.http</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util.servlet</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util.servlet.filters</name>
+            </moduleDependency>
+
+            <!-- ================ bw-util-security ================ -->
+
+            <moduleDependency>
+              <name>org.bedework.util.security</name>
+            </moduleDependency>
+
+            <!-- ================ bw-util-tz ================ -->
+
+            <moduleDependency>
+              <name>org.bedework.util.tz</name>
+            </moduleDependency>
+
+            <!-- ================ bw-util2 ================ -->
+
+            <moduleDependency>
+              <name>org.bedework.util2.calendar</name>
+            </moduleDependency>
+            <moduleDependency>
+              <name>org.bedework.util2.vcard</name>
+            </moduleDependency>
+
+            <!-- ================ bw-access ================ -->
+
+            <moduleDependency>
+              <name>org.bedework.access</name>
+            </moduleDependency>
+
+            <!-- ================ bw-jsforj ================ -->
+
+            <moduleDependency>
+              <name>org.bedework.jsforj</name>
+            </moduleDependency>
+
+            <!-- ================ bw-xml ================ -->
+
+            <moduleDependency>
+              <name>org.bedework.xml</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.webdav</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.caldav.server</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.caldav.util</name>
+            </moduleDependency>
+
+            <!-- ============== common ========== -->
+
+            <moduleDependency>
+              <name>org.bedework.calendar.common.annotations</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.common.api-ro</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.common.config</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.common.convert</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.common.facade</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.common.mail</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.common.sysevents.common</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.common.sysevents.msgs</name>
+            </moduleDependency>
+
+            <!-- ============== engine ========== -->
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.caldav</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.core.ro</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.impl</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.interfaces</name>
+            </moduleDependency>
+
+            <!-- ============== client ========== -->
+
+            <moduleDependency>
+              <name>org.bedework.calendar.client.appcommon</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.client.webcommon</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.client.util</name>
+            </moduleDependency>
+
+            <!-- ============== others ========== -->
+
+            <moduleDependency>
+              <name>org.bedework.ical4j</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.ical4j-vcard</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>wildflyee.api</name>
+            </moduleDependency>
+          </moduleDependencies>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

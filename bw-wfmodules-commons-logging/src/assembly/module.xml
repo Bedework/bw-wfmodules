@@ -6,10 +6,10 @@
   <formats>
     <format>zip</format>
   </formats>
-  <baseDirectory>org/bedework/commons-logging</baseDirectory>
+  <baseDirectory>org/bedework/commons/logging</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/commons-logging</directory>
+      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/commons/logging</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

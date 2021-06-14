@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+    <output url="file://$MODULE_DIR$/../bw-wfmodules-wfmodules-rw/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../bw-wfmodules-wfmodules-rw/target/test-classes" />
+    <content url="file://$MODULE_DIR$/../bw-wfmodules-wfmodules-rw">
+      <sourceFolder url="file://$MODULE_DIR$/../bw-wfmodules-wfmodules-rw/src/main/java" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../bw-wfmodules-wfmodules-rw/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.bedework:bw-util-logging:5.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.0" level="project" />
+  </component>
+</module>

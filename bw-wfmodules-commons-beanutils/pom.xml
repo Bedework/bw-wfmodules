@@ -26,17 +26,8 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
         <version>${bw-util-deploy.version}</version>
 
-        <executions>
-          <execution>
-            <phase>install</phase>
-            <goals>
-              <goal>bw-deploy-wfmodule</goal>
-            </goals>
-          </execution>
-        </executions>
-
         <configuration>
-          <moduleName>org.bedework.commons-beanutils</moduleName>
+          <moduleName>org.bedework.commons.beanutils</moduleName>
           <noArtifact>true</noArtifact>
 
           <jarResources>
@@ -49,7 +40,7 @@
 
           <moduleDependencies>
             <moduleDependency>
-              <name>org.bedework.commons-logging</name>
+              <name>org.bedework.commons.logging</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

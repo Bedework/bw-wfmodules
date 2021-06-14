@@ -13,7 +13,7 @@
   <packaging>pom</packaging>
 
   <modules>
-    <module>bw-wfmodules-apache-httpclient</module>
-    <module>bw-wfmodules-apache-httpcore</module>
+    <module>bw-wfmodules-org-apache-httpcomponents-httpclient</module>
+    <module>bw-wfmodules-org-apache-httpcomponents-httpcore</module>
   </modules>
 </project>
