@@ -20,6 +20,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.TreeSet;
 
 import static org.bedework.util.maven.deploy.ModulePom.WfModule;
@@ -32,6 +33,8 @@ public class BuildDeploy {
   private String rootDir;
 
   final List<String> warnings = new ArrayList<>();
+
+  final Set<String> wfrefs = new TreeSet<>();
 
   private static class ModuleInfo {
     private final String project;
@@ -77,9 +80,7 @@ public class BuildDeploy {
 
         for (final WfModule module: mp.getModules()) {
           if (modules.get(module.getModuleName()) != null) {
-            final var warning = "Duplicate module " + module.getModuleName();
-            warnings.add(warning);
-            utils.warn(warning);
+            warn("Duplicate module " + module.getModuleName());
           } else {
             modules.put(module.getModuleName(),
                         new ModuleInfo(project, module));
@@ -114,14 +115,20 @@ public class BuildDeploy {
       utils.info("Project: " + project);
 
       if (!projectMunged.equals(moduleName)) {
-        final var warning = "******** Problem project: " + project;
-        warnings.add(warning);
-        utils.warn(warning);
+        warn("******** Problem project: " + project);
       }
 
       utils.info("   --> ");
       for (final String md: module.getModule().getDependencies()) {
         utils.info("       " + md);
+        if (modules.get(md) == null) {
+          if (!md.startsWith("org.bedework.")) {
+            wfrefs.add(md);
+          } else {
+            warn("Unsatisfied dependency for " + moduleName +
+                         ": " + md);
+          }
+        }
       }
       utils.info(" ");
     }
@@ -132,6 +139,18 @@ public class BuildDeploy {
         utils.warn(s);
       }
     }
+
+    if (!wfrefs.isEmpty()) {
+      utils.info("************* External references:");
+      for (final String s: wfrefs) {
+        utils.info(s);
+      }
+    }
+  }
+
+  private void warn(final String msg) {
+    warnings.add(msg);
+    utils.warn(msg);
   }
 
   private boolean process(final Args args) {
