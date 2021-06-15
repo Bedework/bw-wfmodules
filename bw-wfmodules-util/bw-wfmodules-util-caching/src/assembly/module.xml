@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/util/caching</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/util/caching</directory>
+      <directory>${project.build.directory}/modules/org/bedework/util/caching</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

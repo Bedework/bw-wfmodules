@@ -43,7 +43,7 @@
         <version>${bw-util-deploy.version}</version>
 
         <configuration>
-          <moduleName>org.bedework.ical4j-vcard</moduleName>
+          <moduleName>org.bedework.ical4j.vcard</moduleName>
           <noArtifact>true</noArtifact>
 
           <jarResources>

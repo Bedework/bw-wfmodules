@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/synch/shared</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/synch/shared</directory>
+      <directory>${project.build.directory}/modules/org/bedework/synch/shared</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

@@ -26,7 +26,7 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.calendar.common.api-ro</moduleName>
+          <moduleName>org.bedework.calendar.common.api.ro</moduleName>
 
           <noArtifact>true</noArtifact>
 

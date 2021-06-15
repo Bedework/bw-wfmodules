@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/commons-beanutils</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/commons-beanutils</directory>
+      <directory>${project.build.directory}/modules/org/bedework/commons-beanutils</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

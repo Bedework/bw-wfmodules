@@ -6,10 +6,10 @@
   <formats>
     <format>zip</format>
   </formats>
-  <baseDirectory>org/bedework/calendar/common/api-ro</baseDirectory>
+  <baseDirectory>org/bedework/calendar/common/api/ro</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/calendar/common/api-ro</directory>
+      <directory>${project.build.directory}/modules/org/bedework/calendar/common/api/ro</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

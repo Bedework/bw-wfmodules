@@ -9,7 +9,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>bw-wfmodules-calendar-common-api</artifactId>
+  <artifactId>bw-wfmodules-calendar-common-api-rw</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
@@ -26,7 +26,7 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.calendar.common.api</moduleName>
+          <moduleName>org.bedework.calendar.common.api.rw</moduleName>
 
           <noArtifact>true</noArtifact>
 
@@ -40,7 +40,7 @@
 
           <moduleDependencies>
             <moduleDependency>
-              <name>org.bedework.calendar.common.api-ro</name>
+              <name>org.bedework.calendar.common.api.ro</name>
             </moduleDependency>
 
             <moduleDependency>

@@ -14,8 +14,8 @@
 
   <modules>
     <module>bw-wfmodules-calendar-common-annotations</module>
-    <module>bw-wfmodules-calendar-common-api</module>
     <module>bw-wfmodules-calendar-common-api-ro</module>
+    <module>bw-wfmodules-calendar-common-api-rw</module>
     <module>bw-wfmodules-calendar-common-config</module>
     <module>bw-wfmodules-calendar-common-convert</module>
     <module>bw-wfmodules-calendar-common-facade</module>

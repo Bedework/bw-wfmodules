@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/calendar/common/sysevents/common</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/calendar/common/sysevents/common</directory>
+      <directory>${project.build.directory}/modules/org/bedework/calendar/common/sysevents/common</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

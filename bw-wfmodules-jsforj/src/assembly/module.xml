@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/jsforj</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/jsforj</directory>
+      <directory>${project.build.directory}/modules/org/bedework/jsforj</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

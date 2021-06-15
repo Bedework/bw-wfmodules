@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/synch/ear</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/synch/ear</directory>
+      <directory>${project.build.directory}/modules/org/bedework/synch/ear</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

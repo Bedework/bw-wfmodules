@@ -40,7 +40,7 @@
 
           <moduleDependencies>
             <moduleDependency>
-              <name>org.bedework.calendar.common.api</name>
+              <name>org.bedework.calendar.common.api.rw</name>
             </moduleDependency>
 
             <moduleDependency>

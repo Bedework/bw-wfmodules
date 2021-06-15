@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/org/elasticsearch/elasticsearch-rest-high-level-client</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/org/elasticsearch/elasticsearch-rest-high-level-client</directory>
+      <directory>${project.build.directory}/modules/org/bedework/org/elasticsearch/elasticsearch-rest-high-level-client</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

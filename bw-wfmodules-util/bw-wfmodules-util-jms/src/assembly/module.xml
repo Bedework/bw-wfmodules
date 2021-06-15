@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/util/jms</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/util/jms</directory>
+      <directory>${project.build.directory}/modules/org/bedework/util/jms</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

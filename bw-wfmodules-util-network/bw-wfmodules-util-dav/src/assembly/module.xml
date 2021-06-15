@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/util/dav</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/util/dav</directory>
+      <directory>${project.build.directory}/modules/org/bedework/util/dav</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

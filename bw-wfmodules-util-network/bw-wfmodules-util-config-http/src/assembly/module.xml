@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/util/config/http</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/util/config/http</directory>
+      <directory>${project.build.directory}/modules/org/bedework/util/config/http</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

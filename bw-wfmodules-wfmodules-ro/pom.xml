@@ -143,7 +143,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.calendar.common.api-ro</name>
+              <name>org.bedework.calendar.common.api.ro</name>
             </moduleDependency>
 
             <moduleDependency>
@@ -209,7 +209,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.ical4j-vcard</name>
+              <name>org.bedework.ical4j.vcard</name>
             </moduleDependency>
 
             <moduleDependency>

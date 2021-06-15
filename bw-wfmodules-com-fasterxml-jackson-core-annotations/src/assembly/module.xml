@@ -6,10 +6,10 @@
   <formats>
     <format>zip</format>
   </formats>
-  <baseDirectory>com/h2database/h2</baseDirectory>
+  <baseDirectory>org/bedework/com/fasterxml/jackson/core/annotations</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/com/h2database/h2</directory>
+      <directory>${project.build.directory}/modules/org/bedework/com/fasterxml/jackson/core/annotations</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

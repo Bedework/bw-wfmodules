@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/commons/lang3</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/commons/lang3</directory>
+      <directory>${project.build.directory}/modules/org/bedework/commons/lang3</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

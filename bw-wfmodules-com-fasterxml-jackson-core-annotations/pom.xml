@@ -9,13 +9,13 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>bw-wfmodules-h2</artifactId>
+  <artifactId>bw-wfmodules-com-fasterxml-jackson-core-annotations</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
-      <groupId>com.h2database</groupId>
-      <artifactId>h2</artifactId>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
     </dependency>
   </dependencies>
 
@@ -25,17 +25,16 @@
         <groupId>org.bedework</groupId>
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
         <version>${bw-util-deploy.version}</version>
-
         <configuration>
-          <moduleName>com.h2database.h2</moduleName>
+          <moduleName>org.bedework.com.fasterxml.jackson.core.annotations</moduleName>
 
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <jarResource>
-              <groupId>com.h2database</groupId>
-              <artifactId>h2</artifactId>
-              <version>${h2.version}</version>
+              <groupId>com.fasterxml.jackson.core</groupId>
+              <artifactId>jackson-annotations</artifactId>
+              <version>${jackson.version}</version>
             </jarResource>
           </jarResources>
         </configuration>

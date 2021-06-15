@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/util/directory</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/util/directory</directory>
+      <directory>${project.build.directory}/modules/org/bedework/util/directory</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

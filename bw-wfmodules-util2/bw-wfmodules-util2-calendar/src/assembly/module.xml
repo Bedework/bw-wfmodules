@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/util2/calendar</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/util2/calendar</directory>
+      <directory>${project.build.directory}/modules/org/bedework/util2/calendar</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

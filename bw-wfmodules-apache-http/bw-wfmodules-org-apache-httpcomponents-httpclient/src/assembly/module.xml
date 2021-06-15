@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/org/apache/httpcomponents/httpclient</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/org/apache/httpcomponents/httpclient</directory>
+      <directory>${project.build.directory}/modules/org/bedework/org/apache/httpcomponents/httpclient</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

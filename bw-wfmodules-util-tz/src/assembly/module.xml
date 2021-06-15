@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/util/tz</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/util/tz</directory>
+      <directory>${project.build.directory}/modules/org/bedework/util/tz</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

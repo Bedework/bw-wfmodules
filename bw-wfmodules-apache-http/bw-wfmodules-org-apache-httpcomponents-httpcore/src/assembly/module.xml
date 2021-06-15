@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/org/apache/httpcomponents/httpcore</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/org/apache/httpcomponents/httpcore</directory>
+      <directory>${project.build.directory}/modules/org/bedework/org/apache/httpcomponents/httpcore</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/org/elasticsearch/elasticsearch</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/org/elasticsearch/elasticsearch</directory>
+      <directory>${project.build.directory}/modules/org/bedework/org/elasticsearch/elasticsearch</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

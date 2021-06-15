@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/leveldb</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/leveldb</directory>
+      <directory>${project.build.directory}/modules/org/bedework/leveldb</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

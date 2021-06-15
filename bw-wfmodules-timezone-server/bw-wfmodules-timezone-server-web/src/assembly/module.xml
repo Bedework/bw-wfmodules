@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/timezone/server/web</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/timezone/server/web</directory>
+      <directory>${project.build.directory}/modules/org/bedework/timezone/server/web</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

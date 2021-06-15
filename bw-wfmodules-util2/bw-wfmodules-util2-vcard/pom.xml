@@ -58,7 +58,7 @@
               <name>org.bedework.ical4j</name>
             </moduleDependency>
             <moduleDependency>
-              <name>org.bedework.ical4j-vcard</name>
+              <name>org.bedework.ical4j.vcard</name>
             </moduleDependency>
             <moduleDependency>
               <name>wildflyee.api</name>

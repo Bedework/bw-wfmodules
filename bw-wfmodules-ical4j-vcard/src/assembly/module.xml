@@ -6,10 +6,10 @@
   <formats>
     <format>zip</format>
   </formats>
-  <baseDirectory>org/bedework/ical4j-vcard</baseDirectory>
+  <baseDirectory>org/bedework/ical4j/vcard</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${org.bedework.deployment.basedir}/wildfly/modules/org/bedework/ical4j-vcard</directory>
+      <directory>${project.build.directory}/modules/org/bedework/ical4j/vcard</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>
