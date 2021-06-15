@@ -68,7 +68,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.org.elasticsearch.elasticsearch-rest-high-level-client</name>
+              <name>org.bedework.org.elasticsearch.elasticsearch.hlclient</name>
             </moduleDependency>
 
             <moduleDependency>

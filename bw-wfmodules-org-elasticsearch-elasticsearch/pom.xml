@@ -9,7 +9,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>bw-wfmodules-elasticsearch</artifactId>
+  <artifactId>bw-wfmodules-org-elasticsearch-elasticsearch</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>

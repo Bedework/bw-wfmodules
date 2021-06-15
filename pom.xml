@@ -108,13 +108,13 @@
   <modules>
     <module>bw-wfmodules-access</module>
     <module>bw-wfmodules-apache-http</module>
-    <module>bw-wfmodules-apache-jdkim-library</module>
     <module>bw-wfmodules-caldav</module>
     <module>bw-wfmodules-calendar-common</module>
     <module>bw-wfmodules-calendar-engine</module>
     <module>bw-wfmodules-com-fasterxml-jackson-core-annotations</module>
     <module>bw-wfmodules-com-fasterxml-jackson-core-databind</module>
     <module>bw-wfmodules-com-h2database-h2</module>
+    <module>bw-wfmodules-com-sun-mail</module>
     <module>bw-wfmodules-commons-beanutils</module>
     <module>bw-wfmodules-commons-codec</module>
     <module>bw-wfmodules-commons-collections</module>
@@ -123,18 +123,18 @@
     <module>bw-wfmodules-commons-lang</module>
     <module>bw-wfmodules-commons-lang3</module>
     <module>bw-wfmodules-commons-logging</module>
-    <module>bw-wfmodules-elasticsearch</module>
-    <module>bw-wfmodules-elasticsearch-rest-high-level-client</module>
     <module>bw-wfmodules-ical4j</module>
     <module>bw-wfmodules-ical4j-vcard</module>
-    <module>bw-wfmodules-jasig-cas</module>
     <module>bw-wfmodules-jsforj</module>
     <module>bw-wfmodules-leveldb</module>
     <module>bw-wfmodules-logging</module>
     <module>bw-wfmodules-org-apache-commons-commons-text</module>
+    <module>bw-wfmodules-org-apache-jdkim-library</module>
+    <module>bw-wfmodules-org-elasticsearch-elasticsearch</module>
+    <module>bw-wfmodules-org-elasticsearch-elasticsearch-hlclient</module>
     <module>bw-wfmodules-org-hibernate-core</module>
+    <module>bw-wfmodules-org-jasig-cas</module>
     <module>bw-wfmodules-org-slf4j-slf4j-api</module>
-    <module>bw-wfmodules-sun-mail</module>
     <module>bw-wfmodules-synch</module>
     <module>bw-wfmodules-timezone-server</module>
     <module>bw-wfmodules-util</module>

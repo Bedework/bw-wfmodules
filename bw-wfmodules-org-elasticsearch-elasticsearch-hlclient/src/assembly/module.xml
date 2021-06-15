@@ -6,10 +6,10 @@
   <formats>
     <format>zip</format>
   </formats>
-  <baseDirectory>org/bedework/org/elasticsearch/elasticsearch-rest-high-level-client</baseDirectory>
+  <baseDirectory>org/bedework/org/elasticsearch/elasticsearch/hlclient</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/org/elasticsearch/elasticsearch-rest-high-level-client</directory>
+      <directory>${project.build.directory}/modules/org/bedework/org/elasticsearch/elasticsearch/hlclient</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

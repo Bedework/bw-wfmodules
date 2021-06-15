@@ -9,7 +9,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>bw-wfmodules-elasticsearch-rest-high-level-client</artifactId>
+  <artifactId>bw-wfmodules-org-elasticsearch-elasticsearch-hlclient</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
@@ -32,7 +32,7 @@
         <version>${bw-util-deploy.version}</version>
 
         <configuration>
-          <moduleName>org.bedework.org.elasticsearch.elasticsearch-rest-high-level-client</moduleName>
+          <moduleName>org.bedework.org.elasticsearch.elasticsearch.hlclient</moduleName>
           <noArtifact>true</noArtifact>
 
           <jarResources>
