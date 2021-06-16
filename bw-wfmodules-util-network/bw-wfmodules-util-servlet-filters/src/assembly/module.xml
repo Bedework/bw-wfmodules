@@ -6,10 +6,10 @@
   <formats>
     <format>zip</format>
   </formats>
-  <baseDirectory>org/bedework/util/servlet-filters</baseDirectory>
+  <baseDirectory>org/bedework/util/servlet/filters</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/util/servlet-filters</directory>
+      <directory>${project.build.directory}/modules/org/bedework/util/servlet/filters</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>
