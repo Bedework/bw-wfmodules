@@ -195,7 +195,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.calendar.client.webcommon</name>
+              <name>org.bedework.calendar.client.web.ro</name>
             </moduleDependency>
 
             <moduleDependency>
