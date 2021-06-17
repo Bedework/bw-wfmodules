@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>bw-wfmodules-calendar-engine</artifactId>
+    <groupId>org.bedework.deploy</groupId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>bw-wfmodules-calendar-engine-impl</artifactId>
+  <packaging>pom</packaging>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.bedework.caleng</groupId>
+      <artifactId>bw-calendar-engine-impl</artifactId>
+      <version>${bw-calendar-engine.version}</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
+
+        <configuration>
+          <moduleName>org.bedework.calendar.engine.impl</moduleName>
+          <noArtifact>true</noArtifact>
+
+          <jarResources>
+            <jarResource>
+              <groupId>org.bedework.caleng</groupId>
+              <artifactId>bw-calendar-engine-impl</artifactId>
+              <version>${bw-calendar-engine.version}</version>
+            </jarResource>
+          </jarResources>
+
+          <moduleDependencies>
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.caldav</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.core.rw</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.interfaces</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.common.sysevents.common</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.common.api.rw</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.common.convert</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.common.mail</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.caching</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.dav</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.apache.jdkim.library</name>
+            </moduleDependency>
+          </moduleDependencies>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+</project>
