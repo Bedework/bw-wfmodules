@@ -78,7 +78,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.leveldb</name>
+              <name>org.bedework.com.h2database.h2</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

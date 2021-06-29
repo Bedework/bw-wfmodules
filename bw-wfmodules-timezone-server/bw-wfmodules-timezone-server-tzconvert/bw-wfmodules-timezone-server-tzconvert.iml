@@ -11,7 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.bedework.bw-tzsvr:bw-timezone-server-tzconvert:4.0.9" level="project" />
+    <orderEntry type="module" module-name="bw-timezone-server-tzconvert" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-args:4.0.28" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-config:4.1.3" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-logging:5.0.0" level="project" />
