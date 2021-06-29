@@ -11,8 +11,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.bedework.bw-synch:bw-synch-common:4.0.9-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: org.bedework.bw-synch:bw-synch-shared:4.0.9-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="bw-synch-common" />
+    <orderEntry type="module" module-name="bw-synch-shared" />
     <orderEntry type="library" name="Maven: javax.xml.soap:javax.xml.soap-api:1.4.0" level="project" />
     <orderEntry type="library" name="Maven: javax.xml.ws:jaxws-api:2.3.1" level="project" />
     <orderEntry type="library" name="Maven: javax.annotation:javax.annotation-api:1.3.2" level="project" />
@@ -23,7 +23,7 @@
     <orderEntry type="library" name="Maven: org.bedework:bw-util-config:4.1.3" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-logging:5.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.0" level="project" />
-    <orderEntry type="library" name="Maven: org.bedework:bw-util-hibernate:4.0.25" level="project" />
+    <orderEntry type="library" name="Maven: org.bedework:bw-util-hibernate:4.0.27" level="project" />
     <orderEntry type="library" name="Maven: org.apache.derby:derbynet:10.15.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.derby:derby:10.15.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.derby:derbyshared:10.15.2.0" level="project" />
@@ -33,8 +33,6 @@
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-ehcache:5.2.5.Final" level="project" />
     <orderEntry type="library" name="Maven: net.sf.ehcache:ehcache:2.10.3" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
-    <orderEntry type="library" name="Maven: org.hibernate:hibernate-validator:5.3.6.Final" level="project" />
-    <orderEntry type="library" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.javassist:javassist:3.20.0-GA" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-http:4.1.3" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-jmx:4.1.3" level="project" />

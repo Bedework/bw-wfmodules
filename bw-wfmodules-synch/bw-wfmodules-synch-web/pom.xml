@@ -40,6 +40,10 @@
 
           <moduleDependencies>
             <moduleDependency>
+              <name>org.bedework.synch.common</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.logging</name>
             </moduleDependency>
 
