@@ -11,7 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="bw-timezone-server-web" />
+    <orderEntry type="library" name="Maven: org.bedework.bw-tzsvr:bw-timezone-server-web:4.0.10" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-logging:5.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.0" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-servlet:4.1.3" level="project" />
