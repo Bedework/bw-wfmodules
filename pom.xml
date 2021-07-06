@@ -25,6 +25,7 @@
     <bw-calendar-client.version>3.14.0-SNAPSHOT</bw-calendar-client.version>
     <bw-calendar-common.version>4.0.0-SNAPSHOT</bw-calendar-common.version>
     <bw-calendar-engine.version>3.14.0-SNAPSHOT</bw-calendar-engine.version>
+    <bw-category.version>4.0.0-SNAPSHOT</bw-category.version>
 
     <bw-jsforj.version>1.0.1</bw-jsforj.version>
 
@@ -44,7 +45,7 @@
 
     <bw-webdav.version>4.0.11</bw-webdav.version>
 
-    <bw-xml.version>4.0.11-SNAPSHOT</bw-xml.version>
+    <bw-xml.version>4.0.11</bw-xml.version>
 
     <apache.struts.version>1.3.10</apache.struts.version>
 
@@ -118,6 +119,7 @@
     <module>bw-wfmodules-calendar-client</module>
     <module>bw-wfmodules-calendar-common</module>
     <module>bw-wfmodules-calendar-engine</module>
+    <module>bw-wfmodules-category</module>
     <module>bw-wfmodules-com-fasterxml-jackson-core-annotations</module>
     <module>bw-wfmodules-com-fasterxml-jackson-core-databind</module>
     <module>bw-wfmodules-com-h2database-h2</module>
@@ -137,10 +139,12 @@
     <module>bw-wfmodules-org-apache-commons-commons-text</module>
     <module>bw-wfmodules-org-apache-commons-commons-csv</module>
     <module>bw-wfmodules-org-apache-jdkim-library</module>
+    <module>bw-wfmodules-org-apache-struts-core</module>
     <module>bw-wfmodules-org-apache-struts-taglib</module>
     <module>bw-wfmodules-org-elasticsearch-elasticsearch</module>
     <module>bw-wfmodules-org-elasticsearch-elasticsearch-hlclient</module>
     <module>bw-wfmodules-org-hibernate-core</module>
+    <module>bw-wfmodules-org-imgscalr-lib</module>
     <module>bw-wfmodules-org-jasig-cas</module>
     <module>bw-wfmodules-org-slf4j-slf4j-api</module>
     <module>bw-wfmodules-synch</module>
@@ -158,8 +162,6 @@
     <module>bw-wfmodules-wfmodules-rw</module>
     <module>bw-wfmodules-xml</module>
     <module>wfmodulesutil</module>
-    <module>bw-wfmodules-org-apache-struts-core</module>
-    <module>bw-wfmodules-org-imgscalr-lib</module>
   </modules>
 
   <developers>
@@ -393,6 +395,38 @@
         <groupId>org.bedework.caleng</groupId>
         <artifactId>bw-calendar-engine-tools</artifactId>
         <version>${bw-calendar-engine.version}</version>
+      </dependency>
+
+      <!-- ================= bw-category ================= -->
+
+      <dependency>
+        <groupId>org.bedework.bw-cat</groupId>
+        <artifactId>bw-category-common</artifactId>
+        <version>${bw-category.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.bedework.bw-cat</groupId>
+        <artifactId>bw-category-ical</artifactId>
+        <version>${bw-category.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.bedework.bw-cat</groupId>
+        <artifactId>bw-category-impl</artifactId>
+        <version>${bw-category.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.bedework.bw-cat</groupId>
+        <artifactId>bw-category-service</artifactId>
+        <version>${bw-category.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.bedework.bw-cat</groupId>
+        <artifactId>bw-category-web</artifactId>
+        <version>${bw-category.version}</version>
       </dependency>
 
       <!-- ================= bw-jsforj ================= -->
