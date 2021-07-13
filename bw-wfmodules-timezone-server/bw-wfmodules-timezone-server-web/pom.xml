@@ -14,8 +14,8 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.bedework.bw-cat</groupId>
-      <artifactId>bw-category-web</artifactId>
+      <groupId>org.bedework.bw-tzsvr</groupId>
+      <artifactId>bw-timezone-server-web</artifactId>
     </dependency>
   </dependencies>
 
@@ -32,9 +32,9 @@
 
           <jarResources>
             <jarResource>
-              <groupId>org.bedework.bw-cat</groupId>
-              <artifactId>bw-category-web</artifactId>
-              <version>${bw-category.version}</version>
+              <groupId>org.bedework.bw-tzsvr</groupId>
+              <artifactId>bw-timezone-server-web</artifactId>
+              <version>${bw-timezone-server-version}</version>
             </jarResource>
           </jarResources>
 
