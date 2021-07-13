@@ -31,10 +31,21 @@ import static org.bedework.util.maven.deploy.ModulePom.WfModule;
 public class BuildDeploy {
   private final Utils utils;
   private String rootDir;
+  private boolean details;
+
+  // True to generate download and install commands
+  private boolean downloads;
+
+  // For downloads the set of projects we need to install
+  final Set<String> downloadProjects = new TreeSet<>();
 
   final List<String> warnings = new ArrayList<>();
 
   final Set<String> wfrefs = new TreeSet<>();
+
+  /* List of modules we want to deploy. Usually the top-level ear modules
+   */
+  final Set<String> deployList = new TreeSet<>();
 
   private static class ModuleInfo {
     private final String project;
@@ -107,20 +118,26 @@ public class BuildDeploy {
 
       final var moduleName = module.getModule().getModuleName();
       final var project = module.getProject();
-      final var projectMunged =
-              project.replace("bw-wfmodules-", "org.bedework.").
-                      replace("-", ".");
+      final var projectMunged = projToModule(project);
 
-      utils.info("Module: " + moduleName);
-      utils.info("Project: " + project);
+      if (details) {
+        utils.info("Module: " + moduleName);
+        utils.info("Project: " + project);
+      }
 
       if (!projectMunged.equals(moduleName)) {
         warn("******** Problem project: " + project);
       }
 
-      utils.info("   --> ");
+      if (details) {
+        utils.info("   --> ");
+      }
+
       for (final String md: module.getModule().getDependencies()) {
-        utils.info("       " + md);
+        if (details) {
+          utils.info("       " + md);
+        }
+
         if (modules.get(md) == null) {
           if (!md.startsWith("org.bedework.")) {
             wfrefs.add(md);
@@ -130,7 +147,10 @@ public class BuildDeploy {
           }
         }
       }
-      utils.info(" ");
+
+      if (details) {
+        utils.info(" ");
+      }
     }
 
     if (!warnings.isEmpty()) {
@@ -148,6 +168,46 @@ public class BuildDeploy {
     }
   }
 
+  private void processDeploy(final String moduleName) {
+    final String project = moduleToProj(moduleName);
+
+    downloadProjects.add(project);
+
+    final ModuleInfo module = modules.get(moduleName);
+
+    if (module == null) {
+      warn("Unable to find module " + moduleName);
+      return;
+    }
+
+    if (!project.equals(module.getProject())) {
+      warn("problem project name " + project + ": " + module.getProject());
+    }
+
+    for (final String md: module.getModule().getDependencies()) {
+      if (modules.get(md) == null) {
+        if (md.startsWith("org.bedework.")) {
+          warn("Unsatisfied dependency for " + moduleName +
+                       ": " + md);
+        }
+
+        continue;
+      }
+
+      processDeploy(md);
+    }
+  }
+
+  private String projToModule(final String project) {
+    return project.replace("bw-wfmodules-", "org.bedework.").
+            replace("-", ".");
+  }
+
+  private String moduleToProj(final String module) {
+    return module.replace("org.bedework.", "bw-wfmodules-").
+            replace(".", "-");
+  }
+
   private void warn(final String msg) {
     warnings.add(msg);
     utils.warn(msg);
@@ -158,12 +218,29 @@ public class BuildDeploy {
       if (args.ifMatch("")) {
         continue;
       }
+
       if (args.ifMatch("--root")) {
         rootDir = args.next();
-      } else {
-        usage("Unrecognized option: " + args.current());
-        return false;
+        continue;
       }
+
+      if (args.ifMatch("--details")) {
+        details = true;
+        continue;
+      }
+
+      if (args.ifMatch("--downloads")) {
+        downloads = true;
+        continue;
+      }
+
+      if (args.ifMatch("--deploy")) {
+        deployList.add(args.next());
+        continue;
+      }
+
+      usage("Unrecognized option: " + args.current());
+      return false;
     }
 
     if (rootDir == null) {
@@ -172,6 +249,17 @@ public class BuildDeploy {
     }
 
     generate();
+
+    if (!deployList.isEmpty()) {
+      for (final String deploy: deployList) {
+        processDeploy(deploy);
+      }
+
+      utils.info("Downloads:");
+      for (final String d: downloadProjects) {
+        utils.info(d);
+      }
+    }
 
     return true;
   }
@@ -183,7 +271,10 @@ public class BuildDeploy {
 
     utils.info("Usage: xxx [options]\n" +
                        "Options:\n" +
-                       "    --root        Directory containing wfmodule sources.");
+                       "    --deploy  <module> to deploy" +
+                       "    --details to list modules and dependencies" +
+                       "    --root    <path> " +
+                       "              Directory containing wfmodule sources.");
   }
 
   public static void main(final String[] args) {
