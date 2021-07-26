@@ -40,6 +40,10 @@
 
           <moduleDependencies>
             <moduleDependency>
+              <name>org.bedework.calendar.engine.impl</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.calendar.common.api.rw</name>
             </moduleDependency>
 
