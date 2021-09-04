@@ -171,6 +171,10 @@ public class BuildDeploy {
   private void processDeploy(final String moduleName) {
     final String project = moduleToProj(moduleName);
 
+    if (downloadProjects.contains(project)) {
+      warn("Already present in downloads: " + project);
+      return;
+    }
     downloadProjects.add(project);
 
     final ModuleInfo module = modules.get(moduleName);
