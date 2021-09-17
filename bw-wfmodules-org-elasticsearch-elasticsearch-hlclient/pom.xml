@@ -50,6 +50,12 @@
 
             <fileInfo>
               <groupId>org.elasticsearch.plugin</groupId>
+              <artifactId>mapper-extras-client</artifactId>
+              <version>${elasticsearch.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.elasticsearch.plugin</groupId>
               <artifactId>parent-join-client</artifactId>
               <version>${elasticsearch.version}</version>
             </fileInfo>
@@ -102,6 +108,10 @@
 
             <moduleDependency>
               <name>org.bedework.org.apache.httpcomponents.httpclient</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.commons.codec</name>
             </moduleDependency>
 
             <moduleDependency>

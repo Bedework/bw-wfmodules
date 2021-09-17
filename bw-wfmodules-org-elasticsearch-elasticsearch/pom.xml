@@ -104,6 +104,12 @@
             </fileInfo>
 
             <fileInfo>
+              <groupId>org.lz4</groupId>
+              <artifactId>lz4-java</artifactId>
+              <version>1.8.0</version>
+            </fileInfo>
+
+            <fileInfo>
               <groupId>joda-time</groupId>
               <artifactId>joda-time</artifactId>
               <version>2.10.10</version>

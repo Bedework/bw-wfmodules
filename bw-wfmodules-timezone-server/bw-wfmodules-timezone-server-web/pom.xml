@@ -34,7 +34,7 @@
             <jarResource>
               <groupId>org.bedework.bw-tzsvr</groupId>
               <artifactId>bw-timezone-server-web</artifactId>
-              <version>${bw-timezone-server-version}</version>
+              <version>${bw-timezone-server.version}</version>
             </jarResource>
           </jarResources>
 

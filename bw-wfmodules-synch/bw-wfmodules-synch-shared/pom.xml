@@ -34,7 +34,7 @@
             <jarResource>
               <groupId>org.bedework.bw-synch</groupId>
               <artifactId>bw-synch-shared</artifactId>
-              <version>${bw-synch-version}</version>
+              <version>${bw-synch.version}</version>
             </jarResource>
           </jarResources>
 
