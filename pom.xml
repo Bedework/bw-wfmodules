@@ -123,6 +123,7 @@
     <module>bw-wfmodules-category</module>
     <module>bw-wfmodules-com-fasterxml-jackson-core-annotations</module>
     <module>bw-wfmodules-com-fasterxml-jackson-core-databind</module>
+    <module>bw-wfmodules-com-fasterxml-jackson-dataformat-yaml</module>
     <module>bw-wfmodules-com-h2database-h2</module>
     <module>bw-wfmodules-com-sun-mail</module>
     <module>bw-wfmodules-commons-beanutils</module>
@@ -870,6 +871,12 @@
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-databind</artifactId>
+        <version>${jackson.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.fasterxml.jackson.dataformat</groupId>
+        <artifactId>jackson-dataformat-yaml</artifactId>
         <version>${jackson.version}</version>
       </dependency>
 
