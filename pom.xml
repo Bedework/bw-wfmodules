@@ -31,7 +31,7 @@
 
     <bw-jsforj.version>1.0.2</bw-jsforj.version>
 
-    <bw-synch.version>4.0.13</bw-synch.version>
+    <bw-synch.version>4.0.14-SNAPSHOT</bw-synch.version>
 
     <bw-timezone-server.version>4.0.12</bw-timezone-server.version>
 
@@ -43,7 +43,7 @@
     <bw-util-network.version>4.1.4</bw-util-network.version>
     <bw-util-tz.version>4.1.4</bw-util-tz.version>
     <bw-util-security.version>4.1.4</bw-util-security.version>
-    <bw-util2.version>4.0.11</bw-util2.version>
+    <bw-util2.version>4.0.12-SNAPSHOT</bw-util2.version>
 
     <bw-webdav.version>4.0.13</bw-webdav.version>
 
