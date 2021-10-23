@@ -58,7 +58,7 @@
     <commons.csv.version>1.2</commons.csv.version>
     <commons-digester-version>1.8</commons-digester-version>
     <commons-io.version>2.8.0</commons-io.version>
-    <commons-lang.version>2.3</commons-lang.version>
+    <commons-lang.version>2.6</commons-lang.version>
     <commons-lang3.version>3.8.1</commons-lang3.version>
     <commons-logging.version>1.2</commons-logging.version>
     <commons.text.version>1.7</commons.text.version>
