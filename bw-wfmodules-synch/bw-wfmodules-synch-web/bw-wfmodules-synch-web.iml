@@ -13,7 +13,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="bw-synch-web" />
     <orderEntry type="module" module-name="bw-synch-common" />
-    <orderEntry type="module" module-name="bw-util2-calendar" />
+    <orderEntry type="library" name="Maven: org.bedework:bw-util2-calendar:4.0.12" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-xml-calws-soap:4.0.11" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-xml:4.0.31" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-config:4.1.4" level="project" />

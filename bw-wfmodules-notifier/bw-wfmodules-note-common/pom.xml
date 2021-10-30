@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>bw-wfmodules-notifier</artifactId>
+    <groupId>org.bedework.deploy</groupId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>bw-wfmodules-note-common</artifactId>
+  <packaging>pom</packaging>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.bedework.notifier</groupId>
+      <artifactId>bw-note-common</artifactId>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
+
+        <configuration>
+          <moduleName>org.bedework.note.common</moduleName>
+
+          <noArtifact>true</noArtifact>
+
+          <jarResources>
+            <jarResource>
+              <groupId>org.bedework.notifier</groupId>
+              <artifactId>bw-note-common</artifactId>
+              <version>${bw-notifier.version}</version>
+            </jarResource>
+          </jarResources>
+
+          <moduleDependencies>
+            <moduleDependency>
+              <name>org.bedework.note.db</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.note.shared</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.logging</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.config</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.dav</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.hibernate</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.http</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.misc</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.security</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.tz</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util2.calendar</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.access</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.caldav.util</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.ical4j</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.xml</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.freemarker</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.apache.httpcomponents.httpcore</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>wildflyee.api</name>
+            </moduleDependency>
+          </moduleDependencies>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+</project>

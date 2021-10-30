@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>bw-wfmodules-notifier</artifactId>
+    <groupId>org.bedework.deploy</groupId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>bw-wfmodules-note-bwconnector</artifactId>
+  <packaging>pom</packaging>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.bedework.notifier</groupId>
+      <artifactId>bw-note-bwconnector</artifactId>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
+
+        <configuration>
+          <moduleName>org.bedework.note.bwconnector</moduleName>
+
+          <noArtifact>true</noArtifact>
+
+          <jarResources>
+            <jarResource>
+              <groupId>org.bedework.notifier</groupId>
+              <artifactId>bw-note-bwconnector</artifactId>
+              <version>${bw-notifier.version}</version>
+            </jarResource>
+          </jarResources>
+
+          <moduleDependencies>
+            <moduleDependency>
+              <name>org.bedework.note.common</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.logging</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.jmx</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.ical4j</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>wildflyee.api</name>
+            </moduleDependency>
+          </moduleDependencies>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+</project>

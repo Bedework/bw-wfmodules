@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>bw-wfmodules</artifactId>
+    <groupId>org.bedework.deploy</groupId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>bw-wfmodules-org-freemarker</artifactId>
+  <packaging>pom</packaging>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.freemarker</groupId>
+      <artifactId>freemarker</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>jaxen</groupId>
+      <artifactId>jaxen</artifactId>
+      <version>1.1.6</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
+        <version>${bw-util-deploy.version}</version>
+
+        <configuration>
+          <moduleName>org.bedework.org.freemarker</moduleName>
+          <noArtifact>true</noArtifact>
+
+          <jarResources>
+            <jarResource>
+              <groupId>org.freemarker</groupId>
+              <artifactId>freemarker</artifactId>
+              <version>${freemarker.version}</version>
+            </jarResource>
+
+            <jarResource>
+              <groupId>jaxen</groupId>
+              <artifactId>jaxen</artifactId>
+              <version>1.1.6</version>
+            </jarResource>
+          </jarResources>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+</project>
