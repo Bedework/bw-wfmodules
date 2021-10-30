@@ -15,6 +15,11 @@
   <dependencies>
     <dependency>
       <groupId>org.bedework.notifier</groupId>
+      <artifactId>bw-note-bwconnector</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.bedework.notifier</groupId>
       <artifactId>bw-note-common</artifactId>
     </dependency>
   </dependencies>
@@ -34,6 +39,12 @@
             <jarResource>
               <groupId>org.bedework.notifier</groupId>
               <artifactId>bw-note-common</artifactId>
+              <version>${bw-notifier.version}</version>
+            </jarResource>
+
+            <jarResource>
+              <groupId>org.bedework.notifier</groupId>
+              <artifactId>bw-note-bwconnector</artifactId>
               <version>${bw-notifier.version}</version>
             </jarResource>
           </jarResources>
@@ -65,6 +76,10 @@
 
             <moduleDependency>
               <name>org.bedework.util.http</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.jmx</name>
             </moduleDependency>
 
             <moduleDependency>

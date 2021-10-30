@@ -40,10 +40,6 @@
 
           <moduleDependencies>
             <moduleDependency>
-              <name>org.bedework.note.bwconnector</name>
-            </moduleDependency>
-
-            <moduleDependency>
               <name>org.bedework.note.common</name>
             </moduleDependency>
 

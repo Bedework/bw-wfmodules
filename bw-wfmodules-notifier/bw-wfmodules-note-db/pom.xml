@@ -40,6 +40,10 @@
 
           <moduleDependencies>
             <moduleDependency>
+              <name>org.bedework.note.shared</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.logging</name>
             </moduleDependency>
 

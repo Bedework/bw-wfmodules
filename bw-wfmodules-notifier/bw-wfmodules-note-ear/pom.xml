@@ -25,7 +25,23 @@
 
           <moduleDependencies>
             <moduleDependency>
+              <name>org.bedework.note.common</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.note.db</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.note.outbound</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.note.servlet</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.note.shared</name>
             </moduleDependency>
 
             <moduleDependency>

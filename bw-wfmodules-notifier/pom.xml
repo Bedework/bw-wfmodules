@@ -13,7 +13,6 @@
   <packaging>pom</packaging>
 
   <modules>
-    <module>bw-wfmodules-note-bwconnector</module>
     <module>bw-wfmodules-note-db</module>
     <module>bw-wfmodules-note-outbound</module>
     <module>bw-wfmodules-note-servlet</module>
