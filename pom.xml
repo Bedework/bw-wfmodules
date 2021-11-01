@@ -89,6 +89,13 @@
     <lucene.version>8.9.0</lucene.version>
 
     <slf4j.version>1.7.25</slf4j.version>
+    <spring-framework.version>5.2.4.RELEASE</spring-framework.version>
+    <spring-ldap.version>2.3.3.RELEASE</spring-ldap.version>
+    <spring-security.version>5.3.4.RELEASE</spring-security.version>
+    <spring-webflow.version>2.5.1.RELEASE</spring-webflow.version>
+    <spring-webmvc-portlet.version>4.3.28.RELEASE</spring-webmvc-portlet.version>
+    <spring-ws.version>3.0.9.RELEASE</spring-ws.version>
+    <spring-ws-soap.version>2.0.0.RELEASE</spring-ws-soap.version>
     <sun.mail.version>1.6.2</sun.mail.version>
   </properties>
 
@@ -142,21 +149,9 @@
     <module>bw-wfmodules-ical4j-vcard</module>
     <module>bw-wfmodules-jsforj</module>
     <module>bw-wfmodules-logging</module>
-    <module>bw-wfmodules-notifier</module>
-    <module>bw-wfmodules-org-apache-commons-commons-text</module>
-    <module>bw-wfmodules-org-apache-commons-commons-csv</module>
-    <module>bw-wfmodules-org-apache-jdkim-library</module>
-    <module>bw-wfmodules-org-apache-struts-core</module>
-    <module>bw-wfmodules-org-apache-struts-taglib</module>
-    <module>bw-wfmodules-org-elasticsearch-elasticsearch</module>
-    <module>bw-wfmodules-org-elasticsearch-elasticsearch-hlclient</module>
-    <module>bw-wfmodules-org-freemarker</module>
-    <module>bw-wfmodules-org-hibernate-core</module>
-    <module>bw-wfmodules-org-imgscalr-lib</module>
-    <module>bw-wfmodules-org-jasig-cas</module>
-    <module>bw-wfmodules-org-jolokia-core</module>
-    <module>bw-wfmodules-org-slf4j-slf4j-api</module>
     <module>bw-wfmodules-synch</module>
+    <module>bw-wfmodules-notifier</module>
+    <module>bw-wfmodules-org</module>
     <module>bw-wfmodules-timezone-server</module>
     <module>bw-wfmodules-util</module>
     <module>bw-wfmodules-util-conf</module>
@@ -950,6 +945,168 @@
       </dependency>
 
       <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-aop</artifactId>
+        <version>${spring-framework.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-asm</artifactId>
+        <version>${spring-framework.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-beans</artifactId>
+        <version>${spring-framework.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-core</artifactId>
+        <version>${spring-framework.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+        <version>${spring-framework.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context-support</artifactId>
+        <version>${spring-framework.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-expression</artifactId>
+        <version>${spring-framework.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-jcl</artifactId>
+        <version>${spring-framework.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-jdbc</artifactId>
+        <version>${spring-framework.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-oxm</artifactId>
+        <version>${spring-framework.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-tx</artifactId>
+        <version>${spring-framework.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-web</artifactId>
+        <version>${spring-framework.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-webmvc</artifactId>
+        <version>${spring-framework.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-webmvc-portlet</artifactId>
+        <version>${spring-webmvc-portlet.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.ldap</groupId>
+        <artifactId>spring-ldap-core</artifactId>
+        <version>${spring-ldap.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-acl</artifactId>
+        <version>${spring-security.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-core</artifactId>
+        <version>${spring-security.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-config</artifactId>
+        <version>${spring-security.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-web</artifactId>
+        <version>${spring-security.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-ldap</artifactId>
+        <version>${spring-security.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-taglibs</artifactId>
+        <version>${spring-security.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-web</artifactId>
+        <version>${spring-framework.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.webflow</groupId>
+        <artifactId>spring-binding</artifactId>
+        <version>${spring-webflow.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.webflow</groupId>
+        <artifactId>spring-webflow</artifactId>
+        <version>${spring-webflow.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.ws</groupId>
+        <artifactId>spring-ws-core</artifactId>
+        <version>${spring-ws.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.ws</groupId>
+        <artifactId>spring-ws-security</artifactId>
+        <version>${spring-ws.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.ws</groupId>
+        <artifactId>spring-xml</artifactId>
+        <version>${spring-ws.version}</version>
+      </dependency>
+
+      <dependency>
         <groupId>org.apache.struts</groupId>
         <artifactId>struts-core</artifactId>
         <version>${apache.struts.version}</version>
@@ -1042,10 +1199,6 @@
               </configuration>
             </execution>
           </executions>
-        </plugin>
-
-        <plugin>
-          <artifactId>maven-assembly-plugin</artifactId>
         </plugin>
       </plugins>
     </pluginManagement>

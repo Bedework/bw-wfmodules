@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>bw-wfmodules-org</artifactId>
+    <groupId>org.bedework.deploy</groupId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>bw-wfmodules-org-elasticsearch-elasticsearch</artifactId>
+  <packaging>pom</packaging>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.elasticsearch</groupId>
+      <artifactId>elasticsearch</artifactId>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
+        <version>${bw-util-deploy.version}</version>
+
+        <configuration>
+          <moduleName>org.bedework.org.elasticsearch.elasticsearch</moduleName>
+          <noArtifact>true</noArtifact>
+
+          <jarResources>
+            <fileInfo>
+              <groupId>org.elasticsearch</groupId>
+              <artifactId>elasticsearch</artifactId>
+              <version>${elasticsearch.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.elasticsearch</groupId>
+              <artifactId>elasticsearch-core</artifactId>
+              <version>${elasticsearch.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.elasticsearch</groupId>
+              <artifactId>elasticsearch-secure-sm</artifactId>
+              <version>${elasticsearch.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.elasticsearch</groupId>
+              <artifactId>elasticsearch-x-content</artifactId>
+              <version>${elasticsearch.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.elasticsearch</groupId>
+              <artifactId>elasticsearch-geo</artifactId>
+              <version>${elasticsearch.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.elasticsearch</groupId>
+              <artifactId>elasticsearch-cli</artifactId>
+              <version>${elasticsearch.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.yaml</groupId>
+              <artifactId>snakeyaml</artifactId>
+              <version>1.26</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>com.fasterxml.jackson.dataformat</groupId>
+              <artifactId>jackson-dataformat-smile</artifactId>
+              <version>2.10.4</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>com.fasterxml.jackson.dataformat</groupId>
+              <artifactId>jackson-dataformat-yaml</artifactId>
+              <version>2.10.4</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>com.fasterxml.jackson.dataformat</groupId>
+              <artifactId>jackson-dataformat-cbor</artifactId>
+              <version>2.10.4</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>net.sf.jopt-simple</groupId>
+              <artifactId>jopt-simple</artifactId>
+              <version>5.0.2</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>com.carrotsearch</groupId>
+              <artifactId>hppc</artifactId>
+              <version>0.8.1</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.lz4</groupId>
+              <artifactId>lz4-java</artifactId>
+              <version>1.8.0</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>joda-time</groupId>
+              <artifactId>joda-time</artifactId>
+              <version>2.10.10</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>com.tdunning</groupId>
+              <artifactId>t-digest</artifactId>
+              <version>3.2</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.hdrhistogram</groupId>
+              <artifactId>HdrHistogram</artifactId>
+              <version>2.1.9</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.elasticsearch</groupId>
+              <artifactId>jna</artifactId>
+              <version>5.7.0-1</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.apache.lucene</groupId>
+              <artifactId>lucene-core</artifactId>
+              <version>${lucene.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.apache.lucene</groupId>
+              <artifactId>lucene-analyzers-common</artifactId>
+              <version>${lucene.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.apache.lucene</groupId>
+              <artifactId>lucene-backward-codecs</artifactId>
+              <version>${lucene.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.apache.lucene</groupId>
+              <artifactId>lucene-grouping</artifactId>
+              <version>${lucene.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.apache.lucene</groupId>
+              <artifactId>lucene-highlighter</artifactId>
+              <version>${lucene.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.apache.lucene</groupId>
+              <artifactId>lucene-join</artifactId>
+              <version>${lucene.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.apache.lucene</groupId>
+              <artifactId>lucene-memory</artifactId>
+              <version>${lucene.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.apache.lucene</groupId>
+              <artifactId>lucene-misc</artifactId>
+              <version>${lucene.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.apache.lucene</groupId>
+              <artifactId>lucene-queries</artifactId>
+              <version>${lucene.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.apache.lucene</groupId>
+              <artifactId>lucene-queryparser</artifactId>
+              <version>${lucene.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.apache.lucene</groupId>
+              <artifactId>lucene-sandbox</artifactId>
+              <version>${lucene.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.apache.lucene</groupId>
+              <artifactId>lucene-spatial-extras</artifactId>
+              <version>${lucene.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.apache.lucene</groupId>
+              <artifactId>lucene-spatial3d</artifactId>
+              <version>${lucene.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.apache.lucene</groupId>
+              <artifactId>lucene-suggest</artifactId>
+              <version>${lucene.version}</version>
+            </fileInfo>
+          </jarResources>
+
+          <moduleDependencies>
+            <moduleDependency>
+              <name>org.apache.logging.log4j.api</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>com.fasterxml.jackson.core.jackson-core</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.com.fasterxml.jackson.core.annotations</name>
+            </moduleDependency>
+          </moduleDependencies>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+</project>

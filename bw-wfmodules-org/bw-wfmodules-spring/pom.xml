@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>bw-wfmodules-org</artifactId>
+    <groupId>org.bedework.deploy</groupId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>bw-wfmodules-spring</artifactId>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>bw-wfmodules-spring-aop</module>
+    <module>bw-wfmodules-spring-beans</module>
+    <module>bw-wfmodules-spring-context</module>
+    <module>bw-wfmodules-spring-context-support</module>
+    <module>bw-wfmodules-spring-core</module>
+    <module>bw-wfmodules-spring-expression</module>
+    <module>bw-wfmodules-spring-jcl</module>
+    <module>bw-wfmodules-spring-jdbc</module>
+    <module>bw-wfmodules-spring-ldap-core</module>
+    <module>bw-wfmodules-spring-oxm</module>
+    <module>bw-wfmodules-spring-security-acl</module>
+    <module>bw-wfmodules-spring-security-config</module>
+    <module>bw-wfmodules-spring-security-core</module>
+    <module>bw-wfmodules-spring-security-ldap</module>
+    <module>bw-wfmodules-spring-security-taglibs</module>
+    <module>bw-wfmodules-spring-security-web</module>
+    <module>bw-wfmodules-spring-tx</module>
+    <module>bw-wfmodules-spring-web</module>
+    <module>bw-wfmodules-spring-webflow</module>
+    <module>bw-wfmodules-spring-webflow-spring-binding</module>
+    <module>bw-wfmodules-spring-webmvc</module>
+    <module>bw-wfmodules-spring-ws-core</module>
+    <module>bw-wfmodules-spring-ws-security</module>
+    <module>bw-wfmodules-spring-ws-xml</module>
+  </modules>
+</project>

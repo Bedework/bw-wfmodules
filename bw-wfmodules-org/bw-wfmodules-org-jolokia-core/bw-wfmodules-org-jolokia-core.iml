@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+    <output url="file://$MODULE_DIR$/../bw-wfmodules-org/bw-wfmodules-org-jolokia-core/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../bw-wfmodules-org/bw-wfmodules-org-jolokia-core/target/test-classes" />
+    <content url="file://$MODULE_DIR$/../bw-wfmodules-org/bw-wfmodules-org-jolokia-core">
+      <sourceFolder url="file://$MODULE_DIR$/../bw-wfmodules-org/bw-wfmodules-org-jolokia-core/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bw-wfmodules-org/bw-wfmodules-org-jolokia-core/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bw-wfmodules-org/bw-wfmodules-org-jolokia-core/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../bw-wfmodules-org/bw-wfmodules-org-jolokia-core/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.jolokia:jolokia-core:1.6.2" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" level="project" />
+  </component>
+</module>

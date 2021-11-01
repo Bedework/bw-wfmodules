@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>bw-wfmodules-org</artifactId>
+    <groupId>org.bedework.deploy</groupId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>bw-wfmodules-jasig-cas</artifactId>
+
+  <properties>
+    <jasig.cas.version>3.4.1</jasig.cas.version>
+    <opensaml.version>2.5.1-1</opensaml.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.jasig.cas.client</groupId>
+      <artifactId>cas-client-core</artifactId>
+      <version>${jasig.cas.version}</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
+        <version>${bw-util-deploy.version}</version>
+
+        <configuration>
+          <moduleName>org.bedework.org.jasig.cas</moduleName>
+          <noArtifact>true</noArtifact>
+
+          <jarDependencies>
+            <jarDependency>
+              <moduleName>org.bedework.org.jasig.cas.client</moduleName>
+              <groupId>org.jasig.cas.client</groupId>
+              <artifactId>cas-client-core</artifactId>
+              <version>${jasig.cas.version}</version>
+            </jarDependency>
+          </jarDependencies>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

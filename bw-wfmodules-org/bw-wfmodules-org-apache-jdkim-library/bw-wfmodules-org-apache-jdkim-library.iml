@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+    <output url="file://$MODULE_DIR$/../bw-wfmodules-org/bw-wfmodules-org-apache-jdkim-library/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../bw-wfmodules-org/bw-wfmodules-org-apache-jdkim-library/target/test-classes" />
+    <content url="file://$MODULE_DIR$/../bw-wfmodules-org/bw-wfmodules-org-apache-jdkim-library">
+      <sourceFolder url="file://$MODULE_DIR$/../bw-wfmodules-org/bw-wfmodules-org-apache-jdkim-library/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bw-wfmodules-org/bw-wfmodules-org-apache-jdkim-library/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bw-wfmodules-org/bw-wfmodules-org-apache-jdkim-library/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../bw-wfmodules-org/bw-wfmodules-org-apache-jdkim-library/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.bedework:apache-jdkim-library:0.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.13" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.15" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.14" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.geronimo.specs:geronimo-activation_1.1_spec:1.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.geronimo.javamail:geronimo-javamail_1.4_mail:1.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.james:apache-mailet-base:1.1" level="project" />
+    <orderEntry type="library" name="Maven: javax.mail:mail:1.4.3" level="project" />
+    <orderEntry type="library" name="Maven: javax.activation:activation:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.james:apache-mailet:2.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.james:apache-mime4j-core:0.7" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.james:apache-mime4j-dom:0.7" level="project" />
+    <orderEntry type="library" name="Maven: dnsjava:dnsjava:2.1.1" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit:3.8.2" level="project" />
+  </component>
+</module>

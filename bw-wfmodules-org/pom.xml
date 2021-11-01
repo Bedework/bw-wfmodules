@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>bw-wfmodules</artifactId>
+    <groupId>org.bedework.deploy</groupId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>bw-wfmodules-org</artifactId>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>bw-wfmodules-org-apache-commons-commons-text</module>
+    <module>bw-wfmodules-org-apache-commons-commons-csv</module>
+    <module>bw-wfmodules-org-apache-jdkim-library</module>
+    <module>bw-wfmodules-org-apache-struts-core</module>
+    <module>bw-wfmodules-org-apache-struts-taglib</module>
+    <module>bw-wfmodules-org-elasticsearch-elasticsearch</module>
+    <module>bw-wfmodules-org-elasticsearch-elasticsearch-hlclient</module>
+    <module>bw-wfmodules-org-freemarker</module>
+    <module>bw-wfmodules-org-hibernate-core</module>
+    <module>bw-wfmodules-org-imgscalr-lib</module>
+    <module>bw-wfmodules-org-jasig-cas</module>
+    <module>bw-wfmodules-org-jolokia-core</module>
+    <module>bw-wfmodules-org-slf4j-slf4j-api</module>
+    <module>bw-wfmodules-spring</module>
+  </modules>
+</project>
