@@ -82,6 +82,10 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.util.servlet</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.util.tz</name>
             </moduleDependency>
 
