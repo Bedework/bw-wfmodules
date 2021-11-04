@@ -41,6 +41,8 @@
           <moduleDependencies>
             <moduleDependency>
               <name>org.bedework.org.spring.core</name>
+              <importMeta>true</importMeta>
+              <exports>META-INF</exports>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

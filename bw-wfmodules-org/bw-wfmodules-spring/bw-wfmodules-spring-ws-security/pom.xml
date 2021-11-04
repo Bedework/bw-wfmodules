@@ -53,26 +53,38 @@
           <moduleDependencies>
             <moduleDependency>
               <name>org.bedework.org.spring.beans</name>
+              <importMeta>true</importMeta>
+              <exports>META-INF</exports>
             </moduleDependency>
 
             <moduleDependency>
               <name>org.bedework.org.spring.core</name>
+              <importMeta>true</importMeta>
+              <exports>META-INF</exports>
             </moduleDependency>
 
             <moduleDependency>
               <name>org.bedework.org.spring.security-core</name>
+              <importMeta>true</importMeta>
+              <exports>META-INF</exports>
             </moduleDependency>
 
             <moduleDependency>
               <name>org.bedework.org.spring.tx</name>
+              <importMeta>true</importMeta>
+              <exports>META-INF</exports>
             </moduleDependency>
 
             <moduleDependency>
               <name>org.bedework.org.spring.ws.xml</name>
+              <importMeta>true</importMeta>
+              <exports>META-INF</exports>
             </moduleDependency>
 
             <moduleDependency>
               <name>org.bedework.org.spring.ws.core</name>
+              <importMeta>true</importMeta>
+              <exports>META-INF</exports>
             </moduleDependency>
 
             <moduleDependency>

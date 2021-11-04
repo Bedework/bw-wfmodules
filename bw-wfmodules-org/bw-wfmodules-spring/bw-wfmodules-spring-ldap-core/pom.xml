@@ -45,14 +45,20 @@
 
             <moduleDependency>
               <name>org.bedework.org.spring.beans</name>
+              <importMeta>true</importMeta>
+              <exports>META-INF</exports>
             </moduleDependency>
 
             <moduleDependency>
               <name>org.bedework.org.spring.core</name>
+              <importMeta>true</importMeta>
+              <exports>META-INF</exports>
             </moduleDependency>
 
             <moduleDependency>
               <name>org.bedework.org.spring.tx</name>
+              <importMeta>true</importMeta>
+              <exports>META-INF</exports>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

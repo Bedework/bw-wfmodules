@@ -41,30 +41,44 @@
           <moduleDependencies>
             <moduleDependency>
               <name>org.bedework.org.spring.aop</name>
+              <importMeta>true</importMeta>
+              <exports>META-INF</exports>
             </moduleDependency>
 
             <moduleDependency>
               <name>org.bedework.org.spring.beans</name>
+              <importMeta>true</importMeta>
+              <exports>META-INF</exports>
             </moduleDependency>
 
             <moduleDependency>
               <name>org.bedework.org.spring.core</name>
+              <importMeta>true</importMeta>
+              <exports>META-INF</exports>
             </moduleDependency>
 
             <moduleDependency>
               <name>org.bedework.org.spring.oxm</name>
+              <importMeta>true</importMeta>
+              <exports>META-INF</exports>
             </moduleDependency>
 
             <moduleDependency>
               <name>org.bedework.org.spring.web</name>
+              <importMeta>true</importMeta>
+              <exports>META-INF</exports>
             </moduleDependency>
 
             <moduleDependency>
               <name>org.bedework.org.spring.webmvc</name>
+              <importMeta>true</importMeta>
+              <exports>META-INF</exports>
             </moduleDependency>
 
             <moduleDependency>
               <name>org.bedework.org.spring.ws.xml</name>
+              <importMeta>true</importMeta>
+              <exports>META-INF</exports>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

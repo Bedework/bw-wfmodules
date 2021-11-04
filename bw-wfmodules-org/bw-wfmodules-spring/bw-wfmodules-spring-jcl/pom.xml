@@ -37,6 +37,16 @@
               <version>${spring-framework.version}</version>
             </jarResource>
           </jarResources>
+
+          <moduleDependencies>
+            <moduleDependency>
+              <name>javax.servlet.api</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>wildflyee.api</name>
+            </moduleDependency>
+          </moduleDependencies>
         </configuration>
       </plugin>
 
