@@ -27,6 +27,7 @@
     <bw-calendar-client.version>3.14.0-SNAPSHOT</bw-calendar-client.version>
     <bw-calendar-common.version>4.0.0-SNAPSHOT</bw-calendar-common.version>
     <bw-calendar-engine.version>3.14.0-SNAPSHOT</bw-calendar-engine.version>
+    <bw-carddav.version>4.0.11-SNAPSHOT</bw-carddav.version>
     <bw-category.version>4.0.0-SNAPSHOT</bw-category.version>
 
     <bw-eventreg.version>4.0.10-SNAPSHOT</bw-eventreg.version>
@@ -35,6 +36,7 @@
 
     <bw-notifier.version>4.0.11-SNAPSHOT</bw-notifier.version>
 
+    <bw-selfreg.version>4.0.11-SNAPSHOT</bw-selfreg.version>
     <bw-synch.version>4.0.14-SNAPSHOT</bw-synch.version>
 
     <bw-timezone-server.version>4.0.13</bw-timezone-server.version>
@@ -84,6 +86,7 @@
     <imgscalr.version>4.2</imgscalr.version>
 
     <jackson.version>2.11.0</jackson.version>
+    <jasypt.version>1.9.2</jasypt.version>
     <javax.cache-api.version>1.0.0</javax.cache-api.version>
     <jolokia.version>1.6.2</jolokia.version>
 
@@ -133,6 +136,7 @@
     <module>bw-wfmodules-calendar-client</module>
     <module>bw-wfmodules-calendar-common</module>
     <module>bw-wfmodules-calendar-engine</module>
+    <module>bw-wfmodules-carddav</module>
     <module>bw-wfmodules-category</module>
     <module>bw-wfmodules-com-fasterxml-jackson-core-annotations</module>
     <module>bw-wfmodules-com-fasterxml-jackson-core-databind</module>
@@ -152,9 +156,10 @@
     <module>bw-wfmodules-ical4j-vcard</module>
     <module>bw-wfmodules-jsforj</module>
     <module>bw-wfmodules-logging</module>
-    <module>bw-wfmodules-synch</module>
     <module>bw-wfmodules-notifier</module>
     <module>bw-wfmodules-org</module>
+    <module>bw-wfmodules-selfreg</module>
+    <module>bw-wfmodules-synch</module>
     <module>bw-wfmodules-timezone-server</module>
     <module>bw-wfmodules-util</module>
     <module>bw-wfmodules-util-conf</module>
@@ -404,6 +409,20 @@
         <version>${bw-calendar-engine.version}</version>
       </dependency>
 
+      <!-- ================= bw-carddav ================= -->
+
+      <dependency>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-carddav-common</artifactId>
+        <version>${bw-carddav.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-carddav-server</artifactId>
+        <version>${bw-carddav.version}</version>
+      </dependency>
+
       <!-- ================= bw-category ================= -->
 
       <dependency>
@@ -500,6 +519,20 @@
         <groupId>org.bedework.notifier</groupId>
         <artifactId>bw-note-servlet</artifactId>
         <version>${bw-notifier.version}</version>
+      </dependency>
+
+      <!-- ============ bw-self-registration ============ -->
+
+      <dependency>
+        <groupId>org.bedework.selfreg</groupId>
+        <artifactId>bw-self-registration-common</artifactId>
+        <version>${bw-selfreg.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.bedework.selfreg</groupId>
+        <artifactId>bw-self-registration-web</artifactId>
+        <version>${bw-selfreg.version}</version>
       </dependency>
 
       <!-- ================= bw-synch ================= -->
@@ -946,6 +979,12 @@
         <groupId>com.fasterxml.jackson.dataformat</groupId>
         <artifactId>jackson-dataformat-yaml</artifactId>
         <version>${jackson.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.jasypt</groupId>
+        <artifactId>jasypt</artifactId>
+        <version>${jasypt.version}</version>
       </dependency>
 
       <dependency>
