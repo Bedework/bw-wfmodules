@@ -56,7 +56,7 @@
     <orderEntry type="library" name="Maven: org.elasticsearch.plugin:lang-mustache-client:7.14.1" level="project" />
     <orderEntry type="library" name="Maven: com.github.spullara.mustache.java:compiler:0.9.6" level="project" />
     <orderEntry type="module" module-name="bw-calendar-engine-interfaces" />
-    <orderEntry type="library" name="Maven: org.bedework:bw-caldav-util:4.0.17" level="project" />
+    <orderEntry type="library" name="Maven: org.bedework:bw-caldav-util:4.0.18" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-xml-synchws:4.0.11" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-xml-caldav:4.0.11" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:apache-jdkim-library:0.6" level="project" />
@@ -107,7 +107,7 @@
     <orderEntry type="library" name="Maven: org.bedework:bw-webdav:4.0.13" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-servlet:4.1.4" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-xml:4.0.31" level="project" />
-    <orderEntry type="library" name="Maven: org.bedework:bw-caldav-server:4.0.17" level="project" />
+    <orderEntry type="library" name="Maven: org.bedework:bw-caldav-server:4.0.18" level="project" />
     <orderEntry type="library" name="Maven: javax.xml.soap:javax.xml.soap-api:1.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-ical4j-vcard:1.0.8" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
@@ -119,7 +119,7 @@
     <orderEntry type="library" name="Maven: javax.xml.ws:jaxws-api:2.3.1" level="project" />
     <orderEntry type="library" name="Maven: javax.annotation:javax.annotation-api:1.3.2" level="project" />
     <orderEntry type="module" module-name="bw-calendar-sysevents-msgs" />
-    <orderEntry type="library" name="Maven: org.bedework:bw-util-hibernate:4.0.29" level="project" />
+    <orderEntry type="module" module-name="bw-util-hibernate" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-config:4.1.4" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-jmx:4.1.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.derby:derbynet:10.15.2.0" level="project" />

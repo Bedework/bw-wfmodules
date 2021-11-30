@@ -22,7 +22,13 @@
   <dependencies>
     <dependency>
       <groupId>org.bedework</groupId>
-      <artifactId>bw-util-logging</artifactId>
+      <artifactId>hibernate-core</artifactId>
+      <version>5.2.5.FinalBwPatched</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.bedework</groupId>
+      <artifactId>bw-util-hibernate</artifactId>
     </dependency>
   </dependencies>
 
@@ -119,6 +125,12 @@
               <groupId>org.jboss.spec.javax.interceptor</groupId>
               <artifactId>jboss-interceptors-api_1.1_spec</artifactId>
               <version>1.0.0.Beta1</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.bedework</groupId>
+              <artifactId>bw-util-hibernate</artifactId>
+              <version>${bw-util-hibernate.version}</version>
             </fileInfo>
           </jarResources>
 

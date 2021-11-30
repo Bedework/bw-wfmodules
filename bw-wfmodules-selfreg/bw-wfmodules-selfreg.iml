@@ -8,13 +8,13 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="bw-self-registration-common" />
+    <orderEntry type="library" name="Maven: org.bedework.selfreg:bw-self-registration-common:4.0.11" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-config:4.1.4" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-xml:4.0.31" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-jmx:4.1.4" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-logging:5.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.0" level="project" />
-    <orderEntry type="library" name="Maven: org.bedework:bw-util-hibernate:4.0.29" level="project" />
+    <orderEntry type="module" module-name="bw-util-hibernate" />
     <orderEntry type="library" name="Maven: org.apache.derby:derbynet:10.15.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.derby:derby:10.15.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.derby:derbyshared:10.15.2.0" level="project" />
@@ -48,7 +48,7 @@
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.15" level="project" />
     <orderEntry type="library" name="Maven: javax.mail:javax.mail-api:1.5.4" level="project" />
     <orderEntry type="library" name="Maven: javax.activation:activation:1.1" level="project" />
-    <orderEntry type="module" module-name="bw-self-registration-web" />
+    <orderEntry type="library" name="Maven: org.bedework.selfreg:bw-self-registration-web:4.0.11" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-http:4.1.4" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.0" level="project" />

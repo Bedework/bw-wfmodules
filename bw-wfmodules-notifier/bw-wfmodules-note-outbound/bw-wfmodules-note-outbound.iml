@@ -11,13 +11,13 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="bw-note-outbound" />
-    <orderEntry type="module" module-name="bw-note-bwconnector" />
+    <orderEntry type="library" name="Maven: org.bedework.notifier:bw-note-outbound:4.0.11" level="project" />
+    <orderEntry type="library" name="Maven: org.bedework.notifier:bw-note-bwconnector:4.0.11" level="project" />
     <orderEntry type="library" name="Maven: org.bedework.ical4j:ical4j:3.0.16" level="project" />
-    <orderEntry type="module" module-name="bw-note-common" />
-    <orderEntry type="module" module-name="bw-note-db" />
+    <orderEntry type="library" name="Maven: org.bedework.notifier:bw-note-common:4.0.11" level="project" />
+    <orderEntry type="library" name="Maven: org.bedework.notifier:bw-note-db:4.0.11" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.0" level="project" />
-    <orderEntry type="module" module-name="bw-note-shared" />
+    <orderEntry type="library" name="Maven: org.bedework.notifier:bw-note-shared:4.0.11" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-xml-appleServer:4.0.11" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish.jaxb:jaxb-runtime:2.3.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.2" level="project" />
@@ -28,7 +28,7 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: jakarta.activation:jakarta.activation-api:1.2.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.activation:jakarta.activation:1.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-dav:4.1.4" level="project" />
-    <orderEntry type="library" name="Maven: org.bedework:bw-util-hibernate:4.0.29" level="project" />
+    <orderEntry type="module" module-name="bw-util-hibernate" />
     <orderEntry type="library" name="Maven: org.apache.derby:derbynet:10.15.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.derby:derby:10.15.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.derby:derbyshared:10.15.2.0" level="project" />
@@ -77,7 +77,7 @@
     <orderEntry type="library" name="Maven: org.bedework:bw-util-misc:4.0.31" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-text:1.7" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-xml:4.0.31" level="project" />
-    <orderEntry type="library" name="Maven: org.bedework:bw-caldav-util:4.0.17" level="project" />
+    <orderEntry type="library" name="Maven: org.bedework:bw-caldav-util:4.0.18" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-xml-synchws:4.0.11" level="project" />
     <orderEntry type="library" name="Maven: javax.jws:javax.jws-api:1.1" level="project" />
     <orderEntry type="library" name="Maven: javax.xml.ws:jaxws-api:2.3.1" level="project" />
