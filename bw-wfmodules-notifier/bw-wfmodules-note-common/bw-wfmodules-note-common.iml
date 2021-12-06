@@ -11,14 +11,14 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.bedework.notifier:bw-note-bwconnector:4.0.11" level="project" />
+    <orderEntry type="module" module-name="bw-note-bwconnector" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-jmx:4.1.4" level="project" />
     <orderEntry type="library" name="Maven: org.bedework.ical4j:ical4j:3.0.16" level="project" />
-    <orderEntry type="library" name="Maven: org.bedework.notifier:bw-note-common:4.0.11" level="project" />
-    <orderEntry type="library" name="Maven: org.bedework.notifier:bw-note-db:4.0.11" level="project" />
+    <orderEntry type="module" module-name="bw-note-common" />
+    <orderEntry type="module" module-name="bw-note-db" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.0" level="project" />
-    <orderEntry type="library" name="Maven: org.bedework.notifier:bw-note-shared:4.0.11" level="project" />
+    <orderEntry type="module" module-name="bw-note-shared" />
     <orderEntry type="library" name="Maven: org.bedework:bw-xml-appleServer:4.0.11" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish.jaxb:jaxb-runtime:2.3.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.2" level="project" />
