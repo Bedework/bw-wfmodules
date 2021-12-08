@@ -15,11 +15,13 @@
 
     <!-- Maven Plugin Versions -->
     <maven.assembly.plugin.version>3.3.0</maven.assembly.plugin.version>
+    <maven.clean.plugin.version>3.1.0</maven.clean.plugin.version>
     <maven.compiler.plugin.version>2.3.2</maven.compiler.plugin.version>
     <maven.source.plugin.version>2.1.2</maven.source.plugin.version>
 
     <bw-util-deploy.version>4.1.1-SNAPSHOT</bw-util-deploy.version>
 
+    <bw-wfthin-generated-path>${project.build.directory}/generated-sources/wildfly/</bw-wfthin-generated-path>
     <!-- Bedework Versions -->
     <bw-access.version>4.0.10</bw-access.version>
 
@@ -1189,6 +1191,12 @@
       <plugins>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-clean-plugin</artifactId>
+          <version>${maven.clean.plugin.version}</version>
+        </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
           <version>2.5</version>
           <configuration>
@@ -1266,6 +1274,22 @@
         </plugin>
       </plugins>
     </pluginManagement>
+
+    <plugins>
+      <plugin>
+        <!-- Always clean even if the clean lifecycle is not invoked -->
+        <artifactId>maven-clean-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>auto-clean</id>
+            <phase>initialize</phase>
+            <goals>
+              <goal>clean</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
   </build>
 
   <profiles>
