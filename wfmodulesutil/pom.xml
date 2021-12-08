@@ -22,4 +22,30 @@
       <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
     </dependency>
   </dependencies>
+
+  <profiles>
+    <profile>
+      <id>wildfly-framework-modules</id>
+      <build>
+        <pluginManagement>
+          <plugins>
+            <!-- No compile for this -->
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <version>${maven.compiler.plugin.version}</version>
+
+              <executions>
+                <execution>
+                  <id>module-no-compile</id>
+                  <phase>none</phase>
+                </execution>
+              </executions>
+            </plugin>
+          </plugins>
+        </pluginManagement>
+      </build>
+    </profile>
+  </profiles>
+
 </project>
