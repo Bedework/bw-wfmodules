@@ -14,7 +14,7 @@
     <orderEntry type="library" name="Maven: org.bedework.bw-tzsvr:bw-timezone-server-tzconvert:4.0.13" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-args:4.0.31" level="project" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-config:4.1.4" level="project" />
-    <orderEntry type="library" name="Maven: org.bedework:bw-util-logging:5.0.0" level="project" />
+    <orderEntry type="module" module-name="bw-util-logging" />
     <orderEntry type="module" module-name="bw-util-xml" />
     <orderEntry type="library" name="Maven: org.bedework:bw-util-jmx:4.1.4" level="project" />
     <orderEntry type="module" module-name="bw-util-misc" />
