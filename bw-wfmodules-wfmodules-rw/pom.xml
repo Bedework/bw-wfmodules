@@ -24,7 +24,6 @@
       <plugin>
         <groupId>org.bedework</groupId>
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
-        <version>${bw-util-deploy.version}</version>
 
         <!-- ================= bw-wfmodules-rw ================= -->
 
