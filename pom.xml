@@ -80,10 +80,14 @@
             </execution>
             <execution>
               <id>deploy-thin-for-galleon</id>
-              <phase>none</phase>
+              <phase>install</phase>
+
               <goals>
-                <goal>bw-deploy-thin-wfmodule</goal>
+                <goal>bw-deploy-wfmodule</goal>
               </goals>
+              <configuration>
+
+              </configuration>
             </execution>
           </executions>
         </plugin>
