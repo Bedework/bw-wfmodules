@@ -16,6 +16,10 @@
   <description>This project deploys modules to the local quickstart wildfly</description>
   <url>https://github.com/Bedework/bw-wfmodules</url>
 
+  <properties>
+    <bw-deploy-home>${project.basedir}</bw-deploy-home>
+  </properties>
+
   <modules>
     <module>bw-wfmodules-access</module>
     <module>bw-wfmodules-apache-http</module>
@@ -86,7 +90,8 @@
                 <goal>bw-deploy-wfmodule</goal>
               </goals>
               <configuration>
-
+                <buildThin>true</buildThin>
+                <modulesParentPath>${project.build.directory}/thin/</modulesParentPath>
               </configuration>
             </execution>
           </executions>
@@ -108,7 +113,26 @@
           </execution>
         </executions>
       </plugin>
+
+      <plugin>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <version>1.7</version>
+        <executions>
+          <execution>
+            <phase>install</phase>
+            <configuration>
+              <target>
+                <echoproperties />
+              </target>
+            </configuration>
+            <goals>
+              <goal>run</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
         -->
+
     </plugins>
   </build>
 </project>
