@@ -64,7 +64,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.org.spring.security-core</name>
+              <name>org.bedework.org.spring.security.core</name>
               <importMeta>true</importMeta>
               <exports>META-INF</exports>
             </moduleDependency>
