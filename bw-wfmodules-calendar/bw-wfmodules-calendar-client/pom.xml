@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.bedework.deploy</groupId>
+    <artifactId>bw-wfmodules-calendar</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>bw-wfmodules-calendar-client</artifactId>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>bw-wfmodules-calendar-client-admin</module>
+    <module>bw-wfmodules-calendar-client-appcommon</module>
+    <module>bw-wfmodules-calendar-client-rw</module>
+    <module>bw-wfmodules-calendar-client-util</module>
+    <module>bw-wfmodules-calendar-client-web-admin</module>
+    <module>bw-wfmodules-calendar-client-web-rw</module>
+    <module>bw-wfmodules-calendar-client-web-ro</module>
+  </modules>
+</project>

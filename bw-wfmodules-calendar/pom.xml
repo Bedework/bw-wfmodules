@@ -8,17 +8,16 @@
     <artifactId>bw-wfmodules</artifactId>
     <groupId>org.bedework.deploy</groupId>
     <version>1.0.0-SNAPSHOT</version>
-    <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>bw-wfmodules-timezone-server</artifactId>
-  <name>bw-wfmodules-timezone-server</name>
+  <artifactId>bw-wfmodules-calendar</artifactId>
   <packaging>pom</packaging>
 
   <modules>
-    <module>bw-wfmodules-timezone-server-common</module>
-    <module>bw-wfmodules-timezone-server-tzconvert</module>
-    <module>bw-wfmodules-timezone-server-web</module>
-    <module>bw-wfmodules-timezone-server-ear</module>
+    <module>bw-wfmodules-calendar-client</module>
+    <module>bw-wfmodules-calendar-common</module>
+    <module>bw-wfmodules-calendar-engine</module>
+    <module>bw-wfmodules-calendar-ro-ear</module>
+    <module>bw-wfmodules-calendar-rw-ear</module>
   </modules>
 </project>

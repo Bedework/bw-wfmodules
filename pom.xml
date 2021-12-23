@@ -24,9 +24,7 @@
     <module>bw-wfmodules-access</module>
     <module>bw-wfmodules-apache-http</module>
     <module>bw-wfmodules-caldav</module>
-    <module>bw-wfmodules-calendar-client</module>
-    <module>bw-wfmodules-calendar-common</module>
-    <module>bw-wfmodules-calendar-engine</module>
+    <module>bw-wfmodules-calendar</module>
     <module>bw-wfmodules-carddav</module>
     <module>bw-wfmodules-category</module>
     <module>bw-wfmodules-com-fasterxml-jackson-core-annotations</module>
