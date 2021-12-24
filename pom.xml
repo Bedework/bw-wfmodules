@@ -59,8 +59,6 @@
     <module>bw-wfmodules-util-tz</module>
     <module>bw-wfmodules-util2</module>
     <module>bw-wfmodules-webdav</module>
-    <module>bw-wfmodules-wfmodules-ro</module>
-    <module>bw-wfmodules-wfmodules-rw</module>
     <module>bw-wfmodules-xml</module>
     <module>wfmodulesutil</module>
   </modules>
