@@ -12,16 +12,10 @@
 
   <artifactId>bw-wfmodules-jasig-cas</artifactId>
 
-  <properties>
-    <jasig.cas.version>3.4.1</jasig.cas.version>
-    <opensaml.version>2.5.1-1</opensaml.version>
-  </properties>
-
   <dependencies>
     <dependency>
       <groupId>org.jasig.cas.client</groupId>
       <artifactId>cas-client-core</artifactId>
-      <version>${jasig.cas.version}</version>
     </dependency>
   </dependencies>
 
