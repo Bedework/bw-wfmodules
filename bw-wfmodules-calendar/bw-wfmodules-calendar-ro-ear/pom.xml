@@ -34,18 +34,23 @@
             <moduleDependency>
               <name>org.bedework.util.caching</name>
             </moduleDependency>
+
             <moduleDependency>
               <name>org.bedework.util.directory</name>
             </moduleDependency>
+
             <moduleDependency>
               <name>org.bedework.util.jms</name>
             </moduleDependency>
+
             <moduleDependency>
               <name>org.bedework.util.json</name>
             </moduleDependency>
+
             <moduleDependency>
               <name>org.bedework.util.misc</name>
             </moduleDependency>
+
             <moduleDependency>
               <name>org.bedework.util.xml</name>
             </moduleDependency>
@@ -184,6 +189,10 @@
 
             <moduleDependency>
               <name>org.bedework.calendar.engine.impl</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.indexer</name>
             </moduleDependency>
 
             <moduleDependency>
