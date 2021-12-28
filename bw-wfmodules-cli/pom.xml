@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.bedework.deploy</groupId>
+    <artifactId>bw-wfmodules</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>bw-wfmodules-cli</artifactId>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>bw-wfmodules-util-cli</module>
+    <module>bw-wfmodules-util-jolokia</module>
+  </modules>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.bedework</groupId>
+      <artifactId>bw-cli</artifactId>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
+
+        <configuration>
+          <moduleName>org.bedework.cli</moduleName>
+
+          <noArtifact>true</noArtifact>
+          <mainClass>org.bedework.bwcli.BwCli</mainClass>
+
+          <jarResources>
+            <jarResource>
+              <groupId>org.bedework</groupId>
+              <artifactId>bw-cli</artifactId>
+              <version>${bw-cli.version}</version>
+            </jarResource>
+          </jarResources>
+
+          <moduleDependencies>
+            <moduleDependency>
+              <name>org.bedework.logging</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.cli.util-cli</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.cli.util-jolokia</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.args</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.http</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.jmx</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.misc</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.xml</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.access</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.logs</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.apache.httpcomponents.httpclient</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.apache.httpcomponents.httpcore</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.com.fasterxml.jackson.core.annotations</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.com.fasterxml.jackson.core.databind</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>javax.servlet.jsp.api</name>
+            </moduleDependency>
+          </moduleDependencies>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+</project>

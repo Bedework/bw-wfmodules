@@ -19,5 +19,6 @@
     <module>bw-wfmodules-util-json</module>
     <module>bw-wfmodules-util-misc</module>
     <module>bw-wfmodules-util-xml</module>
+    <module>bw-wfmodules-util-args</module>
   </modules>
 </project>

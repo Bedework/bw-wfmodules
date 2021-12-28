@@ -27,6 +27,7 @@
     <module>bw-wfmodules-calendar</module>
     <module>bw-wfmodules-carddav</module>
     <module>bw-wfmodules-category</module>
+    <module>bw-wfmodules-cli</module>
     <module>bw-wfmodules-com-fasterxml-jackson-core-annotations</module>
     <module>bw-wfmodules-com-fasterxml-jackson-core-databind</module>
     <module>bw-wfmodules-com-fasterxml-jackson-dataformat-yaml</module>
@@ -61,6 +62,7 @@
     <module>bw-wfmodules-webdav</module>
     <module>bw-wfmodules-xml</module>
     <module>wfmodulesutil</module>
+    <module>bw-wfmodules-logs</module>
   </modules>
 
   <build>
