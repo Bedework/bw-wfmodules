@@ -10,18 +10,13 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>bw-wfmodules-util-jolokia</artifactId>
+  <artifactId>bw-wfmodules-cli-app</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
       <groupId>org.bedework</groupId>
-      <artifactId>bw-util-jolokia</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.jolokia</groupId>
-      <artifactId>jolokia-client-java</artifactId>
+      <artifactId>bw-cli</artifactId>
     </dependency>
   </dependencies>
 
@@ -32,27 +27,16 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.cli.util-jolokia</moduleName>
+          <moduleName>org.bedework.cli.cli-app</moduleName>
 
           <noArtifact>true</noArtifact>
+          <mainClass>org.bedework.bwcli.BwCli</mainClass>
 
           <jarResources>
             <jarResource>
               <groupId>org.bedework</groupId>
-              <artifactId>bw-util-jolokia</artifactId>
-              <version>${bw-cliutil.version}</version>
-            </jarResource>
-
-            <jarResource>
-              <groupId>org.jolokia</groupId>
-              <artifactId>jolokia-client-java</artifactId>
-              <version>${jolokia.version}</version>
-            </jarResource>
-
-            <jarResource>
-              <groupId>com.googlecode.json-simple</groupId>
-              <artifactId>json-simple</artifactId>
-              <version>1.1.1</version>
+              <artifactId>bw-cli</artifactId>
+              <version>${bw-cli.version}</version>
             </jarResource>
           </jarResources>
 
@@ -66,11 +50,35 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.cli.util-jolokia</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.args</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.http</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.util.jmx</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.commons.lang</name>
+              <name>org.bedework.util.misc</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.xml</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.access</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.logs</name>
             </moduleDependency>
 
             <moduleDependency>
@@ -79,6 +87,18 @@
 
             <moduleDependency>
               <name>org.bedework.org.apache.httpcomponents.httpcore</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.com.fasterxml.jackson.core.annotations</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.com.fasterxml.jackson.core.databind</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>javax.servlet.jsp.api</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>
