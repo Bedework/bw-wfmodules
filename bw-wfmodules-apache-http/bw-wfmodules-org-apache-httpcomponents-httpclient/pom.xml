@@ -43,6 +43,10 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.commons.codec</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.commons.logging</name>
             </moduleDependency>
           </moduleDependencies>
