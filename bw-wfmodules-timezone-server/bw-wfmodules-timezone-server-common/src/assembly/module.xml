@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/timezone/server/common</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/timezone/server/common</directory>
+      <directory>${bw-build-module-base}/org/bedework/timezone/server/common</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

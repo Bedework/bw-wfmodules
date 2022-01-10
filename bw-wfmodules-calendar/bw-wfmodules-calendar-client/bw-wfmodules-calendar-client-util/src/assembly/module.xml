@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/calendar/client/util</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/calendar/client/util</directory>
+      <directory>${bw-build-module-base}/org/bedework/calendar/client/util</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/carddav/ear</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/carddav/ear</directory>
+      <directory>${bw-build-module-base}/org/bedework/carddav/ear</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

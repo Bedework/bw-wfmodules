@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/commons/codec</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/commons/codec</directory>
+      <directory>${bw-build-module-base}/org/bedework/commons/codec</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/timezone/server/ear</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/timezone/server/ear</directory>
+      <directory>${bw-build-module-base}/org/bedework/timezone/server/ear</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

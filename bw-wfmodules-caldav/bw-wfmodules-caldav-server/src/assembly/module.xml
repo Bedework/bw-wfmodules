@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/caldav/server</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/caldav/server</directory>
+      <directory>${bw-build-module-base}/org/bedework/caldav/server</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

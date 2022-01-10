@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/category/ear</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/category/ear</directory>
+      <directory>${bw-build-module-base}/org/bedework/category/ear</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

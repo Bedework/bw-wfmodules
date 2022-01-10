@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/eventreg/ear</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/eventreg/ear</directory>
+      <directory>${bw-build-module-base}/org/bedework/eventreg/ear</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

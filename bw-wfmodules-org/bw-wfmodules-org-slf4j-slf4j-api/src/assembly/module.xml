@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/org/slf4j/slf4j/api</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/org/slf4j/slf4j/api</directory>
+      <directory>${bw-build-module-base}/org/bedework/org/slf4j/slf4j/api</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

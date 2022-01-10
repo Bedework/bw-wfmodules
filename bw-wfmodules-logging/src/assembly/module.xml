@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/logging</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/logging</directory>
+      <directory>${bw-build-module-base}/org/bedework/logging</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

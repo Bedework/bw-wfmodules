@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/commons/lang</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/commons/lang</directory>
+      <directory>${bw-build-module-base}/org/bedework/commons/lang</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

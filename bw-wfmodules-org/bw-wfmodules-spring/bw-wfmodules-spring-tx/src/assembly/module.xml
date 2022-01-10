@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/org/spring/tx</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/org/spring/tx</directory>
+      <directory>${bw-build-module-base}/org/bedework/org/spring/tx</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

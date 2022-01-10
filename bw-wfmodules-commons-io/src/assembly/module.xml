@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/commons/io</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/commons/io</directory>
+      <directory>${bw-build-module-base}/org/bedework/commons/io</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

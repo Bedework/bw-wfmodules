@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/org/spring/ws/security</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/org/spring/ws/security</directory>
+      <directory>${bw-build-module-base}/org/bedework/org/spring/ws/security</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

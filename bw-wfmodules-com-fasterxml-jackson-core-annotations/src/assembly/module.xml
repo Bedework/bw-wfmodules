@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/com/fasterxml/jackson/core/annotations</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/com/fasterxml/jackson/core/annotations</directory>
+      <directory>${bw-build-module-base}/org/bedework/com/fasterxml/jackson/core/annotations</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

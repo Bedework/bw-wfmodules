@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/calendar/engine/inoutsched</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/calendar/engine/inoutsched</directory>
+      <directory>${bw-build-module-base}/org/bedework/calendar/engine/inoutsched</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

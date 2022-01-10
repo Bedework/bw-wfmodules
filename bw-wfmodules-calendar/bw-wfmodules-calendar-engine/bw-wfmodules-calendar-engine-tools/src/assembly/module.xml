@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/calendar/engine/tools</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/calendar/engine/tools</directory>
+      <directory>${bw-build-module-base}/org/bedework/calendar/engine/tools</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

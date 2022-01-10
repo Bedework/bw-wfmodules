@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/com/fasterxml/jackson/core/databind</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/com/fasterxml/jackson/core/databind</directory>
+      <directory>${bw-build-module-base}/org/bedework/com/fasterxml/jackson/core/databind</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

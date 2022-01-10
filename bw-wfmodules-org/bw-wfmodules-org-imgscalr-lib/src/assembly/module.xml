@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/org/imgscalr/lib</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/org/imgscalr/lib</directory>
+      <directory>${bw-build-module-base}/org/bedework/org/imgscalr/lib</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

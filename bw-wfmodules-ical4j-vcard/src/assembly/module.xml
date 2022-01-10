@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/ical4j/vcard</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/ical4j/vcard</directory>
+      <directory>${bw-build-module-base}/org/bedework/ical4j/vcard</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

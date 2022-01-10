@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/org/spring/aop</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/org/spring/aop</directory>
+      <directory>${bw-build-module-base}/org/bedework/org/spring/aop</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

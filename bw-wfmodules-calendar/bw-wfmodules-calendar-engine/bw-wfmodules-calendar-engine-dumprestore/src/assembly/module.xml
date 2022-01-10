@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/calendar/engine/dumprestore</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/calendar/engine/dumprestore</directory>
+      <directory>${bw-build-module-base}/org/bedework/calendar/engine/dumprestore</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

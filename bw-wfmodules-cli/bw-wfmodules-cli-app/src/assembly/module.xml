@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/cli/cli-app</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/cli/cli-app</directory>
+      <directory>${bw-build-module-base}/org/bedework/cli/cli-app</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

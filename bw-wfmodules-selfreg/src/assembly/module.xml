@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/selfreg/ear</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/selfreg/ear</directory>
+      <directory>${bw-build-module-base}/org/bedework/selfreg/ear</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

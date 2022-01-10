@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/org/jolokia/core</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/org/jolokia/core</directory>
+      <directory>${bw-build-module-base}/org/bedework/org/jolokia/core</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

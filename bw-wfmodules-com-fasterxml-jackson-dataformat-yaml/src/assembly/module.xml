@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/com/fasterxml/jackson/dataformat-yaml</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/com/fasterxml/jackson/dataformat-yaml</directory>
+      <directory>${bw-build-module-base}/org/bedework/com/fasterxml/jackson/dataformat-yaml</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

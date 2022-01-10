@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/org/spring/security/taglibs</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/org/spring/security/taglibs</directory>
+      <directory>${bw-build-module-base}/org/bedework/org/spring/security/taglibs</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

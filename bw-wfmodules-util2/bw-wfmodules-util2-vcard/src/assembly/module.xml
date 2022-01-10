@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/util2/vcard</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/util2/vcard</directory>
+      <directory>${bw-build-module-base}/org/bedework/util2/vcard</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

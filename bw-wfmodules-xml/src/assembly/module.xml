@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/xml</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/xml</directory>
+      <directory>${bw-build-module-base}/org/bedework/xml</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

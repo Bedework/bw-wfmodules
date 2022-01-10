@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/synch/common</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/synch/common</directory>
+      <directory>${bw-build-module-base}/org/bedework/synch/common</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

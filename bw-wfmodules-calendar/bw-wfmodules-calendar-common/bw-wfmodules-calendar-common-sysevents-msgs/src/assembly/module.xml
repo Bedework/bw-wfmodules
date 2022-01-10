@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/calendar/common/sysevents/msgs</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/calendar/common/sysevents/msgs</directory>
+      <directory>${bw-build-module-base}/org/bedework/calendar/common/sysevents/msgs</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

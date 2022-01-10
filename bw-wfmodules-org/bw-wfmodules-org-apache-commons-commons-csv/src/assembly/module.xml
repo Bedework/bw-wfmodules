@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/org/apache/commons/commons/csv</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/org/apache/commons/commons/csv</directory>
+      <directory>${bw-build-module-base}/org/bedework/org/apache/commons/commons/csv</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

@@ -79,6 +79,10 @@
               <goals>
                 <goal>bw-deploy-wfmodule</goal>
               </goals>
+
+              <configuration>
+                <modulesRootDir>${bw-modulesRootDir}</modulesRootDir>
+              </configuration>
             </execution>
             <execution>
               <id>deploy-thin-for-galleon</id>
@@ -89,6 +93,7 @@
               </goals>
               <configuration>
                 <buildThin>true</buildThin>
+                <modulesRootDir>${bw-modulesRootDir}</modulesRootDir>
                 <modulesParentPath>${project.build.directory}/thin/</modulesParentPath>
               </configuration>
             </execution>
@@ -96,41 +101,40 @@
         </plugin>
       </plugins>
     </pluginManagement>
-
-    <plugins>
-        <!-- Always clean even if the clean lifecycle is not invoked
-      <plugin>
-        <artifactId>maven-clean-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>auto-clean</id>
-            <phase>initialize</phase>
-            <goals>
-              <goal>clean</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-
-      <plugin>
-        <artifactId>maven-antrun-plugin</artifactId>
-        <version>1.7</version>
-        <executions>
-          <execution>
-            <phase>install</phase>
-            <configuration>
-              <target>
-                <echoproperties />
-              </target>
-            </configuration>
-            <goals>
-              <goal>run</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-        -->
-
-    </plugins>
   </build>
+
+  <profiles>
+    <profile>
+      <id>Not feature pack build</id>
+
+      <activation>
+        <property>
+          <name>!bw-wildfly-feature-pack-build</name>
+        </property>
+      </activation>
+
+      <properties>
+        <bw-modulesRootDir>modules/system/layers/base</bw-modulesRootDir>
+
+        <bw-build-module-base>${project.build.directory}/${bw-modulesRootDir}</bw-build-module-base>
+      </properties>
+    </profile>
+
+    <profile>
+      <id>Feature pack build</id>
+
+      <activation>
+        <property>
+          <name>bw-wildfly-feature-pack-build</name>
+        </property>
+      </activation>
+
+
+      <properties>
+        <bw-modulesRootDir>modules</bw-modulesRootDir>
+
+        <bw-build-module-base>${project.build.directory}/${bw-modulesRootDir}</bw-build-module-base>
+      </properties>
+    </profile>
+  </profiles>
 </project>

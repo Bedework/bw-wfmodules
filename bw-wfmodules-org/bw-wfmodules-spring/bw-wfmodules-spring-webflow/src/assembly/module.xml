@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/org/spring/webflow</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/org/spring/webflow</directory>
+      <directory>${bw-build-module-base}/org/bedework/org/spring/webflow</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

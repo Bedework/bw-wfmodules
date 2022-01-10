@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/category/service</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/category/service</directory>
+      <directory>${bw-build-module-base}/org/bedework/category/service</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/org/spring/expression</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/org/spring/expression</directory>
+      <directory>${bw-build-module-base}/org/bedework/org/spring/expression</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

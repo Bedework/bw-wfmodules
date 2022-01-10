@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/org/hibernate/core</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/org/hibernate/core</directory>
+      <directory>${bw-build-module-base}/org/bedework/org/hibernate/core</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

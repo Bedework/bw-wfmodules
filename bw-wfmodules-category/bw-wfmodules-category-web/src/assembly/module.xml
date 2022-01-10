@@ -9,7 +9,7 @@
   <baseDirectory>org/bedework/category/web</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/modules/org/bedework/category/web</directory>
+      <directory>${bw-build-module-base}/org/bedework/category/web</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>
