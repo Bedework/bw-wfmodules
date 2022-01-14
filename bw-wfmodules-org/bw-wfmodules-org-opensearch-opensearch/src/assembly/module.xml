@@ -6,10 +6,10 @@
   <formats>
     <format>zip</format>
   </formats>
-  <baseDirectory>org/bedework/util/indexing/elasticsearch</baseDirectory>
+  <baseDirectory>org/bedework/org/opensearch/opensearch</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${bw-build-module-base}/org/bedework/util/indexing/elasticsearch</directory>
+      <directory>${bw-build-module-base}/org/bedework/org/opensearch/opensearch</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

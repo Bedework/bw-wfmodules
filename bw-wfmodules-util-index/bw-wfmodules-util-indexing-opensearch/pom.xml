@@ -10,13 +10,13 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>bw-wfmodules-util-indexing-elasticsearch</artifactId>
+  <artifactId>bw-wfmodules-util-indexing-opensearch</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
       <groupId>org.bedework</groupId>
-      <artifactId>bw-util-elasticsearch</artifactId>
+      <artifactId>bw-util-opensearch</artifactId>
     </dependency>
   </dependencies>
 
@@ -27,14 +27,14 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.util.indexing.elasticsearch</moduleName>
+          <moduleName>org.bedework.util.indexing.opensearch</moduleName>
 
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <jarResource>
               <groupId>org.bedework</groupId>
-              <artifactId>bw-util-elasticsearch</artifactId>
+              <artifactId>bw-util-opensearch</artifactId>
               <version>${bw-util-index.version}</version>
             </jarResource>
           </jarResources>
@@ -68,11 +68,11 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.org.elasticsearch.elasticsearch.hlclient</name>
+              <name>org.bedework.org.opensearch.opensearch.hlclient</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.org.elasticsearch.elasticsearch</name>
+              <name>org.bedework.org.opensearch.opensearch</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

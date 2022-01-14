@@ -10,13 +10,13 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>bw-wfmodules-org-elasticsearch-elasticsearch</artifactId>
+  <artifactId>bw-wfmodules-org-opensearch-opensearch</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
-      <groupId>org.elasticsearch</groupId>
-      <artifactId>elasticsearch</artifactId>
+      <groupId>org.opensearch</groupId>
+      <artifactId>opensearch</artifactId>
     </dependency>
   </dependencies>
 
@@ -27,44 +27,44 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.org.elasticsearch.elasticsearch</moduleName>
+          <moduleName>org.bedework.org.opensearch.opensearch</moduleName>
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <fileInfo>
-              <groupId>org.elasticsearch</groupId>
-              <artifactId>elasticsearch</artifactId>
-              <version>${elasticsearch.version}</version>
+              <groupId>org.opensearch</groupId>
+              <artifactId>opensearch</artifactId>
+              <version>${opensearch.version}</version>
             </fileInfo>
 
             <fileInfo>
-              <groupId>org.elasticsearch</groupId>
-              <artifactId>elasticsearch-core</artifactId>
-              <version>${elasticsearch.version}</version>
+              <groupId>org.opensearch</groupId>
+              <artifactId>opensearch-core</artifactId>
+              <version>${opensearch.version}</version>
             </fileInfo>
 
             <fileInfo>
-              <groupId>org.elasticsearch</groupId>
-              <artifactId>elasticsearch-secure-sm</artifactId>
-              <version>${elasticsearch.version}</version>
+              <groupId>org.opensearch</groupId>
+              <artifactId>opensearch-secure-sm</artifactId>
+              <version>${opensearch.version}</version>
             </fileInfo>
 
             <fileInfo>
-              <groupId>org.elasticsearch</groupId>
-              <artifactId>elasticsearch-x-content</artifactId>
-              <version>${elasticsearch.version}</version>
+              <groupId>org.opensearch</groupId>
+              <artifactId>opensearch-x-content</artifactId>
+              <version>${opensearch.version}</version>
             </fileInfo>
 
             <fileInfo>
-              <groupId>org.elasticsearch</groupId>
-              <artifactId>elasticsearch-geo</artifactId>
-              <version>${elasticsearch.version}</version>
+              <groupId>org.opensearch</groupId>
+              <artifactId>opensearch-geo</artifactId>
+              <version>${opensearch.version}</version>
             </fileInfo>
 
             <fileInfo>
-              <groupId>org.elasticsearch</groupId>
-              <artifactId>elasticsearch-cli</artifactId>
-              <version>${elasticsearch.version}</version>
+              <groupId>org.opensearch</groupId>
+              <artifactId>opensearch-cli</artifactId>
+              <version>${opensearch.version}</version>
             </fileInfo>
 
             <fileInfo>
@@ -104,12 +104,6 @@
             </fileInfo>
 
             <fileInfo>
-              <groupId>org.lz4</groupId>
-              <artifactId>lz4-java</artifactId>
-              <version>1.8.0</version>
-            </fileInfo>
-
-            <fileInfo>
               <groupId>joda-time</groupId>
               <artifactId>joda-time</artifactId>
               <version>2.10.10</version>
@@ -125,12 +119,6 @@
               <groupId>org.hdrhistogram</groupId>
               <artifactId>HdrHistogram</artifactId>
               <version>2.1.9</version>
-            </fileInfo>
-
-            <fileInfo>
-              <groupId>org.elasticsearch</groupId>
-              <artifactId>jna</artifactId>
-              <version>5.7.0-1</version>
             </fileInfo>
 
             <fileInfo>

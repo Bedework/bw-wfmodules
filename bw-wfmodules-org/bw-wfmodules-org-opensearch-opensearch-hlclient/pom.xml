@@ -10,18 +10,18 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>bw-wfmodules-org-elasticsearch-elasticsearch-hlclient</artifactId>
+  <artifactId>bw-wfmodules-org-opensearch-opensearch-hlclient</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
-      <groupId>org.elasticsearch.client</groupId>
-      <artifactId>elasticsearch-rest-client</artifactId>
+      <groupId>org.opensearch.client</groupId>
+      <artifactId>opensearch-rest-client</artifactId>
     </dependency>
 
     <dependency>
-      <groupId>org.elasticsearch.client</groupId>
-      <artifactId>elasticsearch-rest-high-level-client</artifactId>
+      <groupId>org.opensearch.client</groupId>
+      <artifactId>opensearch-rest-high-level-client</artifactId>
     </dependency>
   </dependencies>
 
@@ -32,50 +32,50 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.org.elasticsearch.elasticsearch.hlclient</moduleName>
+          <moduleName>org.bedework.org.opensearch.opensearch.hlclient</moduleName>
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <fileInfo>
-              <groupId>org.elasticsearch.client</groupId>
-              <artifactId>elasticsearch-rest-high-level-client</artifactId>
-              <version>${elasticsearch.version}</version>
+              <groupId>org.opensearch.client</groupId>
+              <artifactId>opensearch-rest-high-level-client</artifactId>
+              <version>${opensearch.version}</version>
             </fileInfo>
 
             <fileInfo>
-              <groupId>org.elasticsearch.client</groupId>
-              <artifactId>elasticsearch-rest-client</artifactId>
-              <version>${elasticsearch.version}</version>
+              <groupId>org.opensearch.client</groupId>
+              <artifactId>opensearch-rest-client</artifactId>
+              <version>${opensearch.version}</version>
             </fileInfo>
 
             <fileInfo>
-              <groupId>org.elasticsearch.plugin</groupId>
+              <groupId>org.opensearch.plugin</groupId>
               <artifactId>mapper-extras-client</artifactId>
-              <version>${elasticsearch.version}</version>
+              <version>${opensearch.version}</version>
             </fileInfo>
 
             <fileInfo>
-              <groupId>org.elasticsearch.plugin</groupId>
+              <groupId>org.opensearch.plugin</groupId>
               <artifactId>parent-join-client</artifactId>
-              <version>${elasticsearch.version}</version>
+              <version>${opensearch.version}</version>
             </fileInfo>
 
             <fileInfo>
-              <groupId>org.elasticsearch.plugin</groupId>
+              <groupId>org.opensearch.plugin</groupId>
               <artifactId>aggs-matrix-stats-client</artifactId>
-              <version>${elasticsearch.version}</version>
+              <version>${opensearch.version}</version>
             </fileInfo>
 
             <fileInfo>
-              <groupId>org.elasticsearch.plugin</groupId>
+              <groupId>org.opensearch.plugin</groupId>
               <artifactId>rank-eval-client</artifactId>
-              <version>${elasticsearch.version}</version>
+              <version>${opensearch.version}</version>
             </fileInfo>
 
             <fileInfo>
-              <groupId>org.elasticsearch.plugin</groupId>
+              <groupId>org.opensearch.plugin</groupId>
               <artifactId>lang-mustache-client</artifactId>
-              <version>${elasticsearch.version}</version>
+              <version>${opensearch.version}</version>
             </fileInfo>
 
             <fileInfo>
@@ -99,7 +99,7 @@
 
           <moduleDependencies>
             <moduleDependency>
-              <name>org.bedework.org.elasticsearch.elasticsearch</name>
+              <name>org.bedework.org.opensearch.opensearch</name>
             </moduleDependency>
 
             <moduleDependency>

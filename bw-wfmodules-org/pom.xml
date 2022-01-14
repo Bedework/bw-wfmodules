@@ -18,13 +18,13 @@
     <module>bw-wfmodules-org-apache-jdkim-library</module>
     <module>bw-wfmodules-org-apache-struts-core</module>
     <module>bw-wfmodules-org-apache-struts-taglib</module>
-    <module>bw-wfmodules-org-elasticsearch-elasticsearch</module>
-    <module>bw-wfmodules-org-elasticsearch-elasticsearch-hlclient</module>
     <module>bw-wfmodules-org-freemarker</module>
     <module>bw-wfmodules-org-hibernate-core</module>
     <module>bw-wfmodules-org-imgscalr-lib</module>
     <module>bw-wfmodules-org-jasig-cas</module>
     <module>bw-wfmodules-org-jolokia-core</module>
+    <module>bw-wfmodules-org-opensearch-opensearch</module>
+    <module>bw-wfmodules-org-opensearch-opensearch-hlclient</module>
     <module>bw-wfmodules-org-slf4j-slf4j-api</module>
     <module>bw-wfmodules-spring</module>
     <module>bw-wfmodules-postgresql</module>

@@ -48,7 +48,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.util.indexing.elasticsearch</name>
+              <name>org.bedework.util.indexing.opensearch</name>
             </moduleDependency>
 
             <moduleDependency>
@@ -60,11 +60,11 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.org.elasticsearch.elasticsearch</name>
+              <name>org.bedework.org.opensearch.opensearch</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.org.elasticsearch.elasticsearch.hlclient</name>
+              <name>org.bedework.org.opensearch.opensearch.hlclient</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

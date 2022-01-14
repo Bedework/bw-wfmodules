@@ -71,7 +71,7 @@
               <name>org.bedework.util.indexing</name>
             </moduleDependency>
             <moduleDependency>
-              <name>org.bedework.util.indexing.elasticsearch</name>
+              <name>org.bedework.util.indexing.opensearch</name>
             </moduleDependency>
 
             <!-- ================ bw-util-network ================ -->

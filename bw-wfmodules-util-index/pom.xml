@@ -14,6 +14,6 @@
 
   <modules>
     <module>bw-wfmodules-util-indexing</module>
-    <module>bw-wfmodules-util-indexing-elasticsearch</module>
+    <module>bw-wfmodules-util-indexing-opensearch</module>
   </modules>
 </project>
