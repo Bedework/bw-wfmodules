@@ -68,6 +68,10 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.util.indexing.opensearch</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.util.security</name>
             </moduleDependency>
 
