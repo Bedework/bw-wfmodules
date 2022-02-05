@@ -238,7 +238,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.com.fasterxml.jackson.dataformat.yaml</name>
+              <name>org.bedework.com.fasterxml.jackson.dataformat-yaml</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>
