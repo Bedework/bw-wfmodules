@@ -17,7 +17,6 @@
     <dependency>
       <groupId>org.bedework</groupId>
       <artifactId>hibernate-core</artifactId>
-      <version>5.2.5.FinalBwPatched</version>
     </dependency>
 
     <dependency>
@@ -43,13 +42,13 @@
             <fileInfo>
               <groupId>org.bedework</groupId>
               <artifactId>hibernate-core</artifactId>
-              <version>5.2.5.FinalBwPatched</version>
+              <version>${hibernate.patched.version}</version>
             </fileInfo>
 
             <fileInfo>
               <groupId>org.hibernate</groupId>
               <artifactId>hibernate-ehcache</artifactId>
-              <version>5.2.5.Final</version>
+              <version>${hibernate.version}</version>
             </fileInfo>
 
             <!--

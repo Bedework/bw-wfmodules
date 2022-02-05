@@ -18,6 +18,36 @@
       <groupId>org.opensearch</groupId>
       <artifactId>opensearch</artifactId>
     </dependency>
+
+    <dependency>
+      <groupId>com.fasterxml.jackson.dataformat</groupId>
+      <artifactId>jackson-dataformat-smile</artifactId>
+      <version>2.10.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.fasterxml.jackson.dataformat</groupId>
+      <artifactId>jackson-dataformat-cbor</artifactId>
+      <version>2.10.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>joda-time</groupId>
+      <artifactId>joda-time</artifactId>
+      <version>2.10.10</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.tdunning</groupId>
+      <artifactId>t-digest</artifactId>
+      <version>3.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.hdrhistogram</groupId>
+      <artifactId>HdrHistogram</artifactId>
+      <version>2.1.9</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -68,20 +98,8 @@
             </fileInfo>
 
             <fileInfo>
-              <groupId>org.yaml</groupId>
-              <artifactId>snakeyaml</artifactId>
-              <version>1.26</version>
-            </fileInfo>
-
-            <fileInfo>
               <groupId>com.fasterxml.jackson.dataformat</groupId>
               <artifactId>jackson-dataformat-smile</artifactId>
-              <version>2.10.4</version>
-            </fileInfo>
-
-            <fileInfo>
-              <groupId>com.fasterxml.jackson.dataformat</groupId>
-              <artifactId>jackson-dataformat-yaml</artifactId>
               <version>2.10.4</version>
             </fileInfo>
 
@@ -217,6 +235,10 @@
 
             <moduleDependency>
               <name>org.bedework.com.fasterxml.jackson.core.annotations</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.com.fasterxml.jackson.dataformat.yaml</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

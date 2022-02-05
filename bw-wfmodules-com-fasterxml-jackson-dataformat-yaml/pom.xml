@@ -18,6 +18,11 @@
       <groupId>com.fasterxml.jackson.dataformat</groupId>
       <artifactId>jackson-dataformat-yaml</artifactId>
     </dependency>
+
+    <dependency>
+      <groupId>org.yaml</groupId>
+      <artifactId>snakeyaml</artifactId>
+    </dependency>
   </dependencies>
 
   <build>
@@ -41,7 +46,7 @@
             <fileInfo>
               <groupId>org.yaml</groupId>
               <artifactId>snakeyaml</artifactId>
-              <version>1.26</version>
+              <version>${snakeyaml.version}</version>
             </fileInfo>
           </jarResources>
 
