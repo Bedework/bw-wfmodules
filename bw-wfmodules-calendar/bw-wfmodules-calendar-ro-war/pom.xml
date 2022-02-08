@@ -10,8 +10,8 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>bw-wfmodules-calendar-ro-ear</artifactId>
-  <name>Bedework wfmodules: calendar ro ear module</name>
+  <artifactId>bw-wfmodules-calendar-ro-war</artifactId>
+  <name>Bedework wfmodules: calendar ro war module</name>
   <packaging>pom</packaging>
 
   <build>
@@ -21,7 +21,7 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.calendar.ro-ear</moduleName>
+          <moduleName>org.bedework.calendar.ro-war</moduleName>
           <noArtifact>true</noArtifact>
 
           <moduleDependencies>

@@ -17,7 +17,7 @@
     <module>bw-wfmodules-calendar-client</module>
     <module>bw-wfmodules-calendar-common</module>
     <module>bw-wfmodules-calendar-engine</module>
-    <module>bw-wfmodules-calendar-ro-ear</module>
-    <module>bw-wfmodules-calendar-rw-ear</module>
+    <module>bw-wfmodules-calendar-ro-war</module>
+    <module>bw-wfmodules-calendar-rw-war</module>
   </modules>
 </project>

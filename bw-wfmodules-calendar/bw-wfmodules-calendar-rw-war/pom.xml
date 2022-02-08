@@ -9,9 +9,9 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>bw-wfmodules-calendar-rw-ear</artifactId>
+  <artifactId>bw-wfmodules-calendar-rw-war</artifactId>
   <packaging>pom</packaging>
-  <name>Bedework wfmodules: calendar rw ear module</name>
+  <name>Bedework wfmodules: calendar rw war module</name>
 
   <dependencies>
     <dependency>
@@ -29,14 +29,14 @@
         <!-- ================= bw-wfmodules-rw ================= -->
 
         <configuration>
-          <moduleName>org.bedework.calendar.rw-ear</moduleName>
+          <moduleName>org.bedework.calendar.rw-war</moduleName>
           <noArtifact>true</noArtifact>
 
           <moduleDependencies>
             <!-- ================= read-only modules ============= -->
 
             <moduleDependency>
-              <name>org.bedework.calendar.ro-ear</name>
+              <name>org.bedework.calendar.ro-war</name>
             </moduleDependency>
 
             <!-- ================ bw-util-hibernate ================ -->
