@@ -7,7 +7,7 @@
   <parent>
     <artifactId>bw-wfmodules</artifactId>
     <groupId>org.bedework.deploy</groupId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.2</version>
   </parent>
 
   <artifactId>bw-wfmodules-util-hibernate</artifactId>
@@ -17,18 +17,6 @@
     <dependency>
       <groupId>org.bedework</groupId>
       <artifactId>bw-util-hibernate</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.derby</groupId>
-      <artifactId>derbynet</artifactId>
-      <version>10.8.2.2</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.derby</groupId>
-      <artifactId>derby</artifactId>
-      <version>10.8.2.2</version>
     </dependency>
   </dependencies>
 
@@ -44,23 +32,11 @@
           <noArtifact>true</noArtifact>
 
           <jarResources>
-            <fileInfo>
+            <jarResource>
               <groupId>org.bedework</groupId>
               <artifactId>bw-util-hibernate</artifactId>
               <version>${bw-util-hibernate.version}</version>
-            </fileInfo>
-
-            <fileInfo>
-              <groupId>org.apache.derby</groupId>
-              <artifactId>derbynet</artifactId>
-              <version>10.8.2.2</version>
-            </fileInfo>
-
-            <fileInfo>
-              <groupId>org.apache.derby</groupId>
-              <artifactId>derby</artifactId>
-              <version>10.8.2.2</version>
-            </fileInfo>
+            </jarResource>
           </jarResources>
 
           <moduleDependencies>
@@ -86,10 +62,6 @@
 
             <moduleDependency>
               <name>org.bedework.org.hibernate.core</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.com.h2database.h2</name>
             </moduleDependency>
 
             <moduleDependency>
