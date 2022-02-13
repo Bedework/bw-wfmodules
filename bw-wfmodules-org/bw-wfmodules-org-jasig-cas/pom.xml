@@ -7,10 +7,12 @@
   <parent>
     <artifactId>bw-wfmodules-org</artifactId>
     <groupId>org.bedework.deploy</groupId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>bw-wfmodules-jasig-cas</artifactId>
+  <name>bw-wfmodules-jasig-cas</name>
+  <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
@@ -38,6 +40,10 @@
             </jarDependency>
           </jarDependencies>
         </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
       </plugin>
     </plugins>
   </build>
