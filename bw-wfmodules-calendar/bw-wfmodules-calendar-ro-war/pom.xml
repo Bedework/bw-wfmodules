@@ -213,6 +213,26 @@
               <name>org.bedework.calendar.client.util</name>
             </moduleDependency>
 
+            <!-- ============== rw modules needed until the
+                 Configuration impl is split into ro and rw
+                 ========== -->
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.chgnote</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.dumprestore</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.inoutsched</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.tools</name>
+            </moduleDependency>
+
             <!-- ============== others ========== -->
 
             <moduleDependency>
