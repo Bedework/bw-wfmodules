@@ -8,8 +8,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="bw-calendar-client-admin" />
-    <orderEntry type="module" module-name="bw-calendar-client-rw" />
+    <orderEntry type="library" name="Maven: org.bedework.bwwebcl:bw-calendar-client-admin:4.0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.bedework.bwwebcl:bw-calendar-client-rw:4.0.1-SNAPSHOT" level="project" />
     <orderEntry type="module" module-name="bw-access" />
     <orderEntry type="module" module-name="bw-util-caching" />
     <orderEntry type="module" module-name="bw-calendar-facade" />
@@ -86,8 +86,8 @@
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.26" level="project" />
     <orderEntry type="library" name="Maven: javax.xml.ws:jaxws-api:2.3.1" level="project" />
     <orderEntry type="library" name="Maven: javax.annotation:javax.annotation-api:1.3.2" level="project" />
-    <orderEntry type="module" module-name="bw-calendar-client-appcommon" />
-    <orderEntry type="module" module-name="bw-calendar-client-util" />
+    <orderEntry type="library" name="Maven: org.bedework.bwwebcl:bw-calendar-client-appcommon:4.0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.bedework.bwwebcl:bw-calendar-client-util:4.0.1-SNAPSHOT" level="project" />
     <orderEntry type="module" module-name="bw-util-servlet" />
     <orderEntry type="module" module-name="bw-util-servlet-filters" />
     <orderEntry type="module" module-name="bw-util-indexing" />

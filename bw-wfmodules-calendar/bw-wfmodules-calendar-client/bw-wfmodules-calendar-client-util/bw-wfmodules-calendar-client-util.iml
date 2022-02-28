@@ -8,7 +8,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="bw-calendar-client-util" />
+    <orderEntry type="library" name="Maven: org.bedework.bwwebcl:bw-calendar-client-util:4.0.1-SNAPSHOT" level="project" />
     <orderEntry type="module" module-name="bw-util-logging" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.0" level="project" />
     <orderEntry type="module" module-name="bw-util-misc" />
