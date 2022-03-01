@@ -50,6 +50,10 @@
             <moduleDependency>
               <name>org.bedework.util.jmx</name>
             </moduleDependency>
+
+            <moduleDependency>
+              <name>org.dom4j</name>
+            </moduleDependency>
           </moduleDependencies>
         </configuration>
       </plugin>
