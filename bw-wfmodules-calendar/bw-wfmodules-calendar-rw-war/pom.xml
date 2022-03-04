@@ -95,6 +95,20 @@
               <name>org.bedework.calendar.client.web.rw</name>
             </moduleDependency>
 
+            <!-- ============== keycloak saml servlet filter ========== -->
+
+            <moduleDependency>
+              <name>org.keycloak.keycloak-saml-servlet-filter-adapter</name>
+              <optional>true</optional>
+            </moduleDependency>
+
+            <!-- ============== cas servlet filter ========== -->
+
+            <moduleDependency>
+              <name>org.bedework.org.jasig.cas.client</name>
+              <optional>true</optional>
+            </moduleDependency>
+
             <!-- ============== others ========== -->
 
             <moduleDependency>

@@ -21,7 +21,6 @@
     <module>bw-wfmodules-org-freemarker</module>
     <module>bw-wfmodules-org-hibernate-core</module>
     <module>bw-wfmodules-org-imgscalr-lib</module>
-    <module>bw-wfmodules-org-jasig-cas</module>
     <module>bw-wfmodules-org-jolokia-core</module>
     <module>bw-wfmodules-org-opensearch-opensearch</module>
     <module>bw-wfmodules-org-opensearch-opensearch-hlclient</module>
