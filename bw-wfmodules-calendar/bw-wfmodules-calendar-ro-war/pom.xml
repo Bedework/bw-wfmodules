@@ -210,6 +210,10 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.calendar.client.taglib</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.calendar.client.util</name>
             </moduleDependency>
 

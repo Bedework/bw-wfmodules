@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.bedework</groupId>
     <artifactId>bedework-parent</artifactId>
-    <version>21</version>
+    <version>22-SNAPSHOT</version>
   </parent>
 
   <groupId>org.bedework.deploy</groupId>
@@ -63,6 +63,7 @@
     <module>bw-wfmodules-xml</module>
     <module>wfmodulesutil</module>
     <module>bw-wfmodules-logs</module>
+    <module>bw-wfmodules-webcache</module>
   </modules>
 
   <build>
