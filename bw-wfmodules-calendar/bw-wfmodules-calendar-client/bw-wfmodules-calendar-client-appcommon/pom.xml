@@ -96,7 +96,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.org.apache.struts.taglib</name>
+              <name>org.bedework.org.apache.commons.commons.text</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>
