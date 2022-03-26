@@ -90,6 +90,14 @@
             <moduleDependency>
               <name>javax.servlet.jsp.api</name>
             </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.apache.struts.core</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.apache.struts.taglib</name>
+            </moduleDependency>
           </moduleDependencies>
         </configuration>
       </plugin>
