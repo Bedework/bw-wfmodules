@@ -37,6 +37,12 @@
               <version>${commons.text.version}</version>
             </jarResource>
           </jarResources>
+
+          <moduleDependencies>
+            <moduleDependency>
+              <name>org.bedework.commons.lang3</name>
+            </moduleDependency>
+          </moduleDependencies>
         </configuration>
       </plugin>
 
