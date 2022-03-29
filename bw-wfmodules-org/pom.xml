@@ -16,6 +16,7 @@
     <module>bw-wfmodules-org-apache-commons-commons-text</module>
     <module>bw-wfmodules-org-apache-commons-commons-csv</module>
     <module>bw-wfmodules-org-apache-jdkim-library</module>
+    <module>bw-wfmodules-org-apache-struts2-core</module>
     <module>bw-wfmodules-org-apache-struts-core</module>
     <module>bw-wfmodules-org-apache-struts-taglib</module>
     <module>bw-wfmodules-org-freemarker</module>
