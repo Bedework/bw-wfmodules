@@ -46,6 +46,7 @@
     <module>bw-wfmodules-ical4j-vcard</module>
     <module>bw-wfmodules-jsforj</module>
     <module>bw-wfmodules-logging</module>
+    <module>bw-wfmodules-logs</module>
     <module>bw-wfmodules-notifier</module>
     <module>bw-wfmodules-org</module>
     <module>bw-wfmodules-selfreg</module>
@@ -59,11 +60,10 @@
     <module>bw-wfmodules-util-security</module>
     <module>bw-wfmodules-util-tz</module>
     <module>bw-wfmodules-util2</module>
+    <module>bw-wfmodules-webcache</module>
     <module>bw-wfmodules-webdav</module>
     <module>bw-wfmodules-xml</module>
     <module>wfmodulesutil</module>
-    <module>bw-wfmodules-logs</module>
-    <module>bw-wfmodules-webcache</module>
   </modules>
 
   <build>

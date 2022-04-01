@@ -17,10 +17,11 @@
     <module>bw-wfmodules-calendar-client-admin</module>
     <module>bw-wfmodules-calendar-client-appcommon</module>
     <module>bw-wfmodules-calendar-client-rw</module>
+    <module>bw-wfmodules-calendar-client-struts</module>
+    <module>bw-wfmodules-calendar-client-taglib</module>
     <module>bw-wfmodules-calendar-client-util</module>
     <module>bw-wfmodules-calendar-client-web-admin</module>
-    <module>bw-wfmodules-calendar-client-web-rw</module>
     <module>bw-wfmodules-calendar-client-web-ro</module>
-    <module>bw-wfmodules-calendar-client-taglib</module>
+    <module>bw-wfmodules-calendar-client-web-rw</module>
   </modules>
 </project>

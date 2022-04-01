@@ -48,6 +48,10 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.calendar.client.struts</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.calendar.client.rw</name>
             </moduleDependency>
 
