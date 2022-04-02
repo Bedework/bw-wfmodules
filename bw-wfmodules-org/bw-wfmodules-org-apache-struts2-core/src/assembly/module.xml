@@ -6,10 +6,10 @@
   <formats>
     <format>zip</format>
   </formats>
-  <baseDirectory>org/bedework/org/apache/struts/core</baseDirectory>
+  <baseDirectory>org/bedework/org/apache/struts2/core</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${bw-build-module-base}/org/bedework/org/apache/struts/core</directory>
+      <directory>${bw-build-module-base}/org/bedework/org/apache/struts2/core</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>
