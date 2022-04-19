@@ -18,7 +18,6 @@
     <module>bw-wfmodules-org-apache-jdkim-library</module>
     <module>bw-wfmodules-org-apache-struts2-core</module>
     <module>bw-wfmodules-org-apache-struts-core</module>
-    <module>bw-wfmodules-org-apache-struts-taglib</module>
     <module>bw-wfmodules-org-freemarker</module>
     <module>bw-wfmodules-org-hibernate-core</module>
     <module>bw-wfmodules-org-imgscalr-lib</module>

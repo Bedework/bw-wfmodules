@@ -18,6 +18,11 @@
       <groupId>org.bedework.bwwebcl</groupId>
       <artifactId>bw-calendar-client-struts</artifactId>
     </dependency>
+
+    <dependency>
+      <groupId>org.apache.struts</groupId>
+      <artifactId>struts-taglib</artifactId>
+    </dependency>
   </dependencies>
 
   <build>
@@ -36,6 +41,12 @@
               <groupId>org.bedework.bwwebcl</groupId>
               <artifactId>bw-calendar-client-struts</artifactId>
               <version>${bw-calendar-client.version}</version>
+            </jarResource>
+
+            <jarResource>
+              <groupId>org.apache.struts</groupId>
+              <artifactId>struts-taglib</artifactId>
+              <version>${apache.struts.version}</version>
             </jarResource>
           </jarResources>
 
@@ -62,10 +73,6 @@
 
             <moduleDependency>
               <name>org.bedework.org.apache.struts.core</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.org.apache.struts.taglib</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>
