@@ -48,6 +48,11 @@
               <version>${jaxen.version}</version>
             </jarResource>
           </jarResources>
+          <moduleDependencies>
+            <moduleDependency>
+              <name>javax.servlet.api</name>
+            </moduleDependency>
+          </moduleDependencies>
         </configuration>
       </plugin>
 
