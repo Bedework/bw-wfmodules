@@ -23,5 +23,6 @@
     <module>bw-wfmodules-calendar-client-web-admin</module>
     <module>bw-wfmodules-calendar-client-web-ro</module>
     <module>bw-wfmodules-calendar-client-web-rw</module>
+    <module>bw-wfmodules-calendar-client-struts2</module>
   </modules>
 </project>
