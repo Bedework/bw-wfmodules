@@ -87,6 +87,10 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.apache.logging.log4j.api</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>wildflyee.api</name>
             </moduleDependency>
           </moduleDependencies>
