@@ -52,7 +52,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.calendar.client.struts</name>
+              <name>org.bedework.calendar.client.struts2</name>
             </moduleDependency>
 
             <moduleDependency>
@@ -100,7 +100,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.org.apache.struts.core</name>
+              <name>org.bedework.org.apache.struts2.core</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

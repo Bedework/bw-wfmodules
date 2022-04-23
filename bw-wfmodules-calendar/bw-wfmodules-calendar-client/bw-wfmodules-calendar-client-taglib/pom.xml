@@ -42,6 +42,14 @@
             <moduleDependency>
               <name>org.bedework.calendar.client.web.ro</name>
             </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.commons.beanutils</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>javax.servlet.jstl.api</name>
+            </moduleDependency>
           </moduleDependencies>
         </configuration>
       </plugin>
