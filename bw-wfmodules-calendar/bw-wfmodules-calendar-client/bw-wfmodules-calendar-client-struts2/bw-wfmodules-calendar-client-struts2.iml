@@ -11,6 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.bedework.bwwebcl:bw-calendar-client-struts:4.1.0-SNAPSHOT" level="project" />
     <orderEntry type="module" module-name="bw-calendar-client-util" />
     <orderEntry type="module" module-name="bw-util-logging" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.0" level="project" />
