@@ -50,6 +50,10 @@
             <moduleDependency>
               <name>org.bedework.jsforj</name>
             </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.schemaorgforj</name>
+            </moduleDependency>
           </moduleDependencies>
         </configuration>
       </plugin>
