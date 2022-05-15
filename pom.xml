@@ -45,6 +45,7 @@
     <module>bw-wfmodules-ical4j</module>
     <module>bw-wfmodules-ical4j-vcard</module>
     <module>bw-wfmodules-jsforj</module>
+    <module>bw-wfmodules-json</module>
     <module>bw-wfmodules-logging</module>
     <module>bw-wfmodules-logs</module>
     <module>bw-wfmodules-notifier</module>
@@ -64,6 +65,7 @@
     <module>bw-wfmodules-webdav</module>
     <module>bw-wfmodules-xml</module>
     <module>wfmodulesutil</module>
+    <module>bw-wfmodules-schemaorgforj</module>
   </modules>
 
   <build>
