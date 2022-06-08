@@ -104,6 +104,11 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.org.hibernate.core</name>
+              <optional>true</optional>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>wildflyee.api</name>
             </moduleDependency>
           </moduleDependencies>
