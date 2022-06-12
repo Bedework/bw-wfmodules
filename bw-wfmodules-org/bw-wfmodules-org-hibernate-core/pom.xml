@@ -15,7 +15,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.bedework</groupId>
+      <groupId>org.hibernate</groupId>
       <artifactId>hibernate-core</artifactId>
     </dependency>
 
@@ -40,9 +40,9 @@
                  classloading patch
               -->
             <fileInfo>
-              <groupId>org.bedework</groupId>
+              <groupId>org.hibernate</groupId>
               <artifactId>hibernate-core</artifactId>
-              <version>${hibernate.patched.version}</version>
+              <version>${hibernate.version}</version>
             </fileInfo>
 
             <fileInfo>
