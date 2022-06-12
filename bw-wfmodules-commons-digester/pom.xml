@@ -10,7 +10,7 @@
     <version>1.0.5-SNAPSHOT</version>
   </parent>
 
-  <artifactId>bw-wfmodules-digester</artifactId>
+  <artifactId>bw-wfmodules-commons-digester</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
