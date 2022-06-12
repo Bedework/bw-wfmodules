@@ -10,7 +10,7 @@
     <version>1.0.5-SNAPSHOT</version>
   </parent>
 
-  <artifactId>bw-wfmodules-sun-mail</artifactId>
+  <artifactId>bw-wfmodules-com-sun-mail</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
