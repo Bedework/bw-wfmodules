@@ -25,5 +25,7 @@
     <module>bw-wfmodules-calendar-engine-inoutsched</module>
     <module>bw-wfmodules-calendar-engine-interfaces</module>
     <module>bw-wfmodules-calendar-engine-tools</module>
+    <module>bw-wfmodules-calendar-engine-ro</module>
+    <module>bw-wfmodules-calendar-engine-rw</module>
   </modules>
 </project>

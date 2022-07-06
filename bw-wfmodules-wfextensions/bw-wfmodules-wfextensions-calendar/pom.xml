@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.bedework.deploy</groupId>
+    <artifactId>bw-wfmodules-wfextensions</artifactId>
+    <version>1.0.5-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>bw-wfmodules-wfextensions-calendar</artifactId>
+  <packaging>pom</packaging>
+
+
+  <dependencies>
+    <dependency>
+      <groupId>org.bedework</groupId>
+      <artifactId>bw-wf-calendar-subsystem</artifactId>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
+
+        <configuration>
+          <moduleName>org.bedework.subsystem.extensions.calendar</moduleName>
+
+          <noArtifact>true</noArtifact>
+
+          <jarResources>
+            <jarResource>
+              <groupId>org.bedework</groupId>
+              <artifactId>bw-wf-calendar-subsystem</artifactId>
+              <version>${bw-wf-extensions.version}</version>
+            </jarResource>
+          </jarResources>
+
+          <moduleDependencies>
+            <moduleDependency>
+              <name>org.bedework.util.jmx</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.rw</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.jboss.staxmapper</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.jboss.as.controller</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.jboss.as.ee</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.jboss.as.server</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.jboss.modules</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.jboss.msc</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.jboss.logging</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.jboss.vfs</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.jboss.metadata.common</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>javax.api</name>
+            </moduleDependency>
+          </moduleDependencies>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+</project>

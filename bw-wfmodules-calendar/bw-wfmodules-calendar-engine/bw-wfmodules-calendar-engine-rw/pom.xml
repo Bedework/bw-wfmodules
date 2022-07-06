@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.bedework.deploy</groupId>
+    <artifactId>bw-wfmodules-calendar-engine</artifactId>
+    <version>1.0.5-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>bw-wfmodules-calendar-engine-rw</artifactId>
+  <packaging>pom</packaging>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
+
+        <configuration>
+          <moduleName>org.bedework.calendar.engine.rw</moduleName>
+          <noArtifact>true</noArtifact>
+
+          <moduleDependencies>
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.ro</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.api</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.chgnote</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.core.rw</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.dumprestore</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.inoutsched</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.engine.tools</name>
+            </moduleDependency>
+          </moduleDependencies>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+</project>

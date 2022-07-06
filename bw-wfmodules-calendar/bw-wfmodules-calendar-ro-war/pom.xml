@@ -180,23 +180,7 @@
             <!-- ============== engine ========== -->
 
             <moduleDependency>
-              <name>org.bedework.calendar.engine.caldav</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.calendar.engine.core.ro</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.calendar.engine.impl</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.calendar.engine.indexer</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.calendar.engine.interfaces</name>
+              <name>org.bedework.calendar.engine.ro</name>
             </moduleDependency>
 
             <!-- ============== client ========== -->
@@ -215,26 +199,6 @@
 
             <moduleDependency>
               <name>org.bedework.calendar.client.util</name>
-            </moduleDependency>
-
-            <!-- ============== rw modules needed until the
-                 Configuration impl is split into ro and rw
-                 ========== -->
-
-            <moduleDependency>
-              <name>org.bedework.calendar.engine.chgnote</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.calendar.engine.dumprestore</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.calendar.engine.inoutsched</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.calendar.engine.tools</name>
             </moduleDependency>
 
             <!-- ============== others ========== -->
