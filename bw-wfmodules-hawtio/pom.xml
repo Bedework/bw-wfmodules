@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.bedework.deploy</groupId>
+    <artifactId>bw-wfmodules</artifactId>
+    <version>1.0.5-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>bw-wfmodules-hawtio</artifactId>
+  <packaging>pom</packaging>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.checkerframework</groupId>
+      <artifactId>checker-qual</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.errorprone</groupId>
+      <artifactId>error_prone_annotations</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.googlecode.json-simple</groupId>
+      <artifactId>json-simple</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>jsr305</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.j2objc</groupId>
+      <artifactId>j2objc-annotations</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>io.hawt</groupId>
+      <artifactId>hawtio-core</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>io.hawt</groupId>
+      <artifactId>hawtio-system</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>io.hawt</groupId>
+      <artifactId>hawtio-util</artifactId>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
+
+        <configuration>
+          <moduleName>org.bedework.hawtio</moduleName>
+          <noArtifact>true</noArtifact>
+
+          <jarResources>
+            <fileInfo>
+              <groupId>org.checkerframework</groupId>
+              <artifactId>checker-qual</artifactId>
+              <version>${checker-qual.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>com.google.errorprone</groupId>
+              <artifactId>error_prone_annotations</artifactId>
+              <version>${error_prone_annotations.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.json</groupId>
+              <artifactId>json</artifactId>
+              <version>${json.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>com.googlecode.json-simple</groupId>
+              <artifactId>json-simple</artifactId>
+              <version>${json-simple.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>com.google.code.findbugs</groupId>
+              <artifactId>jsr305</artifactId>
+              <version>${jsr305.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>com.google.j2objc</groupId>
+              <artifactId>j2objc-annotations</artifactId>
+              <version>${j2objc-annotations.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>io.hawt</groupId>
+              <artifactId>hawtio-core</artifactId>
+              <version>${hawtio.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>io.hawt</groupId>
+              <artifactId>hawtio-system</artifactId>
+              <version>${hawtio.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>io.hawt</groupId>
+              <artifactId>hawtio-util</artifactId>
+              <version>${hawtio.version}</version>
+            </fileInfo>
+          </jarResources>
+
+          <moduleDependencies>
+            <moduleDependency>
+              <name>org.jboss.logging</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.slf4j</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.commons.codec</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.commons.io</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.apache.httpcomponents.httpclient</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.apache.httpcomponents.httpcore</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.jolokia.core</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>com.google.guava</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>com.google.guava.failureaccess</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>wildflyee.api</name>
+            </moduleDependency>
+          </moduleDependencies>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+</project>

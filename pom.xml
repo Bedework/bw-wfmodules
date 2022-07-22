@@ -67,6 +67,7 @@
     <module>wfmodulesutil</module>
     <module>bw-wfmodules-schemaorgforj</module>
     <module>bw-wfmodules-wfextensions</module>
+    <module>bw-wfmodules-hawtio</module>
   </modules>
 
   <build>
