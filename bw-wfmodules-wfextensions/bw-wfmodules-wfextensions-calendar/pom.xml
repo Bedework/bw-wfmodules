@@ -15,7 +15,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.bedework</groupId>
+      <groupId>org.bedework.wfextensions</groupId>
       <artifactId>bw-wf-calendar-subsystem</artifactId>
     </dependency>
   </dependencies>
@@ -27,13 +27,13 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.subsystem.extensions.calendar</moduleName>
+          <moduleName>org.bedework.wfextensions.bw-wf-calendar-subsystem</moduleName>
 
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <jarResource>
-              <groupId>org.bedework</groupId>
+              <groupId>org.bedework.wfextensions</groupId>
               <artifactId>bw-wf-calendar-subsystem</artifactId>
               <version>${bw-wf-extensions.version}</version>
             </jarResource>

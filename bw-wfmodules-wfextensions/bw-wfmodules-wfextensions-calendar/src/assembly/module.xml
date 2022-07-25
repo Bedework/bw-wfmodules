@@ -6,10 +6,10 @@
   <formats>
     <format>zip</format>
   </formats>
-  <baseDirectory>org/bedework/subsystem/extensions/calendar</baseDirectory>
+  <baseDirectory>org/bedework/wfextensions/bw-wf-calendar-subsystem</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${bw-build-module-base}/org/bedework/subsystem/extensions/calendar</directory>
+      <directory>${bw-build-module-base}/org/bedework/wfextensions/bw-wf-calendar-subsystem</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>
