@@ -49,6 +49,18 @@
             </fileInfo>
 
             <fileInfo>
+              <groupId>org.apache.httpcomponents</groupId>
+              <artifactId>httpasyncclient</artifactId>
+              <version>4.1.4</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.apache.httpcomponents</groupId>
+              <artifactId>httpcore-nio</artifactId>
+              <version>4.4.12</version>
+            </fileInfo>
+
+            <fileInfo>
               <groupId>org.opensearch.plugin</groupId>
               <artifactId>mapper-extras-client</artifactId>
               <version>${opensearch.version}</version>
@@ -79,21 +91,9 @@
             </fileInfo>
 
             <fileInfo>
-              <groupId>org.apache.httpcomponents</groupId>
-              <artifactId>httpasyncclient</artifactId>
-              <version>4.1.4</version>
-            </fileInfo>
-
-            <fileInfo>
-              <groupId>org.apache.httpcomponents</groupId>
-              <artifactId>httpcore-nio</artifactId>
-              <version>4.4.12</version>
-            </fileInfo>
-
-            <fileInfo>
               <groupId>com.github.spullara.mustache.java</groupId>
               <artifactId>compiler</artifactId>
-              <version>0.9.6</version>
+              <version>0.9.10</version>
             </fileInfo>
           </jarResources>
 

@@ -20,33 +20,135 @@
     </dependency>
 
     <dependency>
-      <groupId>com.fasterxml.jackson.dataformat</groupId>
-      <artifactId>jackson-dataformat-smile</artifactId>
-      <version>2.10.4</version>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-core</artifactId>
+      <version>${lucene.version}</version>
     </dependency>
 
     <dependency>
-      <groupId>com.fasterxml.jackson.dataformat</groupId>
-      <artifactId>jackson-dataformat-cbor</artifactId>
-      <version>2.10.4</version>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-analysis-common</artifactId>
+      <version>${lucene.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-backward-codecs</artifactId>
+      <version>${lucene.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-grouping</artifactId>
+      <version>${lucene.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-highlighter</artifactId>
+      <version>${lucene.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-join</artifactId>
+      <version>${lucene.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-memory</artifactId>
+      <version>${lucene.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-misc</artifactId>
+      <version>${lucene.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-queries</artifactId>
+      <version>${lucene.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-queryparser</artifactId>
+      <version>${lucene.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-sandbox</artifactId>
+      <version>${lucene.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-spatial-extras</artifactId>
+      <version>${lucene.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-spatial3d</artifactId>
+      <version>${lucene.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-suggest</artifactId>
+      <version>${lucene.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.opensearch</groupId>
+      <artifactId>opensearch-cli</artifactId>
+      <version>${opensearch.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>net.sf.jopt-simple</groupId>
+      <artifactId>jopt-simple</artifactId>
+      <version>${jopt-simple.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.carrotsearch</groupId>
+      <artifactId>hppc</artifactId>
+      <version>${carrotsearch-hppc.version}</version>
     </dependency>
 
     <dependency>
       <groupId>joda-time</groupId>
       <artifactId>joda-time</artifactId>
-      <version>2.10.10</version>
+      <version>${joda-time.version}</version>
     </dependency>
 
     <dependency>
       <groupId>com.tdunning</groupId>
       <artifactId>t-digest</artifactId>
-      <version>3.2</version>
+      <version>${t-digest.version}</version>
     </dependency>
 
     <dependency>
       <groupId>org.hdrhistogram</groupId>
       <artifactId>HdrHistogram</artifactId>
-      <version>2.1.9</version>
+      <version>${HdrHistogram.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.fasterxml.jackson.dataformat</groupId>
+      <artifactId>jackson-dataformat-smile</artifactId>
+      <version>${jackson.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.fasterxml.jackson.dataformat</groupId>
+      <artifactId>jackson-dataformat-cbor</artifactId>
+      <version>${jackson.version}</version>
     </dependency>
   </dependencies>
 
@@ -86,57 +188,21 @@
             </fileInfo>
 
             <fileInfo>
-              <groupId>org.opensearch</groupId>
-              <artifactId>opensearch-geo</artifactId>
-              <version>${opensearch.version}</version>
-            </fileInfo>
-
-            <fileInfo>
-              <groupId>org.opensearch</groupId>
-              <artifactId>opensearch-cli</artifactId>
-              <version>${opensearch.version}</version>
-            </fileInfo>
-
-            <fileInfo>
               <groupId>com.fasterxml.jackson.dataformat</groupId>
               <artifactId>jackson-dataformat-smile</artifactId>
-              <version>2.10.4</version>
+              <version>${jackson.version}</version>
             </fileInfo>
 
             <fileInfo>
               <groupId>com.fasterxml.jackson.dataformat</groupId>
               <artifactId>jackson-dataformat-cbor</artifactId>
-              <version>2.10.4</version>
+              <version>${jackson.version}</version>
             </fileInfo>
 
             <fileInfo>
-              <groupId>net.sf.jopt-simple</groupId>
-              <artifactId>jopt-simple</artifactId>
-              <version>5.0.2</version>
-            </fileInfo>
-
-            <fileInfo>
-              <groupId>com.carrotsearch</groupId>
-              <artifactId>hppc</artifactId>
-              <version>0.8.1</version>
-            </fileInfo>
-
-            <fileInfo>
-              <groupId>joda-time</groupId>
-              <artifactId>joda-time</artifactId>
-              <version>2.10.10</version>
-            </fileInfo>
-
-            <fileInfo>
-              <groupId>com.tdunning</groupId>
-              <artifactId>t-digest</artifactId>
-              <version>3.2</version>
-            </fileInfo>
-
-            <fileInfo>
-              <groupId>org.hdrhistogram</groupId>
-              <artifactId>HdrHistogram</artifactId>
-              <version>2.1.9</version>
+              <groupId>org.opensearch</groupId>
+              <artifactId>opensearch-geo</artifactId>
+              <version>${opensearch.version}</version>
             </fileInfo>
 
             <fileInfo>
@@ -147,7 +213,7 @@
 
             <fileInfo>
               <groupId>org.apache.lucene</groupId>
-              <artifactId>lucene-analyzers-common</artifactId>
+              <artifactId>lucene-analysis-common</artifactId>
               <version>${lucene.version}</version>
             </fileInfo>
 
@@ -221,6 +287,42 @@
               <groupId>org.apache.lucene</groupId>
               <artifactId>lucene-suggest</artifactId>
               <version>${lucene.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.opensearch</groupId>
+              <artifactId>opensearch-cli</artifactId>
+              <version>${opensearch.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>net.sf.jopt-simple</groupId>
+              <artifactId>jopt-simple</artifactId>
+              <version>${jopt-simple.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>com.carrotsearch</groupId>
+              <artifactId>hppc</artifactId>
+              <version>${carrotsearch-hppc.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>joda-time</groupId>
+              <artifactId>joda-time</artifactId>
+              <version>${joda-time.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>com.tdunning</groupId>
+              <artifactId>t-digest</artifactId>
+              <version>${t-digest.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.hdrhistogram</groupId>
+              <artifactId>HdrHistogram</artifactId>
+              <version>${HdrHistogram.version}</version>
             </fileInfo>
           </jarResources>
 
