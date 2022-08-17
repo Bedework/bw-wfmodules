@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <artifactId>bw-wfmodules-net</artifactId>
+    <groupId>org.bedework.deploy</groupId>
+    <version>1.0.5-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>bw-wfmodules-saxonhe</artifactId>
+  <packaging>pom</packaging>
+
+  <dependencies>
+    <dependency>
+      <groupId>net.sf.saxon</groupId>
+      <artifactId>Saxon-HE</artifactId>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <dependency>
+      <groupId>org.xmlresolver</groupId>
+      <artifactId>xmlresolver</artifactId>
+      <version>${xmlresolver.version}</version>
+    </dependency>
+
+    <!-- Can't manage the classifier yet
+    <dependency>
+      <groupId>org.xmlresolver</groupId>
+      <artifactId>xmlresolver</artifactId>
+      <version>${xmlresolver.version}</version>
+      <classifier>data</classifier>
+    </dependency>
+
+    <dependency>
+      <groupId>org.jdom</groupId>
+      <artifactId>jdom2</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>xom</groupId>
+      <artifactId>xom</artifactId>
+      <version>${xom-version}</version>
+      <optional>true</optional>
+    </dependency>
+
+    <dependency>
+      <groupId>com.ibm.icu</groupId>
+      <artifactId>icu4j</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>jline</groupId>
+      <artifactId>jline</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.ws.commons.axiom</groupId>
+      <artifactId>axiom</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.ws.commons.axiom</groupId>
+      <artifactId>axiom-dom</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.ws.commons.axiom</groupId>
+      <artifactId>axiom-impl</artifactId>
+    </dependency>
+    -->
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
+
+        <configuration>
+          <moduleName>org.bedework.net.saxonhe</moduleName>
+          <noArtifact>true</noArtifact>
+
+          <jarResources>
+            <jarResource>
+              <groupId>net.sf.saxon</groupId>
+              <artifactId>Saxon-HE</artifactId>
+              <version>${saxon-he.version}</version>
+            </jarResource>
+
+
+            <jarResource>
+              <groupId>org.xmlresolver</groupId>
+              <artifactId>xmlresolver</artifactId>
+              <version>${xmlresolver.version}</version>
+            </jarResource>
+<!--
+            <jarResource>
+              <groupId>org.xmlresolver</groupId>
+              <artifactId>xmlresolver</artifactId>
+              <version>${xmlresolver.version}</version>
+              <classifier>data</classifier>
+            </jarResource>
+
+            <jarResource>
+              <groupId>org.jdom</groupId>
+              <artifactId>jdom</artifactId>
+              <version>${jdom.version}</version>
+              <optional>true</optional>
+            </jarResource>
+
+            <jarResource>
+              <groupId>org.jdom</groupId>
+              <artifactId>jdom2</artifactId>
+              <version>${jdom.version}</version>
+              <optional>true</optional>
+            </jarResource>
+
+            <jarResource>
+              <groupId>com.ibm.icu</groupId>
+              <artifactId>icu4j</artifactId>
+              <version>${icu4j.version}</version>
+              <optional>true</optional>
+            </jarResource>
+
+            <jarResource>
+              <groupId>jline</groupId>
+              <artifactId>jline</artifactId>
+              <version>${jline.version}</version>
+              <optional>true</optional>
+            </jarResource>
+
+            <jarResource>
+              <groupId>org.apache.ws.commons.axiom</groupId>
+              <artifactId>axiom</artifactId>
+              <version>${axiom.version}</version>
+              <optional>true</optional>
+            </jarResource>
+
+            <jarResource>
+              <groupId>org.apache.ws.commons.axiom</groupId>
+              <artifactId>axiom-dom</artifactId>
+              <version>${axiom.version}</version>
+              <optional>true</optional>
+            </jarResource>
+
+            <jarResource>
+              <groupId>org.apache.ws.commons.axiom</groupId>
+              <artifactId>axiom-impl</artifactId>
+              <version>${axiom.version}</version>
+              <optional>true</optional>
+            </jarResource>
+            -->
+          </jarResources>
+
+          <moduleDependencies>
+            <moduleDependency>
+              <name>org.dom4j</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.apache.httpcomponents.httpclient</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.apache.httpcomponents.httpcore</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>wildflyee.api</name>
+            </moduleDependency>
+          </moduleDependencies>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+</project>

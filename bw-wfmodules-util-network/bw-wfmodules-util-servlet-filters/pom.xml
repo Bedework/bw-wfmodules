@@ -43,11 +43,17 @@
             <moduleDependency>
               <name>javax.servlet.api</name>
             </moduleDependency>
+
             <moduleDependency>
               <name>org.bedework.logging</name>
             </moduleDependency>
+
             <moduleDependency>
               <name>org.bedework.util.servlet</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.net.saxonhe</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

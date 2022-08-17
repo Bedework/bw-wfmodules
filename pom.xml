@@ -68,6 +68,7 @@
     <module>bw-wfmodules-schemaorgforj</module>
     <module>bw-wfmodules-wfextensions</module>
     <module>bw-wfmodules-hawtio</module>
+    <module>bw-wfmodules-net</module>
   </modules>
 
   <build>
