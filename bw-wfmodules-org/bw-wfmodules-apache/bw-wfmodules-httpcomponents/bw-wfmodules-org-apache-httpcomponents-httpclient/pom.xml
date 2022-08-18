@@ -2,21 +2,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>bw-wfmodules-calendar-engine</artifactId>
+    <artifactId>bw-wfmodules-httpcomponents</artifactId>
     <groupId>org.bedework.deploy</groupId>
     <version>1.0.5-SNAPSHOT</version>
   </parent>
-  <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>bw-wfmodules-calendar-engine-tools</artifactId>
+  <artifactId>bw-wfmodules-org-apache-httpcomponents-httpclient</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
-      <groupId>org.bedework.caleng</groupId>
-      <artifactId>bw-calendar-engine-tools</artifactId>
-      <version>${bw-calendar-engine.version}</version>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
     </dependency>
   </dependencies>
 
@@ -27,28 +26,28 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.calendar.engine.tools</moduleName>
+          <moduleName>org.bedework.org.apache.httpcomponents.httpclient</moduleName>
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <jarResource>
-              <groupId>org.bedework.caleng</groupId>
-              <artifactId>bw-calendar-engine-tools</artifactId>
-              <version>${bw-calendar-engine.version}</version>
+              <groupId>org.apache.httpcomponents</groupId>
+              <artifactId>httpclient</artifactId>
+              <version>${http-client.version}</version>
             </jarResource>
           </jarResources>
 
           <moduleDependencies>
             <moduleDependency>
-              <name>org.bedework.calendar.common.api.rw</name>
+              <name>org.bedework.org.apache.httpcomponents.httpcore</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.org.apache.commons.commons-csv</name>
+              <name>org.bedework.commons.codec</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.org.apache.commons.commons-text</name>
+              <name>org.bedework.commons.logging</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

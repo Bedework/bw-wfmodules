@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <artifactId>bw-wfmodules</artifactId>
+    <groupId>org.bedework.deploy</groupId>
+    <version>1.0.5-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>bw-wfmodules-commons</artifactId>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>bw-wfmodules-commons-beanutils</module>
+    <module>bw-wfmodules-commons-codec</module>
+    <module>bw-wfmodules-commons-collections</module>
+    <module>bw-wfmodules-commons-digester</module>
+    <module>bw-wfmodules-commons-io</module>
+    <module>bw-wfmodules-commons-lang</module>
+    <module>bw-wfmodules-commons-logging</module>
+  </modules>
+</project>

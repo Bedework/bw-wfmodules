@@ -5,18 +5,18 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <artifactId>bw-wfmodules-util</artifactId>
+    <artifactId>bw-wfmodules-commons</artifactId>
     <groupId>org.bedework.deploy</groupId>
     <version>1.0.5-SNAPSHOT</version>
   </parent>
 
-  <artifactId>bw-wfmodules-util-misc</artifactId>
+  <artifactId>bw-wfmodules-commons-lang</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
-      <groupId>org.bedework</groupId>
-      <artifactId>bw-util-misc</artifactId>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
     </dependency>
   </dependencies>
 
@@ -27,27 +27,16 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.util.misc</moduleName>
-
+          <moduleName>org.bedework.commons.lang</moduleName>
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <jarResource>
-              <groupId>org.bedework</groupId>
-              <artifactId>bw-util-misc</artifactId>
-              <version>${bw-util.version}</version>
+              <groupId>commons-lang</groupId>
+              <artifactId>commons-lang</artifactId>
+              <version>${commons.lang.version}</version>
             </jarResource>
           </jarResources>
-
-          <moduleDependencies>
-            <moduleDependency>
-              <name>org.bedework.logging</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.org.apache.commons.commons-text</name>
-            </moduleDependency>
-          </moduleDependencies>
         </configuration>
       </plugin>
 

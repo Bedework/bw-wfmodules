@@ -2,21 +2,26 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
   <parent>
-    <artifactId>bw-wfmodules-calendar-engine</artifactId>
+    <artifactId>bw-wfmodules-commons</artifactId>
     <groupId>org.bedework.deploy</groupId>
     <version>1.0.5-SNAPSHOT</version>
   </parent>
-  <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>bw-wfmodules-calendar-engine-tools</artifactId>
+  <artifactId>bw-wfmodules-commons-digester</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
-      <groupId>org.bedework.caleng</groupId>
-      <artifactId>bw-calendar-engine-tools</artifactId>
-      <version>${bw-calendar-engine.version}</version>
+      <groupId>commons-beanutils</groupId>
+      <artifactId>commons-beanutils</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>commons-digester</groupId>
+      <artifactId>commons-digester</artifactId>
     </dependency>
   </dependencies>
 
@@ -27,28 +32,28 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.calendar.engine.tools</moduleName>
+          <moduleName>org.bedework.commons.digester</moduleName>
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <jarResource>
-              <groupId>org.bedework.caleng</groupId>
-              <artifactId>bw-calendar-engine-tools</artifactId>
-              <version>${bw-calendar-engine.version}</version>
+              <groupId>commons-digester</groupId>
+              <artifactId>commons-digester</artifactId>
+              <version>${commons.digester-version}</version>
             </jarResource>
           </jarResources>
 
           <moduleDependencies>
             <moduleDependency>
-              <name>org.bedework.calendar.common.api.rw</name>
+              <name>org.bedework.commons.beanutils</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.org.apache.commons.commons-csv</name>
+              <name>org.bedework.commons.collections</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.org.apache.commons.commons-text</name>
+              <name>org.bedework.commons.logging</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

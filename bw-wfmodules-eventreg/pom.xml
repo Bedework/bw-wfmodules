@@ -114,7 +114,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.org.apache.commons.commons.csv</name>
+              <name>org.bedework.org.apache.commons.commons-csv</name>
             </moduleDependency>
 
             <moduleDependency>

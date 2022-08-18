@@ -22,25 +22,11 @@
 
   <modules>
     <module>bw-wfmodules-access</module>
-    <module>bw-wfmodules-apache-http</module>
     <module>bw-wfmodules-caldav</module>
     <module>bw-wfmodules-calendar</module>
     <module>bw-wfmodules-carddav</module>
     <module>bw-wfmodules-category</module>
     <module>bw-wfmodules-cli</module>
-    <module>bw-wfmodules-com-fasterxml-jackson-core-annotations</module>
-    <module>bw-wfmodules-com-fasterxml-jackson-core-databind</module>
-    <module>bw-wfmodules-com-fasterxml-jackson-dataformat-yaml</module>
-    <module>bw-wfmodules-com-h2database-h2</module>
-    <module>bw-wfmodules-com-sun-mail</module>
-    <module>bw-wfmodules-commons-beanutils</module>
-    <module>bw-wfmodules-commons-codec</module>
-    <module>bw-wfmodules-commons-collections</module>
-    <module>bw-wfmodules-commons-digester</module>
-    <module>bw-wfmodules-commons-io</module>
-    <module>bw-wfmodules-commons-lang</module>
-    <module>bw-wfmodules-commons-lang3</module>
-    <module>bw-wfmodules-commons-logging</module>
     <module>bw-wfmodules-eventreg</module>
     <module>bw-wfmodules-ical4j</module>
     <module>bw-wfmodules-ical4j-vcard</module>
@@ -54,12 +40,6 @@
     <module>bw-wfmodules-synch</module>
     <module>bw-wfmodules-timezone-server</module>
     <module>bw-wfmodules-util</module>
-    <module>bw-wfmodules-util-conf</module>
-    <module>bw-wfmodules-util-hibernate</module>
-    <module>bw-wfmodules-util-index</module>
-    <module>bw-wfmodules-util-network</module>
-    <module>bw-wfmodules-util-security</module>
-    <module>bw-wfmodules-util-tz</module>
     <module>bw-wfmodules-util2</module>
     <module>bw-wfmodules-webcache</module>
     <module>bw-wfmodules-webdav</module>
@@ -69,6 +49,8 @@
     <module>bw-wfmodules-wfextensions</module>
     <module>bw-wfmodules-hawtio</module>
     <module>bw-wfmodules-net</module>
+    <module>bw-wfmodules-com</module>
+    <module>bw-wfmodules-commons</module>
   </modules>
 
   <build>
