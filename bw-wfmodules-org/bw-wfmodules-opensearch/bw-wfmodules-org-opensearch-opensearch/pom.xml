@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <artifactId>bw-wfmodules-org</artifactId>
+    <artifactId>bw-wfmodules-opensearch</artifactId>
     <groupId>org.bedework.deploy</groupId>
     <version>1.0.5-SNAPSHOT</version>
   </parent>
