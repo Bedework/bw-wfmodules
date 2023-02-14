@@ -30,6 +30,7 @@
           <moduleName>org.bedework.logs</moduleName>
 
           <noArtifact>true</noArtifact>
+          <mainClass>org.bedework.bwlogs.BwLogs</mainClass>
 
           <jarResources>
             <jarResource>
@@ -41,7 +42,23 @@
 
           <moduleDependencies>
             <moduleDependency>
+              <name>org.bedework.logging</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.args</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.util.misc</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.apache.httpcomponents.httpclient</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.apache.httpcomponents.httpcore</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>
