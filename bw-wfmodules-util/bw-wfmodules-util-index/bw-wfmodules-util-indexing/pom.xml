@@ -38,11 +38,22 @@
               <version>${bw-util-index.version}</version>
             </jarResource>
           </jarResources>
+
+          <moduleDependencies>
+            <moduleDependency>
+              <name>org.bedework.util.config</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.jmx</name>
+            </moduleDependency>
+          </moduleDependencies>
         </configuration>
       </plugin>
 
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
+        <groupId>org.apache.maven.plugins</groupId>
       </plugin>
     </plugins>
   </build>

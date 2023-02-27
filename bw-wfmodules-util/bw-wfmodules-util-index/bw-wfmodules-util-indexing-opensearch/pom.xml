@@ -45,15 +45,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.util.config</name>
-            </moduleDependency>
-
-            <moduleDependency>
               <name>org.bedework.util.indexing</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.util.jmx</name>
             </moduleDependency>
 
             <moduleDependency>
@@ -80,6 +72,7 @@
 
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
+        <groupId>org.apache.maven.plugins</groupId>
       </plugin>
     </plugins>
   </build>
