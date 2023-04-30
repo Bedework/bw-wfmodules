@@ -190,6 +190,12 @@
               <artifactId>bw-util-hibernate</artifactId>
               <version>${bw-util-hibernate.version}</version>
             </fileInfo>
+
+            <fileInfo>
+              <groupId>org.bedework</groupId>
+              <artifactId>bw-util-logging</artifactId>
+              <version>${bw-util-logging.version}</version>
+            </fileInfo>
           </jarResources>
 
           <moduleDependencies>
@@ -199,6 +205,14 @@
 
             <moduleDependency>
               <name>org.bedework.org.slf4j.slf4j.api</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.jmx</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.apache.logging.log4j.api</name>
             </moduleDependency>
 
             <moduleDependency>
