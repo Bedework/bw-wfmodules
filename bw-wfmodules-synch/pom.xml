@@ -16,6 +16,5 @@
     <module>bw-wfmodules-synch-shared</module>
     <module>bw-wfmodules-synch-common</module>
     <module>bw-wfmodules-synch-web</module>
-    <module>bw-wfmodules-synch-ear</module>
   </modules>
 </project>
