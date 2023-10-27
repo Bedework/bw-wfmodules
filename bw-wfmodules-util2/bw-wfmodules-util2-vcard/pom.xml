@@ -65,7 +65,7 @@
               <name>wildflyee.api</name>
             </moduleDependency>
             <moduleDependency>
-              <name>com.fasterxml.jackson.core.jackson-core</name>
+              <name>org.bedework.com.fasterxml.jackson.core.jackson-core</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

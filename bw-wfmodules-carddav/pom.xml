@@ -127,7 +127,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>com.fasterxml.jackson.core.jackson-core</name>
+              <name>org.bedework.com.fasterxml.jackson.core.jackson-core</name>
             </moduleDependency>
 
             <moduleDependency>

@@ -15,5 +15,6 @@
   <modules>
     <module>bw-wfmodules-com-fasterxml-jackson-core-annotations</module>
     <module>bw-wfmodules-com-fasterxml-jackson-core-databind</module>
+    <module>bw-wfmodules-com-fasterxml-jackson-core-jackson-core</module>
   </modules>
 </project>

@@ -66,6 +66,14 @@
             <moduleDependency>
               <name>org.bedework.org.opensearch.opensearch</name>
             </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.com.fasterxml.jackson.core.jackson-core</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.com.fasterxml.jackson.core.databind</name>
+            </moduleDependency>
           </moduleDependencies>
         </configuration>
       </plugin>
