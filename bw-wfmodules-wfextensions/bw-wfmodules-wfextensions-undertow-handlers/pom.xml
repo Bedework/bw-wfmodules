@@ -10,13 +10,13 @@
     <version>1.0.5-SNAPSHOT</version>
   </parent>
 
-  <artifactId>bw-wfmodules-wfextensions-calendar</artifactId>
+  <artifactId>bw-wfmodules-wfextensions-undertow-handlers</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
       <groupId>org.bedework.wfextensions</groupId>
-      <artifactId>bw-wf-calendar-subsystem</artifactId>
+      <artifactId>bw-wf-undertow-handlers</artifactId>
     </dependency>
   </dependencies>
 
@@ -27,29 +27,21 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.wfextensions.bw-wf-calendar-subsystem</moduleName>
+          <moduleName>org.bedework.wfextensions.bw-wf-undertow-handlers</moduleName>
 
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <jarResource>
               <groupId>org.bedework.wfextensions</groupId>
-              <artifactId>bw-wf-calendar-subsystem</artifactId>
+              <artifactId>bw-wf-undertow-handlers</artifactId>
               <version>${bw-wf-extensions.version}</version>
             </jarResource>
           </jarResources>
 
           <moduleDependencies>
             <moduleDependency>
-              <name>org.bedework.util.jmx</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.calendar.engine.rw</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.jboss.staxmapper</name>
+              <name>org.bedework.logging</name>
             </moduleDependency>
 
             <moduleDependency>
@@ -57,31 +49,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.jboss.as.ee</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.jboss.as.server</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.jboss.modules</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.jboss.msc</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.jboss.logging</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.jboss.vfs</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.jboss.metadata.common</name>
+              <name>io.undertow.core</name>
             </moduleDependency>
 
             <moduleDependency>
@@ -96,4 +64,5 @@
       </plugin>
     </plugins>
   </build>
+
 </project>
