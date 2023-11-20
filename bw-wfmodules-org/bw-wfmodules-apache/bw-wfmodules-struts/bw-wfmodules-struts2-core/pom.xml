@@ -27,7 +27,6 @@
     <dependency>
       <groupId>commons-fileupload</groupId>
       <artifactId>commons-fileupload</artifactId>
-      <version>1.4</version>
     </dependency>
 
     <dependency>
@@ -63,7 +62,7 @@
             <jarResource>
               <groupId>commons-fileupload</groupId>
               <artifactId>commons-fileupload</artifactId>
-              <version>1.4</version>
+              <version>${commons-fileupload.version}</version>
             </jarResource>
 
             <jarResource>
