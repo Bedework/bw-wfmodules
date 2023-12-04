@@ -23,6 +23,7 @@
     <module>bw-wfmodules-util-index</module>
     <module>bw-wfmodules-util-jms</module>
     <module>bw-wfmodules-util-json</module>
+    <module>bw-wfmodules-util-logging</module>
     <module>bw-wfmodules-util-misc</module>
     <module>bw-wfmodules-util-network</module>
     <module>bw-wfmodules-util-security</module>

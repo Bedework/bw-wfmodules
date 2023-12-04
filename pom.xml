@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.bedework</groupId>
     <artifactId>bedework-parent</artifactId>
-    <version>22-SNAPSHOT</version>
+    <version>23-SNAPSHOT</version>
   </parent>
 
   <groupId>org.bedework.deploy</groupId>
@@ -32,7 +32,6 @@
     <module>bw-wfmodules-ical4j-vcard</module>
     <module>bw-wfmodules-jsforj</module>
     <module>bw-wfmodules-json</module>
-    <module>bw-wfmodules-logging</module>
     <module>bw-wfmodules-logs</module>
     <module>bw-wfmodules-notifier</module>
     <module>bw-wfmodules-org</module>
