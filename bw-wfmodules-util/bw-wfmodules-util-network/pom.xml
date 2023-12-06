@@ -13,7 +13,6 @@
   <packaging>pom</packaging>
 
   <modules>
-    <module>bw-wfmodules-util-config-http</module>
     <module>bw-wfmodules-util-dav</module>
     <module>bw-wfmodules-util-http</module>
     <module>bw-wfmodules-util-servlet</module>
