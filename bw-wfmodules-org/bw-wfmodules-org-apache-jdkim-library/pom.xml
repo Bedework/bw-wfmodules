@@ -17,7 +17,7 @@
     <dependency>
       <groupId>org.bedework</groupId>
       <artifactId>apache-jdkim-library</artifactId>
-      <version>0.6</version>
+      <version>${bedework.jdkim.version}</version>
       <scope>compile</scope>
     </dependency>
 
@@ -85,7 +85,7 @@
             <jarResource>
               <groupId>org.bedework</groupId>
               <artifactId>apache-jdkim-library</artifactId>
-              <version>0.4</version>
+              <version>${bedework.jdkim.version}</version>
             </jarResource>
 
             <jarResource>
