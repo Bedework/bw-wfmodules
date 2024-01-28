@@ -18,6 +18,5 @@
     <module>bw-wfmodules-note-servlet</module>
     <module>bw-wfmodules-note-shared</module>
     <module>bw-wfmodules-note-common</module>
-    <module>bw-wfmodules-note-ear</module>
   </modules>
 </project>

@@ -44,6 +44,18 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.note.db</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.note.outbound</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.note.shared</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.logging</name>
             </moduleDependency>
 
