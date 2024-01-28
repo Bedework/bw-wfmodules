@@ -77,9 +77,6 @@
             <!-- ================ bw-util-network ================ -->
 
             <moduleDependency>
-              <name>org.bedework.util.config.http</name>
-            </moduleDependency>
-            <moduleDependency>
               <name>org.bedework.util.dav</name>
             </moduleDependency>
             <moduleDependency>
