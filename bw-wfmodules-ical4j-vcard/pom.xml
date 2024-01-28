@@ -20,12 +20,6 @@
     </dependency>
 
     <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-api</artifactId>
-      <scope>compile</scope>
-    </dependency>
-
-    <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
     </dependency>
@@ -76,7 +70,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.org.slf4j.slf4j.api</name>
+              <name>org.slf4j</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

@@ -56,9 +56,13 @@
             <moduleDependency>
               <name>org.bedework.commons.lang3</name>
             </moduleDependency>
-
+<!--
             <moduleDependency>
               <name>org.bedework.org.slf4j.slf4j.api</name>
+            </moduleDependency>
+-->
+            <moduleDependency>
+              <name>org.slf4j</name>
             </moduleDependency>
 
             <moduleDependency>

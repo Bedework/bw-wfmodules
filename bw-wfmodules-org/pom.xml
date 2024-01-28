@@ -20,7 +20,7 @@
     <module>bw-wfmodules-org-hibernate-core</module>
     <module>bw-wfmodules-org-imgscalr-lib</module>
     <module>bw-wfmodules-org-jolokia-core</module>
-    <module>bw-wfmodules-org-slf4j-slf4j-api</module>
+    <module>bw-wfmodules-org-slf4j-slf4j-nop</module>
     <module>bw-wfmodules-opensearch</module>
     <module>bw-wfmodules-postgresql</module>
     <module>bw-wfmodules-spring</module>
