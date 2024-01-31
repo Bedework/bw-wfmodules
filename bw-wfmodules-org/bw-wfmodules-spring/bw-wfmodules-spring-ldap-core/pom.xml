@@ -40,7 +40,7 @@
 
           <moduleDependencies>
             <moduleDependency>
-              <name>org.bedework.org.slf4j.slf4j.api</name>
+              <name>org.slf4j</name>
             </moduleDependency>
 
             <moduleDependency>

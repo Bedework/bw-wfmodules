@@ -13,13 +13,8 @@
   <packaging>pom</packaging>
 
   <modules>
-    <module>bw-wfmodules-spring-aop</module>
-    <module>bw-wfmodules-spring-beans</module>
-    <module>bw-wfmodules-spring-context</module>
+    <!--
     <module>bw-wfmodules-spring-context-support</module>
-    <module>bw-wfmodules-spring-core</module>
-    <module>bw-wfmodules-spring-expression</module>
-    <module>bw-wfmodules-spring-jcl</module>
     <module>bw-wfmodules-spring-jdbc</module>
     <module>bw-wfmodules-spring-ldap-core</module>
     <module>bw-wfmodules-spring-oxm</module>
@@ -30,12 +25,20 @@
     <module>bw-wfmodules-spring-security-taglibs</module>
     <module>bw-wfmodules-spring-security-web</module>
     <module>bw-wfmodules-spring-tx</module>
-    <module>bw-wfmodules-spring-web</module>
     <module>bw-wfmodules-spring-webflow</module>
     <module>bw-wfmodules-spring-webflow-spring-binding</module>
-    <module>bw-wfmodules-spring-webmvc</module>
     <module>bw-wfmodules-spring-ws-core</module>
     <module>bw-wfmodules-spring-ws-security</module>
     <module>bw-wfmodules-spring-ws-xml</module>
+    -->
+
+    <module>bw-wfmodules-spring-aop</module>
+    <module>bw-wfmodules-spring-beans</module>
+    <module>bw-wfmodules-spring-context</module>
+    <module>bw-wfmodules-spring-core</module>
+    <module>bw-wfmodules-spring-expression</module>
+    <module>bw-wfmodules-spring-jcl</module>
+    <module>bw-wfmodules-spring-web</module>
+    <module>bw-wfmodules-spring-webmvc</module>
   </modules>
 </project>
