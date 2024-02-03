@@ -50,6 +50,10 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.util.tz</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.commons.codec</name>
             </moduleDependency>
 
