@@ -98,6 +98,14 @@
             <moduleDependency>
               <name>org.bedework.org.apache.commons.commons-text</name>
             </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.com.fasterxml.jackson.core.databind</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.com.fasterxml.jackson.core.jackson-core</name>
+            </moduleDependency>
           </moduleDependencies>
         </configuration>
       </plugin>
