@@ -36,7 +36,7 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.selfreg.ear</moduleName>
+          <moduleName>org.bedework.selfreg.web</moduleName>
 
           <noArtifact>true</noArtifact>
 
