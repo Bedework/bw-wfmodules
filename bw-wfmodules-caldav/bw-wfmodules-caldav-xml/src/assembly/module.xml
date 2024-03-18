@@ -6,10 +6,10 @@
   <formats>
     <format>zip</format>
   </formats>
-  <baseDirectory>org/bedework/xml</baseDirectory>
+  <baseDirectory>org/bedework/caldav/xml</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${bw-build-module-base}/org/bedework/xml</directory>
+      <directory>${bw-build-module-base}/org/bedework/caldav/xml</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

@@ -44,6 +44,10 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.synch.ws.xml</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.logging</name>
             </moduleDependency>
 
@@ -57,10 +61,6 @@
 
             <moduleDependency>
               <name>org.bedework.icalendar.xml</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.xml</name>
             </moduleDependency>
 
             <moduleDependency>

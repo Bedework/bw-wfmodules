@@ -42,6 +42,10 @@
 
           <moduleDependencies>
             <moduleDependency>
+              <name>org.bedework.timezone.server.xml</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.util.config</name>
             </moduleDependency>
 
@@ -63,10 +67,6 @@
 
             <moduleDependency>
               <name>org.bedework.icalendar.xml</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.xml</name>
             </moduleDependency>
 
             <moduleDependency>

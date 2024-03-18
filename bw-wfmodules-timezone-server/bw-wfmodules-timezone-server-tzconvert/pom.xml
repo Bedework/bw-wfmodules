@@ -65,10 +65,6 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.xml</name>
-            </moduleDependency>
-
-            <moduleDependency>
               <name>org.bedework.org.apache.httpcomponents.httpclient</name>
             </moduleDependency>
 

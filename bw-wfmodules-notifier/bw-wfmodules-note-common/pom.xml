@@ -111,10 +111,6 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.xml</name>
-            </moduleDependency>
-
-            <moduleDependency>
               <name>org.bedework.org.freemarker</name>
             </moduleDependency>
 

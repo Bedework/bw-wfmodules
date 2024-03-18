@@ -106,7 +106,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.xml</name>
+              <name>org.bedework.calws-soap.xml</name>
             </moduleDependency>
 
             <moduleDependency>

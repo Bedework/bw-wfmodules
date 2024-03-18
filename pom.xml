@@ -43,7 +43,6 @@
     <module>bw-wfmodules-util2</module>
     <module>bw-wfmodules-webcache</module>
     <module>bw-wfmodules-webdav</module>
-    <module>bw-wfmodules-xml</module>
     <module>wfmodulesutil</module>
     <module>bw-wfmodules-schemaorgforj</module>
     <module>bw-wfmodules-wfextensions</module>
@@ -51,6 +50,9 @@
     <module>bw-wfmodules-net</module>
     <module>bw-wfmodules-com</module>
     <module>bw-wfmodules-commons</module>
+    <module>bw-wfmodules-caldav/bw-wfmodules-caldav-xml</module>
+    <module>bw-wfmodules-caldav/bw-wfmodules-calws-soap-xml</module>
+    <module>bw-wfmodules-exchangews-xml</module>
   </modules>
 
   <build>

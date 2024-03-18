@@ -45,12 +45,6 @@
               <name>org.bedework.util.hibernate</name>
             </moduleDependency>
 
-            <!-- ================ bw-xml ================ -->
-
-            <moduleDependency>
-              <name>org.bedework.xml</name>
-            </moduleDependency>
-
             <!-- ============== engine ========== -->
 
             <moduleDependency>

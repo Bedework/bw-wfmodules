@@ -2,21 +2,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>bw-wfmodules-calendar-engine</artifactId>
+    <artifactId>bw-wfmodules-caldav</artifactId>
     <groupId>org.bedework.deploy</groupId>
     <version>1.0.5-SNAPSHOT</version>
   </parent>
-  <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>bw-wfmodules-calendar-engine-interfaces</artifactId>
+  <artifactId>bw-wfmodules-caldav-xml</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
-      <groupId>org.bedework.caleng</groupId>
-      <artifactId>bw-calendar-engine-interfaces</artifactId>
-      <version>${bw-calendar-engine.version}</version>
+      <groupId>org.bedework</groupId>
+      <artifactId>bw-caldav-xml</artifactId>
     </dependency>
   </dependencies>
 
@@ -27,28 +26,21 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.calendar.engine.interfaces</moduleName>
+          <moduleName>org.bedework.caldav.xml</moduleName>
+
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <jarResource>
-              <groupId>org.bedework.caleng</groupId>
-              <artifactId>bw-calendar-engine-interfaces</artifactId>
-              <version>${bw-calendar-engine.version}</version>
+              <groupId>org.bedework</groupId>
+              <artifactId>bw-caldav-xml</artifactId>
+              <version>${bw-caldav.version}</version>
             </jarResource>
           </jarResources>
 
           <moduleDependencies>
             <moduleDependency>
-              <name>org.bedework.calendar.common.facade</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.calendar.common.sysevents.msgs</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.synch.ws.xml</name>
+              <name>org.bedework.icalendar.xml</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

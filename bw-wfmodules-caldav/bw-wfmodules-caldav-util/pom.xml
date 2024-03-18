@@ -5,10 +5,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <artifactId>bw-wfmodules</artifactId>
+    <artifactId>bw-wfmodules-caldav</artifactId>
     <groupId>org.bedework.deploy</groupId>
     <version>1.0.5-SNAPSHOT</version>
-    <relativePath>../../pom.xml</relativePath>
   </parent>
 
   <artifactId>bw-wfmodules-caldav-util</artifactId>
@@ -42,6 +41,18 @@
 
           <moduleDependencies>
             <moduleDependency>
+              <name>org.bedework.caldav.xml</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calws-soap.xml</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.synch.ws.xml</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.webdav</name>
             </moduleDependency>
 
@@ -67,10 +78,6 @@
 
             <moduleDependency>
               <name>org.bedework.icalendar.xml</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.xml</name>
             </moduleDependency>
 
             <moduleDependency>

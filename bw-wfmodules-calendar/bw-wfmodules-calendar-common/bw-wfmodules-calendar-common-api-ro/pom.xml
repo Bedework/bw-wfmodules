@@ -48,7 +48,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.xml</name>
+              <name>org.bedework.synch.ws.xml</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>
