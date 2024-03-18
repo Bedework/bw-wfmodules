@@ -10,28 +10,13 @@
     <version>1.0.5-SNAPSHOT</version>
   </parent>
 
-  <artifactId>bw-wfmodules-xml</artifactId>
+  <artifactId>bw-wfmodules-icalendar-xml</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
       <groupId>org.bedework</groupId>
-      <artifactId>bw-xml-appleServer</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.bedework</groupId>
-      <artifactId>bw-xml-caldav</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.bedework</groupId>
-      <artifactId>bw-xml-calws-soap</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.bedework</groupId>
-      <artifactId>bw-xml-synchws</artifactId>
+      <artifactId>bw-icalendar-xml</artifactId>
     </dependency>
   </dependencies>
 
@@ -42,32 +27,15 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.xml</moduleName>
+          <moduleName>org.bedework.icalendar.xml</moduleName>
+
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <jarResource>
               <groupId>org.bedework</groupId>
-              <artifactId>bw-xml-appleServer</artifactId>
-              <version>${bw-xml.version}</version>
-            </jarResource>
-
-            <jarResource>
-              <groupId>org.bedework</groupId>
-              <artifactId>bw-xml-caldav</artifactId>
-              <version>${bw-xml.version}</version>
-            </jarResource>
-
-            <jarResource>
-              <groupId>org.bedework</groupId>
-              <artifactId>bw-xml-calws-soap</artifactId>
-              <version>${bw-xml.version}</version>
-            </jarResource>
-
-            <jarResource>
-              <groupId>org.bedework</groupId>
-              <artifactId>bw-xml-synchws</artifactId>
-              <version>${bw-xml.version}</version>
+              <artifactId>bw-icalendar-xml</artifactId>
+              <version>${bw-icalendar-xml.version}</version>
             </jarResource>
           </jarResources>
 

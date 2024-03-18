@@ -53,7 +53,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.xml</name>
+              <name>org.bedework.icalendar.xml</name>
             </moduleDependency>
 
             <moduleDependency>

@@ -62,6 +62,10 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.icalendar.xml</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.xml</name>
             </moduleDependency>
 

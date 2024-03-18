@@ -28,6 +28,7 @@
     <module>bw-wfmodules-category</module>
     <module>bw-wfmodules-cli</module>
     <module>bw-wfmodules-eventreg</module>
+    <module>bw-wfmodules-icalendar-xml</module>
     <module>bw-wfmodules-ical4j</module>
     <module>bw-wfmodules-ical4j-vcard</module>
     <module>bw-wfmodules-jsforj</module>

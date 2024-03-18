@@ -19,5 +19,6 @@
     <module>bw-wfmodules-timezone-server-common</module>
     <module>bw-wfmodules-timezone-server-tzconvert</module>
     <module>bw-wfmodules-timezone-server-web</module>
+    <module>bw-wfmodules-timezone-server-xml</module>
   </modules>
 </project>
