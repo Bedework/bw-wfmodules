@@ -15,5 +15,6 @@
   <modules>
     <module>bw-wfmodules-caldav-server</module>
     <module>bw-wfmodules-caldav-util</module>
+    <module>bw-wfmodules-caldav-xml</module>
   </modules>
 </project>

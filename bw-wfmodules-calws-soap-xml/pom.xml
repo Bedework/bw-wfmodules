@@ -3,8 +3,9 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+
   <parent>
-    <artifactId>bw-wfmodules-caldav</artifactId>
+    <artifactId>bw-wfmodules</artifactId>
     <groupId>org.bedework.deploy</groupId>
     <version>1.0.5-SNAPSHOT</version>
   </parent>
@@ -34,7 +35,7 @@
             <jarResource>
               <groupId>org.bedework</groupId>
               <artifactId>bw-calws-soap-xml</artifactId>
-              <version>${bw-caldav.version}</version>
+              <version>${bw-calws-soap-xml.version}</version>
             </jarResource>
           </jarResources>
 

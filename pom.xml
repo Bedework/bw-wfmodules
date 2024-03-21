@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.bedework</groupId>
     <artifactId>bedework-parent</artifactId>
-    <version>38-SNAPSHOT</version>
+    <version>40-SNAPSHOT</version>
   </parent>
 
   <groupId>org.bedework.deploy</groupId>
@@ -24,18 +24,25 @@
     <module>bw-wfmodules-access</module>
     <module>bw-wfmodules-caldav</module>
     <module>bw-wfmodules-calendar</module>
+    <module>bw-wfmodules-calws-soap-xml</module>
     <module>bw-wfmodules-carddav</module>
     <module>bw-wfmodules-category</module>
     <module>bw-wfmodules-cli</module>
+    <module>bw-wfmodules-com</module>
+    <module>bw-wfmodules-commons</module>
     <module>bw-wfmodules-eventreg</module>
+    <module>bw-wfmodules-exchangews-xml</module>
+    <module>bw-wfmodules-hawtio</module>
     <module>bw-wfmodules-icalendar-xml</module>
     <module>bw-wfmodules-ical4j</module>
     <module>bw-wfmodules-ical4j-vcard</module>
     <module>bw-wfmodules-jsforj</module>
     <module>bw-wfmodules-json</module>
     <module>bw-wfmodules-logs</module>
+    <module>bw-wfmodules-net</module>
     <module>bw-wfmodules-notifier</module>
     <module>bw-wfmodules-org</module>
+    <module>bw-wfmodules-schemaorgforj</module>
     <module>bw-wfmodules-selfreg</module>
     <module>bw-wfmodules-synch</module>
     <module>bw-wfmodules-timezone-server</module>
@@ -43,16 +50,8 @@
     <module>bw-wfmodules-util2</module>
     <module>bw-wfmodules-webcache</module>
     <module>bw-wfmodules-webdav</module>
-    <module>wfmodulesutil</module>
-    <module>bw-wfmodules-schemaorgforj</module>
     <module>bw-wfmodules-wfextensions</module>
-    <module>bw-wfmodules-hawtio</module>
-    <module>bw-wfmodules-net</module>
-    <module>bw-wfmodules-com</module>
-    <module>bw-wfmodules-commons</module>
-    <module>bw-wfmodules-caldav/bw-wfmodules-caldav-xml</module>
-    <module>bw-wfmodules-caldav/bw-wfmodules-calws-soap-xml</module>
-    <module>bw-wfmodules-exchangews-xml</module>
+    <module>wfmodulesutil</module>
   </modules>
 
   <build>
