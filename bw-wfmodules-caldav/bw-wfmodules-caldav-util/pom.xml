@@ -44,9 +44,9 @@
               <name>org.bedework.caldav.xml</name>
             </moduleDependency>
 
-            <moduleDependency>
-              <name>org.bedework.calws-soap.xml</name>
-            </moduleDependency>
+            <!-- Do NOT put a dependency on org.bedework.calws-soap.xml
+                 here. It will be satisfied by the synch dependency. If we
+                 do we get class loader errors -->
 
             <moduleDependency>
               <name>org.bedework.synch.ws.xml</name>
