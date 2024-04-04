@@ -6,7 +6,7 @@
   <parent>
     <artifactId>bw-wfmodules-httpcomponents</artifactId>
     <groupId>org.bedework.deploy</groupId>
-    <version>1.0.5-SNAPSHOT</version>
+    <version>1.0.5</version>
   </parent>
 
   <artifactId>bw-wfmodules-org-apache-httpcomponents-httpclient</artifactId>
