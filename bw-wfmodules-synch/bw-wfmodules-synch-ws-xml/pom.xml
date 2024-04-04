@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.bedework.deploy</groupId>
     <artifactId>bw-wfmodules-synch</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.6-SNAPSHOT</version>
   </parent>
 
   <artifactId>bw-wfmodules-synch-ws-xml</artifactId>
