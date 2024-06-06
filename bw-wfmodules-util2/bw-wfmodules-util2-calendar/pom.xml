@@ -57,6 +57,10 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.calws-soap.xml</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.ical4j</name>
             </moduleDependency>
 
