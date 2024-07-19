@@ -16,7 +16,22 @@
   <dependencies>
     <dependency>
       <groupId>org.bedework</groupId>
-      <artifactId>bw-cli</artifactId>
+      <artifactId>bw-cli-bwcmd</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.bedework</groupId>
+      <artifactId>bw-cli-jmx</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.bedework</groupId>
+      <artifactId>bw-cli-shell</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.bedework</groupId>
+      <artifactId>bw-cli-toolcmd</artifactId>
     </dependency>
 
     <dependency>
@@ -55,7 +70,25 @@
           <jarResources>
             <jarResource>
               <groupId>org.bedework</groupId>
-              <artifactId>bw-cli</artifactId>
+              <artifactId>bw-cli-jmx</artifactId>
+              <version>${bw-cli.version}</version>
+            </jarResource>
+
+            <jarResource>
+              <groupId>org.bedework</groupId>
+              <artifactId>bw-cli-shell</artifactId>
+              <version>${bw-cli.version}</version>
+            </jarResource>
+
+            <jarResource>
+              <groupId>org.bedework</groupId>
+              <artifactId>bw-cli-toolcmd</artifactId>
+              <version>${bw-cli.version}</version>
+            </jarResource>
+
+            <jarResource>
+              <groupId>org.bedework</groupId>
+              <artifactId>bw-cli-bwcmd</artifactId>
               <version>${bw-cli.version}</version>
             </jarResource>
 
