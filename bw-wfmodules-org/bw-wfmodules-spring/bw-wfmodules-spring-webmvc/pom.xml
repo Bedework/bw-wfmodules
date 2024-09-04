@@ -74,6 +74,10 @@
               <importMeta>true</importMeta>
               <exports>META-INF</exports>
             </moduleDependency>
+
+            <moduleDependency>
+              <name>javax.servlet.jstl.api</name>
+            </moduleDependency>
           </moduleDependencies>
         </configuration>
       </plugin>
