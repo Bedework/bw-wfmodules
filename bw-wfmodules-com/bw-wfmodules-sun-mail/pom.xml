@@ -37,6 +37,12 @@
               <version>${sun.mail.version}</version>
             </jarResource>
           </jarResources>
+
+          <moduleDependencies>
+            <moduleDependency>
+              <name>javax.activation.api</name>
+            </moduleDependency>
+          </moduleDependencies>
         </configuration>
       </plugin>
 
