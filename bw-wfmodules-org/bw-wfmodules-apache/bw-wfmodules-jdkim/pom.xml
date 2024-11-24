@@ -4,18 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>bw-wfmodules-org</artifactId>
     <groupId>org.bedework.deploy</groupId>
+    <artifactId>bw-wfmodules-apache</artifactId>
     <version>1.0.6-SNAPSHOT</version>
   </parent>
 
-  <artifactId>bw-wfmodules-apache</artifactId>
+  <artifactId>bw-wfmodules-jdkim</artifactId>
   <packaging>pom</packaging>
 
   <modules>
-    <module>bw-wfmodules-apache-commons</module>
-    <module>bw-wfmodules-httpcomponents</module>
-    <module>bw-wfmodules-struts</module>
-    <module>bw-wfmodules-jdkim</module>
+    <module>bw-wfmodules-jdkim-api</module>
+    <module>bw-wfmodules-jdkim-library</module>
   </modules>
 </project>
