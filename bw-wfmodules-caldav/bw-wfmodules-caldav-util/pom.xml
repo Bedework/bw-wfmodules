@@ -89,7 +89,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.org.apache.jdkim.library</name>
+              <name>org.bedework.org.apache.jdkim.api</name>
             </moduleDependency>
 
             <moduleDependency>
