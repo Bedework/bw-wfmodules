@@ -169,6 +169,12 @@
               <version>${opensearch.version}</version>
             </fileInfo>
 
+            <dependency>
+              <groupId>org.opensearch</groupId>
+              <artifactId>opensearch-common</artifactId>
+              <version>${opensearch.version}</version>
+            </dependency>
+
             <fileInfo>
               <groupId>org.opensearch</groupId>
               <artifactId>opensearch-core</artifactId>
