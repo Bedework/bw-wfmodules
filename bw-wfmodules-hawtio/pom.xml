@@ -52,6 +52,16 @@
     <dependency>
       <groupId>io.hawt</groupId>
       <artifactId>hawtio-system</artifactId>
+      <exclusions>
+        <exclusion>
+          <groupId>org.json</groupId>
+          <artifactId>json</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>com.google.guava</groupId>
+          <artifactId>guava</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
 
     <dependency>

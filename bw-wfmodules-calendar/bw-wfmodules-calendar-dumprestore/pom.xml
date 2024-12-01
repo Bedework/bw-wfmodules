@@ -2,21 +2,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>bw-wfmodules-calendar-engine</artifactId>
     <groupId>org.bedework.deploy</groupId>
+    <artifactId>bw-wfmodules-calendar</artifactId>
     <version>1.0.6-SNAPSHOT</version>
   </parent>
-  <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>bw-wfmodules-calendar-engine-dumprestore</artifactId>
+  <artifactId>bw-wfmodules-calendar-dumprestore</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
-      <groupId>org.bedework.caleng</groupId>
-      <artifactId>bw-calendar-engine-dumprestore</artifactId>
-      <version>${bw-calendar-engine.version}</version>
+      <groupId>org.bedework</groupId>
+      <artifactId>bw-calendar-dumprestore</artifactId>
     </dependency>
   </dependencies>
 
@@ -27,14 +26,14 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.calendar.engine.dumprestore</moduleName>
+          <moduleName>org.bedework.calendar.dumprestore</moduleName>
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <jarResource>
-              <groupId>org.bedework.caleng</groupId>
-              <artifactId>bw-calendar-engine-dumprestore</artifactId>
-              <version>${bw-calendar-engine.version}</version>
+              <groupId>org.bedework</groupId>
+              <artifactId>bw-calendar-dumprestore</artifactId>
+              <version>${bw-calendar-dumprestore.version}</version>
             </jarResource>
           </jarResources>
 

@@ -19,7 +19,6 @@
     <module>bw-wfmodules-calendar-engine-chgnote</module>
     <module>bw-wfmodules-calendar-engine-core-rw</module>
     <module>bw-wfmodules-calendar-engine-core-ro</module>
-    <module>bw-wfmodules-calendar-engine-dumprestore</module>
     <module>bw-wfmodules-calendar-engine-impl</module>
     <module>bw-wfmodules-calendar-engine-indexer</module>
     <module>bw-wfmodules-calendar-engine-inoutsched</module>
