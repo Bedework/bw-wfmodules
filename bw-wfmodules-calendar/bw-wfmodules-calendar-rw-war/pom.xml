@@ -51,6 +51,12 @@
               <name>org.bedework.calendar.engine.rw</name>
             </moduleDependency>
 
+            <!-- ============== dumprestore ========== -->
+
+            <moduleDependency>
+              <name>org.bedework.calendar.dumprestore</name>
+            </moduleDependency>
+
             <!-- ============== client ========== -->
 
             <moduleDependency>

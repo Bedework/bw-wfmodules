@@ -41,10 +41,6 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.calendar.engine.dumprestore</name>
-            </moduleDependency>
-
-            <moduleDependency>
               <name>org.bedework.calendar.engine.inoutsched</name>
             </moduleDependency>
 
