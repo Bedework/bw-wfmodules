@@ -6,7 +6,7 @@
   <parent>
     <artifactId>bw-wfmodules-org</artifactId>
     <groupId>org.bedework.deploy</groupId>
-    <version>1.0.8-SNAPSHOT</version>
+    <version>1.0.8</version>
   </parent>
 
   <artifactId>bw-wfmodules-apache</artifactId>
