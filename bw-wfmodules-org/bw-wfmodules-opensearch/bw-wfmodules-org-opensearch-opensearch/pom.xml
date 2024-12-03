@@ -118,7 +118,6 @@
     <dependency>
       <groupId>com.carrotsearch</groupId>
       <artifactId>hppc</artifactId>
-      <version>${carrotsearch-hppc.version}</version>
     </dependency>
 
     <dependency>
