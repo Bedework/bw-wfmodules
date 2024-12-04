@@ -13,7 +13,6 @@
   <packaging>pom</packaging>
   <modules>
     <module>bw-wfmodules-category-common</module>
-    <module>bw-wfmodules-category-ear</module>
     <module>bw-wfmodules-category-impl</module>
     <module>bw-wfmodules-category-service</module>
     <module>bw-wfmodules-category-web</module>
