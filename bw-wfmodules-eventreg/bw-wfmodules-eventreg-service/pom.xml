@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.bedework.deploy</groupId>
+    <artifactId>bw-wfmodules-eventreg</artifactId>
+    <version>1.0.9-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>bw-wfmodules-eventreg-service</artifactId>
+  <packaging>pom</packaging>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.bedework.evreg</groupId>
+      <artifactId>bw-event-registration-service</artifactId>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.bedework</groupId>
+        <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
+
+        <configuration>
+          <moduleName>org.bedework.eventreg.service</moduleName>
+
+          <noArtifact>true</noArtifact>
+
+          <jarResources>
+            <jarResource>
+              <groupId>org.bedework.evreg</groupId>
+              <artifactId>bw-event-registration-service</artifactId>
+              <version>${bw-eventreg.version}</version>
+            </jarResource>
+          </jarResources>
+
+          <moduleDependencies>
+            <moduleDependency>
+              <name>org.bedework.eventreg.common</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.logging</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.config</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.jmx</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>wildflyee.api</name>
+            </moduleDependency>
+          </moduleDependencies>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+</project>
