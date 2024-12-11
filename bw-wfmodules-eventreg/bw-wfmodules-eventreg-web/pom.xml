@@ -44,6 +44,10 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.eventreg.service</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.logging</name>
             </moduleDependency>
 
@@ -53,6 +57,30 @@
 
             <moduleDependency>
               <name>org.bedework.org.apache.commons.commons-csv</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.spring.aop</name>
+              <importMeta>true</importMeta>
+              <exports>META-INF</exports>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.spring.beans</name>
+              <importMeta>true</importMeta>
+              <exports>META-INF</exports>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.spring.context</name>
+              <importMeta>true</importMeta>
+              <exports>META-INF</exports>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.spring.core</name>
+              <importMeta>true</importMeta>
+              <exports>META-INF</exports>
             </moduleDependency>
 
             <moduleDependency>
