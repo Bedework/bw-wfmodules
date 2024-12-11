@@ -2,156 +2,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
   <parent>
     <artifactId>bw-wfmodules</artifactId>
     <groupId>org.bedework.deploy</groupId>
     <version>1.0.9-SNAPSHOT</version>
   </parent>
-  <modelVersion>4.0.0</modelVersion>
 
   <artifactId>bw-wfmodules-carddav</artifactId>
   <packaging>pom</packaging>
 
-  <dependencies>
-    <dependency>
-      <groupId>org.bedework</groupId>
-      <artifactId>bw-carddav-common</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.bedework</groupId>
-      <artifactId>bw-carddav-server</artifactId>
-    </dependency>
-  </dependencies>
-
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.bedework</groupId>
-        <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
-
-        <configuration>
-          <moduleName>org.bedework.carddav.ear</moduleName>
-
-          <noArtifact>true</noArtifact>
-
-          <jarResources>
-            <jarResource>
-              <groupId>org.bedework</groupId>
-              <artifactId>bw-carddav-common</artifactId>
-              <version>${bw-carddav.version}</version>
-            </jarResource>
-
-            <jarResource>
-              <groupId>org.bedework</groupId>
-              <artifactId>bw-carddav-server</artifactId>
-              <version>${bw-carddav.version}</version>
-            </jarResource>
-          </jarResources>
-
-          <moduleDependencies>
-            <moduleDependency>
-              <name>org.bedework.logging</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.access</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.util.caching</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.util.config</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.util.hibernate</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.util.http</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.util.jmx</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.util.json</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.util.misc</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.util.servlet</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.util.tz</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.util.xml</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.util2.calendar</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.util2.vcard</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.ical4j</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.ical4j.vcard</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.webdav</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.org.hibernate.core</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.com.fasterxml.jackson.core.jackson-core</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.com.fasterxml.jackson.core.annotations</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.com.fasterxml.jackson.core.databind</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.commons.lang</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.commons.lang3</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>wildflyee.api</name>
-            </moduleDependency>
-          </moduleDependencies>
-        </configuration>
-      </plugin>
-
-      <plugin>
-        <artifactId>maven-assembly-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </build>
+  <modules>
+    <module>bw-wfmodules-carddav-server</module>
+    <module>bw-wfmodules-carddav-common</module>
+  </modules>
 </project>
