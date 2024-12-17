@@ -9,13 +9,13 @@
     <version>1.0.9-SNAPSHOT</version>
   </parent>
 
-  <artifactId>bw-wfmodules-eventreg-wsimpl</artifactId>
+  <artifactId>bw-wfmodules-eventreg-webcommon</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
       <groupId>org.bedework.evreg</groupId>
-      <artifactId>bw-event-registration-wsimpl</artifactId>
+      <artifactId>bw-event-registration-webcommon</artifactId>
     </dependency>
   </dependencies>
 
@@ -26,14 +26,14 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.eventreg.wsimpl</moduleName>
+          <moduleName>org.bedework.eventreg.webcommon</moduleName>
 
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <jarResource>
               <groupId>org.bedework.evreg</groupId>
-              <artifactId>bw-event-registration-wsimpl</artifactId>
+              <artifactId>bw-event-registration-webcommon</artifactId>
               <version>${bw-eventreg.version}</version>
             </jarResource>
           </jarResources>
@@ -45,10 +45,6 @@
 
             <moduleDependency>
               <name>org.bedework.eventreg.service</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.eventreg.webcommon</name>
             </moduleDependency>
 
             <moduleDependency>

@@ -18,5 +18,6 @@
     <module>bw-wfmodules-eventreg-service</module>
     <module>bw-wfmodules-eventreg-wsimpl</module>
     <module>bw-wfmodules-eventreg-webadmin</module>
+    <module>bw-wfmodules-eventreg-webcommon</module>
   </modules>
 </project>

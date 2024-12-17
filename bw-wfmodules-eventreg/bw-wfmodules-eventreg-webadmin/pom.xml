@@ -40,11 +40,7 @@
 
           <moduleDependencies>
             <moduleDependency>
-              <name>org.bedework.eventreg.common</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.eventreg.service</name>
+              <name>org.bedework.eventreg.webcommon</name>
             </moduleDependency>
 
             <moduleDependency>
