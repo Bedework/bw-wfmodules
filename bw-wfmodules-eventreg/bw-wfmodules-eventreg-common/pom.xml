@@ -107,42 +107,6 @@
               <name>org.bedework.org.hibernate.core</name>
             </moduleDependency>
 
-            <moduleDependency>
-              <name>org.bedework.org.spring.aop</name>
-              <importMeta>true</importMeta>
-              <exports>META-INF</exports>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.org.spring.beans</name>
-              <importMeta>true</importMeta>
-              <exports>META-INF</exports>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.org.spring.context</name>
-              <importMeta>true</importMeta>
-              <exports>META-INF</exports>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.org.spring.core</name>
-              <importMeta>true</importMeta>
-              <exports>META-INF</exports>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.org.spring.web</name>
-              <importMeta>true</importMeta>
-              <exports>META-INF</exports>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.org.spring.webmvc</name>
-              <importMeta>true</importMeta>
-              <exports>META-INF</exports>
-            </moduleDependency>
-
             <!-- ============== keycloak saml servlet filter ========== -->
 
             <moduleDependency>

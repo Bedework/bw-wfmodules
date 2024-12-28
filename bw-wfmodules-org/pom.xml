@@ -21,6 +21,5 @@
     <module>bw-wfmodules-org-jolokia-core</module>
     <module>bw-wfmodules-opensearch</module>
     <module>bw-wfmodules-postgresql</module>
-    <module>bw-wfmodules-spring</module>
   </modules>
 </project>
