@@ -17,6 +17,17 @@
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-core</artifactId>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-jcache</artifactId>
     </dependency>
 
     <dependency>
@@ -58,6 +69,12 @@
       <groupId>org.glassfish.jaxb</groupId>
       <artifactId>jaxb-runtime</artifactId>
       <version>2.3.1</version>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
 
     <dependency>
@@ -85,9 +102,19 @@
     </dependency>
 
     <dependency>
-      <groupId>net.sf.ehcache</groupId>
+      <groupId>org.ehcache</groupId>
       <artifactId>ehcache</artifactId>
-      <version>2.10.3</version>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <dependency>
+      <groupId>javax.cache</groupId>
+      <artifactId>cache-api</artifactId>
     </dependency>
   </dependencies>
 
@@ -113,7 +140,7 @@
 
             <fileInfo>
               <groupId>org.hibernate</groupId>
-              <artifactId>hibernate-ehcache</artifactId>
+              <artifactId>hibernate-jcache</artifactId>
               <version>${hibernate.version}</version>
             </fileInfo>
 
@@ -126,9 +153,9 @@
             -->
 
             <fileInfo>
-              <groupId>net.sf.ehcache</groupId>
+              <groupId>org.ehcache</groupId>
               <artifactId>ehcache</artifactId>
-              <version>2.10.3</version>
+              <version>${ehcache.version}</version>
             </fileInfo>
 
             <fileInfo>
@@ -202,6 +229,12 @@
               <artifactId>bw-util-logging</artifactId>
               <version>${bw-util-logging.version}</version>
             </fileInfo>
+
+            <fileInfo>
+              <groupId>javax.cache</groupId>
+              <artifactId>cache-api</artifactId>
+              <version>${javax.cache-api.version}</version>
+            </fileInfo>
           </jarResources>
 
           <moduleDependencies>
@@ -238,6 +271,11 @@
 
             <moduleDependency>
               <name>javax.transaction.api</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>jdk.unsupported</name>
+              <export>false</export>
             </moduleDependency>
 
             <moduleDependency>
