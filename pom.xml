@@ -52,6 +52,7 @@
     <module>bw-wfmodules-webdav</module>
     <module>bw-wfmodules-wfextensions</module>
     <module>wfmodulesutil</module>
+    <module>bw-wfmodules-base</module>
   </modules>
 
   <build>
