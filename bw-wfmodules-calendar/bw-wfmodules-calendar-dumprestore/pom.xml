@@ -55,6 +55,10 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.base</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.util.jmx</name>
             </moduleDependency>
 

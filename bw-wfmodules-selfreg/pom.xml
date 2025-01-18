@@ -62,6 +62,10 @@
 
           <moduleDependencies>
             <moduleDependency>
+              <name>org.bedework.base</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.logging</name>
             </moduleDependency>
 
