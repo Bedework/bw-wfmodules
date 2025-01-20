@@ -48,11 +48,11 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.util.config</name>
+              <name>org.bedework.database.hibernate</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.util.hibernate</name>
+              <name>org.bedework.util.config</name>
             </moduleDependency>
 
             <moduleDependency>

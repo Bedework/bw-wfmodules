@@ -53,6 +53,7 @@
     <module>bw-wfmodules-wfextensions</module>
     <module>wfmodulesutil</module>
     <module>bw-wfmodules-base</module>
+    <module>bw-wfmodules-database</module>
   </modules>
 
   <build>

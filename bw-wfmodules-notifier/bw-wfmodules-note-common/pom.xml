@@ -67,15 +67,15 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.database.hibernate</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.util.config</name>
             </moduleDependency>
 
             <moduleDependency>
               <name>org.bedework.util.dav</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.util.hibernate</name>
             </moduleDependency>
 
             <moduleDependency>

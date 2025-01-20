@@ -6,10 +6,10 @@
   <formats>
     <format>zip</format>
   </formats>
-  <baseDirectory>org/bedework/util/hibernate</baseDirectory>
+  <baseDirectory>org/bedework/database/db</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${bw-build-module-base}/org/bedework/util/hibernate</directory>
+      <directory>${bw-build-module-base}/org/bedework/database/db</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

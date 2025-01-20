@@ -19,7 +19,6 @@
     <module>bw-wfmodules-util-caching</module>
     <module>bw-wfmodules-util-conf</module>
     <module>bw-wfmodules-util-directory</module>
-    <module>bw-wfmodules-util-hibernate</module>
     <module>bw-wfmodules-util-index</module>
     <module>bw-wfmodules-util-jms</module>
     <module>bw-wfmodules-util-json</module>

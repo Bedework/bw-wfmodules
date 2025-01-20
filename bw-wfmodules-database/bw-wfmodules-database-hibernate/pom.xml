@@ -5,18 +5,18 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <artifactId>bw-wfmodules-util</artifactId>
     <groupId>org.bedework.deploy</groupId>
+    <artifactId>bw-wfmodules-database</artifactId>
     <version>1.0.9-SNAPSHOT</version>
   </parent>
 
-  <artifactId>bw-wfmodules-util-hibernate</artifactId>
+  <artifactId>bw-wfmodules-database-hibernate</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
-      <groupId>org.bedework</groupId>
-      <artifactId>bw-util-hibernate</artifactId>
+      <groupId>org.bedework.database</groupId>
+      <artifactId>bw-hibernate</artifactId>
     </dependency>
   </dependencies>
 
@@ -27,15 +27,15 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.util.hibernate</moduleName>
+          <moduleName>org.bedework.database.hibernate</moduleName>
 
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <jarResource>
-              <groupId>org.bedework</groupId>
-              <artifactId>bw-util-hibernate</artifactId>
-              <version>${bw-util-hibernate.version}</version>
+              <groupId>org.bedework.database</groupId>
+              <artifactId>bw-hibernate</artifactId>
+              <version>${bw-database.version}</version>
             </jarResource>
           </jarResources>
 

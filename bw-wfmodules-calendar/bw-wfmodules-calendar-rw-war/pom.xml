@@ -39,10 +39,10 @@
               <name>org.bedework.calendar.ro-war</name>
             </moduleDependency>
 
-            <!-- ================ bw-util-hibernate ================ -->
+            <!-- ================ bw-database-hibernate ================ -->
 
             <moduleDependency>
-              <name>org.bedework.util.hibernate</name>
+              <name>org.bedework.database.hibernate</name>
             </moduleDependency>
 
             <!-- ============== engine ========== -->
