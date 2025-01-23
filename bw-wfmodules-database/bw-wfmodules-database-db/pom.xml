@@ -40,6 +40,22 @@
 
           <moduleDependencies>
             <moduleDependency>
+              <name>org.bedework.base</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.logging</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.xml</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.com.fasterxml.jackson.core.annotations</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>javax.persistence.api</name>
             </moduleDependency>
           </moduleDependencies>

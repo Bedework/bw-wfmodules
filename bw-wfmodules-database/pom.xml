@@ -14,5 +14,6 @@
   <modules>
     <module>bw-wfmodules-database-db</module>
     <module>bw-wfmodules-database-hibernate</module>
+    <module>bw-wfmodules-database-openjpa</module>
   </modules>
 </project>

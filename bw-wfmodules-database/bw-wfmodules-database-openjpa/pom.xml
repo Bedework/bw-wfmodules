@@ -3,20 +3,19 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
   <parent>
     <groupId>org.bedework.deploy</groupId>
     <artifactId>bw-wfmodules-database</artifactId>
     <version>1.0.9-SNAPSHOT</version>
   </parent>
 
-  <artifactId>bw-wfmodules-database-hibernate</artifactId>
+  <artifactId>bw-wfmodules-database-openjpa</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
       <groupId>org.bedework.database</groupId>
-      <artifactId>bw-hibernate</artifactId>
+      <artifactId>bw-openjpa</artifactId>
     </dependency>
   </dependencies>
 
@@ -27,14 +26,14 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.database.hibernate</moduleName>
+          <moduleName>org.bedework.database.openjpa</moduleName>
 
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <jarResource>
               <groupId>org.bedework.database</groupId>
-              <artifactId>bw-hibernate</artifactId>
+              <artifactId>bw-openjpa</artifactId>
               <version>${bw-database.version}</version>
             </jarResource>
           </jarResources>
@@ -53,23 +52,11 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.util.config</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.util.jmx</name>
-            </moduleDependency>
-
-            <moduleDependency>
               <name>org.bedework.util.misc</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.util.xml</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.org.hibernate.core</name>
+              <name>org.bedework.org.openjpa</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>
