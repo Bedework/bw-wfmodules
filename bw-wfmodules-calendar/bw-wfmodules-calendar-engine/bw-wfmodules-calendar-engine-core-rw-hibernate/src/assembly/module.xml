@@ -6,10 +6,10 @@
   <formats>
     <format>zip</format>
   </formats>
-  <baseDirectory>org/bedework/calendar/engine/core/rw</baseDirectory>
+  <baseDirectory>org/bedework/calendar/engine/core/rw/hibernate</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${bw-build-module-base}/org/bedework/calendar/engine/core/rw</directory>
+      <directory>${bw-build-module-base}/org/bedework/calendar/engine/core/rw/hibernate</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

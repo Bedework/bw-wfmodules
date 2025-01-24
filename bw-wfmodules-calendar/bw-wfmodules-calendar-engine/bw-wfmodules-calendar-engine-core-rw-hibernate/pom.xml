@@ -9,14 +9,13 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>bw-wfmodules-calendar-engine-core-ro</artifactId>
+  <artifactId>bw-wfmodules-calendar-engine-core-rw-hibernate</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
       <groupId>org.bedework.caleng</groupId>
-      <artifactId>bw-calendar-engine-core-ro</artifactId>
-      <version>${bw-calendar-engine.version}</version>
+      <artifactId>bw-calendar-engine-core-rw-hibernate</artifactId>
     </dependency>
   </dependencies>
 
@@ -27,32 +26,20 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.calendar.engine.core.ro</moduleName>
+          <moduleName>org.bedework.calendar.engine.core.rw.hibernate</moduleName>
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <jarResource>
               <groupId>org.bedework.caleng</groupId>
-              <artifactId>bw-calendar-engine-core-common</artifactId>
+              <artifactId>bw-calendar-engine-core-rw-hibernate</artifactId>
               <version>${bw-calendar-engine.version}</version>
             </jarResource>
           </jarResources>
 
           <moduleDependencies>
             <moduleDependency>
-              <name>org.bedework.calendar.engine.interfaces</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.calendar.engine.indexing</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.calendar.common.sysevents.common</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.calendar.common.convert</name>
+              <name>org.bedework.calendar.engine.core.ro</name>
             </moduleDependency>
 
             <moduleDependency>
@@ -60,11 +47,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.util.indexing</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.util.indexing.opensearch</name>
+              <name>org.bedework.database.hibernate</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

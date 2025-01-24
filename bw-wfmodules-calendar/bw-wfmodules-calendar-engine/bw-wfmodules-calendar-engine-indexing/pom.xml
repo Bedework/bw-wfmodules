@@ -2,21 +2,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <parent>
-    <artifactId>bw-wfmodules-calendar-engine</artifactId>
-    <groupId>org.bedework.deploy</groupId>
-    <version>1.0.9-SNAPSHOT</version>
-  </parent>
   <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.bedework.deploy</groupId>
+    <artifactId>bw-wfmodules-calendar</artifactId>
+    <version>1.0.9-SNAPSHOT</version>
+    <relativePath>../../pom.xml</relativePath>
+  </parent>
 
-  <artifactId>bw-wfmodules-calendar-engine-core-rw</artifactId>
+  <artifactId>bw-wfmodules-calendar-engine-indexing</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
       <groupId>org.bedework.caleng</groupId>
-      <artifactId>bw-calendar-engine-core</artifactId>
-      <version>${bw-calendar-engine.version}</version>
+      <artifactId>bw-calendar-engine-indexing</artifactId>
     </dependency>
   </dependencies>
 
@@ -27,20 +27,24 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.calendar.engine.core.rw</moduleName>
+          <moduleName>org.bedework.calendar.engine.indexing</moduleName>
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <jarResource>
               <groupId>org.bedework.caleng</groupId>
-              <artifactId>bw-calendar-engine-core</artifactId>
+              <artifactId>bw-calendar-engine-indexing</artifactId>
               <version>${bw-calendar-engine.version}</version>
             </jarResource>
           </jarResources>
 
           <moduleDependencies>
             <moduleDependency>
-              <name>org.bedework.calendar.engine.core.ro</name>
+              <name>org.bedework.calendar.common.facade</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.calendar.common.convert</name>
             </moduleDependency>
 
             <moduleDependency>
@@ -48,7 +52,11 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.database.hibernate</name>
+              <name>org.bedework.util.indexing</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.util.indexing.opensearch</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

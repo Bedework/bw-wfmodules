@@ -20,5 +20,8 @@
     <module>bw-wfmodules-calendar-ro-war</module>
     <module>bw-wfmodules-calendar-rw-war</module>
     <module>bw-wfmodules-calendar-dumprestore</module>
+    <module>
+      bw-wfmodules-calendar-engine/bw-wfmodules-calendar-engine-indexing
+    </module>
   </modules>
 </project>
