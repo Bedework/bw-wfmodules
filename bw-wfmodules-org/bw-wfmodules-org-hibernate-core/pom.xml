@@ -218,9 +218,9 @@
             </fileInfo>
 
             <fileInfo>
-              <groupId>org.bedework</groupId>
-              <artifactId>bw-util-hibernate</artifactId>
-              <version>${bw-util-hibernate.version}</version>
+              <groupId>org.bedework.database</groupId>
+              <artifactId>bw-hibernate</artifactId>
+              <version>${bw-database.version}</version>
             </fileInfo>
 
             <fileInfo>

@@ -37,7 +37,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.calendar.engine.core.rw-hibernate</name>
+              <name>org.bedework.calendar.engine.core.rw.hibernate</name>
             </moduleDependency>
 
             <moduleDependency>

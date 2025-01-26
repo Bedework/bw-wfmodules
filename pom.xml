@@ -22,6 +22,7 @@
 
   <modules>
     <module>bw-wfmodules-access</module>
+    <module>bw-wfmodules-base</module>
     <module>bw-wfmodules-caldav</module>
     <module>bw-wfmodules-calendar</module>
     <module>bw-wfmodules-calws-soap-xml</module>
@@ -30,6 +31,7 @@
     <module>bw-wfmodules-cli</module>
     <module>bw-wfmodules-com</module>
     <module>bw-wfmodules-commons</module>
+    <module>bw-wfmodules-database</module>
     <module>bw-wfmodules-eventreg</module>
     <module>bw-wfmodules-exchangews-xml</module>
     <module>bw-wfmodules-hawtio</module>
@@ -52,8 +54,6 @@
     <module>bw-wfmodules-webdav</module>
     <module>bw-wfmodules-wfextensions</module>
     <module>wfmodulesutil</module>
-    <module>bw-wfmodules-base</module>
-    <module>bw-wfmodules-database</module>
   </modules>
 
   <build>

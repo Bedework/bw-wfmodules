@@ -33,7 +33,7 @@
           <jarResources>
             <jarResource>
               <groupId>org.bedework.caleng</groupId>
-              <artifactId>bw-calendar-engine-core-common</artifactId>
+              <artifactId>bw-calendar-engine-core-ro</artifactId>
               <version>${bw-calendar-engine.version}</version>
             </jarResource>
           </jarResources>

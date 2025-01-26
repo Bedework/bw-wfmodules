@@ -21,6 +21,7 @@
     <module>bw-wfmodules-calendar-engine-core-ro</module>
     <module>bw-wfmodules-calendar-engine-impl</module>
     <module>bw-wfmodules-calendar-engine-indexer</module>
+    <module>bw-wfmodules-calendar-engine-indexing</module>
     <module>bw-wfmodules-calendar-engine-inoutsched</module>
     <module>bw-wfmodules-calendar-engine-interfaces</module>
     <module>bw-wfmodules-calendar-engine-tools</module>
