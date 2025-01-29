@@ -47,6 +47,10 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.database.db</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.database.hibernate</name>
             </moduleDependency>
           </moduleDependencies>
