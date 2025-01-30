@@ -2,20 +2,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.bedework.deploy</groupId>
     <artifactId>bw-wfmodules-calendar-engine</artifactId>
     <version>1.0.9-SNAPSHOT</version>
   </parent>
-  <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>bw-wfmodules-calendar-engine-core-rw-hibernate</artifactId>
+  <artifactId>bw-wfmodules-calendar-engine-core-rw-common</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
       <groupId>org.bedework.caleng</groupId>
-      <artifactId>bw-calendar-engine-core-rw-hibernate</artifactId>
+      <artifactId>bw-calendar-engine-core-rw-common</artifactId>
     </dependency>
   </dependencies>
 
@@ -26,22 +26,18 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.calendar.engine.core.rw.hibernate</moduleName>
+          <moduleName>org.bedework.calendar.engine.core.rw.common</moduleName>
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <jarResource>
               <groupId>org.bedework.caleng</groupId>
-              <artifactId>bw-calendar-engine-core-rw-hibernate</artifactId>
+              <artifactId>bw-calendar-engine-core-rw-common</artifactId>
               <version>${bw-calendar-engine.version}</version>
             </jarResource>
           </jarResources>
 
           <moduleDependencies>
-            <moduleDependency>
-              <name>org.bedework.calendar.engine.core.rw.common</name>
-            </moduleDependency>
-
             <moduleDependency>
               <name>org.bedework.calendar.engine.core.ro</name>
             </moduleDependency>
@@ -52,14 +48,6 @@
 
             <moduleDependency>
               <name>org.bedework.database.db</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.database.hibernate</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.database.jpa</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>
