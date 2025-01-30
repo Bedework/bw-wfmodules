@@ -44,6 +44,10 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.database.jpa</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.base</name>
             </moduleDependency>
 
