@@ -66,9 +66,21 @@
             </jarResource>
 
             <jarResource>
+              <groupId>org.apache.commons</groupId>
+              <artifactId>commons-text</artifactId>
+              <version>1.10.0</version>
+            </jarResource>
+
+            <jarResource>
               <groupId>ognl</groupId>
               <artifactId>ognl</artifactId>
-              <version>3.1.29</version>
+              <version>3.3.5</version>
+            </jarResource>
+
+            <jarResource>
+              <groupId>com.github.ben-manes.caffeine</groupId>
+              <artifactId>caffeine</artifactId>
+              <version>2.9.3</version>
             </jarResource>
           </jarResources>
 
@@ -91,6 +103,10 @@
 
             <moduleDependency>
               <name>wildflyee.api</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>sun.jdk</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>
