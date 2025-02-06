@@ -7,7 +7,7 @@
   <parent>
     <artifactId>bw-wfmodules-apache-commons</artifactId>
     <groupId>org.bedework.deploy</groupId>
-    <version>2.0.0-SNAPSHOT</version>
+    <version>1.0.9-SNAPSHOT</version>
   </parent>
 
   <artifactId>bw-wfmodules-commons-lang3</artifactId>
