@@ -48,7 +48,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>javax.servlet.jstl.api</name>
+              <name>jakarta.servlet.jstl.api</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

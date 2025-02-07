@@ -41,7 +41,7 @@
 
           <moduleDependencies>
             <moduleDependency>
-              <name>javax.jms.api</name>
+              <name>jakarta.jms.api</name>
             </moduleDependency>
 
             <moduleDependency>

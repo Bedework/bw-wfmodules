@@ -100,7 +100,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>javax.servlet.jsp.api</name>
+              <name>jakarta.servlet.jsp.api</name>
             </moduleDependency>
 
             <moduleDependency>

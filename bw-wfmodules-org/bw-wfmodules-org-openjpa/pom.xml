@@ -105,11 +105,11 @@
 
           <moduleDependencies>
             <moduleDependency>
-              <name>javax.persistence.api</name>
+              <name>jakarta.persistence.api</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>javax.transaction.api</name>
+              <name>jakarta.transaction.api</name>
             </moduleDependency>
 
             <moduleDependency>

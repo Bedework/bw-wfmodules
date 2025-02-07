@@ -50,7 +50,7 @@
           </jarResources>
           <moduleDependencies>
             <moduleDependency>
-              <name>javax.servlet.api</name>
+              <name>jakarta.servlet.api</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

@@ -15,41 +15,46 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.hibernate</groupId>
+      <groupId>org.hibernate.orm</groupId>
       <artifactId>hibernate-core</artifactId>
-      <exclusions>
+<!--      <exclusions>
         <exclusion>
           <groupId>*</groupId>
           <artifactId>*</artifactId>
         </exclusion>
-      </exclusions>
+      </exclusions>-->
     </dependency>
 
     <dependency>
-      <groupId>org.hibernate</groupId>
+      <groupId>org.hibernate.orm</groupId>
       <artifactId>hibernate-jcache</artifactId>
     </dependency>
 
     <dependency>
-      <groupId>org.bedework.database</groupId>
-      <artifactId>bw-hibernate</artifactId>
+      <groupId>jakarta.transaction</groupId>
+      <artifactId>jakarta.transaction-api</artifactId>
     </dependency>
 
+<!--    <dependency>
+      <groupId>org.bedework.database</groupId>
+      <artifactId>bw-hibernate</artifactId>
+    </dependency> -->
+
     <dependency>
-      <groupId>antlr</groupId>
-      <artifactId>antlr</artifactId>
+      <groupId>org.antlr</groupId>
+      <artifactId>antlr4</artifactId>
     </dependency>
 
     <dependency>
       <groupId>net.bytebuddy</groupId>
       <artifactId>byte-buddy</artifactId>
-      <version>1.12.9</version>
+      <version>1.14.18</version>
     </dependency>
 
     <dependency>
-      <groupId>org.jboss</groupId>
+      <groupId>io.smallrye</groupId>
       <artifactId>jandex</artifactId>
-      <version>2.4.2.Final</version>
+      <version>3.2.0</version>
     </dependency>
 
     <dependency>
@@ -61,19 +66,19 @@
     <dependency>
       <groupId>org.hibernate.common</groupId>
       <artifactId>hibernate-commons-annotations</artifactId>
-      <version>5.1.2.Final</version>
+      <version>7.0.3.Final</version>
     </dependency>
 
     <dependency>
       <groupId>org.glassfish.jaxb</groupId>
       <artifactId>jaxb-runtime</artifactId>
-      <version>2.3.1</version>
-      <exclusions>
+      <version>4.0.2</version>
+<!--      <exclusions>
         <exclusion>
           <groupId>*</groupId>
           <artifactId>*</artifactId>
         </exclusion>
-      </exclusions>
+      </exclusions> -->
     </dependency>
 
     <dependency>
@@ -95,12 +100,6 @@
     </dependency>
 
     <dependency>
-      <groupId>org.glassfish.jaxb</groupId>
-      <artifactId>txw2</artifactId>
-      <version>2.3.1</version>
-    </dependency>
-
-    <dependency>
       <groupId>org.ehcache</groupId>
       <artifactId>ehcache</artifactId>
       <exclusions>
@@ -109,11 +108,6 @@
           <artifactId>*</artifactId>
         </exclusion>
       </exclusions>
-    </dependency>
-
-    <dependency>
-      <groupId>javax.cache</groupId>
-      <artifactId>cache-api</artifactId>
     </dependency>
   </dependencies>
 
@@ -132,20 +126,20 @@
                  classloading patch
               -->
             <fileInfo>
-              <groupId>org.hibernate</groupId>
+              <groupId>org.hibernate.orm</groupId>
               <artifactId>hibernate-core</artifactId>
               <version>${hibernate.version}</version>
             </fileInfo>
 
             <fileInfo>
-              <groupId>org.hibernate</groupId>
+              <groupId>org.hibernate.orm</groupId>
               <artifactId>hibernate-jcache</artifactId>
               <version>${hibernate.version}</version>
             </fileInfo>
 
             <!--
             <fileInfo>
-              <groupId>org.hibernate</groupId>
+              <groupId>org.hibernate.orm</groupId>
               <artifactId>hibernate-validator</artifactId>
               <version>5.3.6.Final</version>
             </fileInfo>
@@ -158,21 +152,21 @@
             </fileInfo>
 
             <fileInfo>
-              <groupId>antlr</groupId>
-              <artifactId>antlr</artifactId>
+              <groupId>org.antlr</groupId>
+              <artifactId>antlr4</artifactId>
               <version>${antlr.version}</version>
             </fileInfo>
 
             <fileInfo>
               <groupId>net.bytebuddy</groupId>
               <artifactId>byte-buddy</artifactId>
-              <version>1.12.9</version>
+              <version>1.14.18</version>
             </fileInfo>
 
             <fileInfo>
-              <groupId>org.jboss</groupId>
+              <groupId>io.smallrye</groupId>
               <artifactId>jandex</artifactId>
-              <version>2.4.2.Final</version>
+              <version>3.2.0</version>
             </fileInfo>
 
             <fileInfo>
@@ -184,13 +178,7 @@
             <fileInfo>
               <groupId>org.hibernate.common</groupId>
               <artifactId>hibernate-commons-annotations</artifactId>
-              <version>5.1.2.Final</version>
-            </fileInfo>
-
-            <fileInfo>
-              <groupId>org.glassfish.jaxb</groupId>
-              <artifactId>jaxb-runtime</artifactId>
-              <version>2.3.1</version>
+              <version>7.0.3.Final</version>
             </fileInfo>
 
             <fileInfo>
@@ -216,23 +204,17 @@
               <artifactId>FastInfoset</artifactId>
               <version>1.2.15</version>
             </fileInfo>
-
+<!--
             <fileInfo>
               <groupId>org.bedework.database</groupId>
               <artifactId>bw-hibernate</artifactId>
               <version>${bw-database.version}</version>
             </fileInfo>
-
+-->
             <fileInfo>
               <groupId>org.bedework</groupId>
               <artifactId>bw-util-logging</artifactId>
               <version>${bw-util-logging.version}</version>
-            </fileInfo>
-
-            <fileInfo>
-              <groupId>javax.cache</groupId>
-              <artifactId>cache-api</artifactId>
-              <version>${javax.cache-api.version}</version>
             </fileInfo>
           </jarResources>
 
@@ -253,23 +235,23 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>javax.activation.api</name>
+              <name>jakarta.activation.api</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>javax.annotation.api</name>
+              <name>jakarta.annotation.api</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>javax.el.api</name>
+              <name>jakarta.el.api</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>javax.persistence.api</name>
+              <name>jakarta.persistence.api</name>
             </moduleDependency>
 
             <moduleDependency>
-              <name>javax.transaction.api</name>
+              <name>jakarta.transaction.api</name>
             </moduleDependency>
 
             <moduleDependency>

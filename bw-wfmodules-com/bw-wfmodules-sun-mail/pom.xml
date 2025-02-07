@@ -33,14 +33,14 @@
           <jarResources>
             <jarResource>
               <groupId>com.sun.mail</groupId>
-              <artifactId>javax.mail</artifactId>
+              <artifactId>jakarta.mail</artifactId>
               <version>${sun.mail.version}</version>
             </jarResource>
           </jarResources>
 
           <moduleDependencies>
             <moduleDependency>
-              <name>javax.activation.api</name>
+              <name>jakarta.activation.api</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>

@@ -106,7 +106,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>javax.mail.api</name>
+              <name>jakarta.mail.api</name>
             </moduleDependency>
 
             <moduleDependency>
