@@ -7,7 +7,7 @@
   <parent>
     <artifactId>bw-wfmodules-commons</artifactId>
     <groupId>org.bedework.deploy</groupId>
-    <version>1.0.10-SNAPSHOT</version>
+    <version>1.0.10</version>
   </parent>
 
   <artifactId>bw-wfmodules-commons-io</artifactId>
