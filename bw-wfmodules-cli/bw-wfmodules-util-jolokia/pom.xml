@@ -70,7 +70,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.commons.lang</name>
+              <name>org.bedework.commons.lang3</name>
             </moduleDependency>
 
             <moduleDependency>

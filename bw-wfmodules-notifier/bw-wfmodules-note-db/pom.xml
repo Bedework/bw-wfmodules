@@ -52,7 +52,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.database.hibernate</name>
+              <name>org.bedework.database.jpa</name>
             </moduleDependency>
 
             <moduleDependency>
@@ -69,10 +69,6 @@
 
             <moduleDependency>
               <name>org.bedework.com.fasterxml.jackson.core.databind</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.org.hibernate.core</name>
             </moduleDependency>
 
             <moduleDependency>

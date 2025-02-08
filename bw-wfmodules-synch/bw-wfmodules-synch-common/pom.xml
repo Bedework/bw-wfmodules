@@ -60,10 +60,6 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.database.hibernate</name>
-            </moduleDependency>
-
-            <moduleDependency>
               <name>org.bedework.util.config</name>
             </moduleDependency>
 

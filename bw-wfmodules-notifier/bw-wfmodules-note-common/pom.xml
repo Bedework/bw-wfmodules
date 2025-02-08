@@ -67,7 +67,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.database.hibernate</name>
+              <name>org.bedework.database.jpa</name>
             </moduleDependency>
 
             <moduleDependency>
