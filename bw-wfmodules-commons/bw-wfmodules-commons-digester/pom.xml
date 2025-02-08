@@ -20,8 +20,8 @@
     </dependency>
 
     <dependency>
-      <groupId>commons-digester</groupId>
-      <artifactId>commons-digester</artifactId>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-digester3</artifactId>
     </dependency>
   </dependencies>
 
@@ -37,8 +37,8 @@
 
           <jarResources>
             <jarResource>
-              <groupId>commons-digester</groupId>
-              <artifactId>commons-digester</artifactId>
+              <groupId>org.apache.commons</groupId>
+              <artifactId>commons-digester3</artifactId>
               <version>${commons.digester-version}</version>
             </jarResource>
           </jarResources>
