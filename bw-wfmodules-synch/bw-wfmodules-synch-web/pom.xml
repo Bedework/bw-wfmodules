@@ -68,10 +68,6 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.org.hibernate.core</name>
-            </moduleDependency>
-
-            <moduleDependency>
               <name>org.bedework.ical4j</name>
             </moduleDependency>
 
