@@ -102,7 +102,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.com.sun.mail</name>
+              <name>org.bedework.org.eclipse.angus.mail</name>
             </moduleDependency>
 
             <moduleDependency>

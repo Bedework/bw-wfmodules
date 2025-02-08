@@ -18,16 +18,6 @@
       <groupId>org.bedework</groupId>
       <artifactId>bw-ical4j-vcard</artifactId>
     </dependency>
-
-    <dependency>
-      <groupId>commons-io</groupId>
-      <artifactId>commons-io</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>commons-lang</groupId>
-      <artifactId>commons-lang</artifactId>
-    </dependency>
   </dependencies>
 
   <build>
@@ -62,7 +52,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.commons.lang</name>
+              <name>org.bedework.commons.lang3</name>
             </moduleDependency>
 
             <moduleDependency>

@@ -19,7 +19,6 @@
     <module>bw-wfmodules-commons-collections</module>
     <module>bw-wfmodules-commons-digester</module>
     <module>bw-wfmodules-commons-io</module>
-    <module>bw-wfmodules-commons-lang</module>
     <module>bw-wfmodules-commons-logging</module>
   </modules>
 </project>
