@@ -6,10 +6,10 @@
   <formats>
     <format>zip</format>
   </formats>
-  <baseDirectory>org/bedework/org/eclipse/angus/mail</baseDirectory>
+  <baseDirectory>org/bedework/org/dom4j</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${bw-build-module-base}/org/bedework/org/eclipse/angus/mail</directory>
+      <directory>${bw-build-module-base}/org/bedework/org/dom4j</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

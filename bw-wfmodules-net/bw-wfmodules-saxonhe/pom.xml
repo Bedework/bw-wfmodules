@@ -162,7 +162,7 @@
 
           <moduleDependencies>
             <moduleDependency>
-              <name>org.dom4j</name>
+              <name>org.bedework.org.dom4j</name>
             </moduleDependency>
 
             <moduleDependency>

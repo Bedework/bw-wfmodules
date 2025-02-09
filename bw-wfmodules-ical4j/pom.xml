@@ -46,10 +46,6 @@
 
           <moduleDependencies>
             <moduleDependency>
-              <name>org.apache.log4j</name>
-            </moduleDependency>
-
-            <moduleDependency>
               <name>org.bedework.util.tz</name>
             </moduleDependency>
 

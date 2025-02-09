@@ -23,5 +23,6 @@
     <module>bw-wfmodules-org-openjpa</module>
     <module>bw-wfmodules-opensearch</module>
     <module>bw-wfmodules-postgresql</module>
+    <module>bw-wfmodules-dom4j</module>
   </modules>
 </project>
