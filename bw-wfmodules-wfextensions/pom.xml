@@ -15,6 +15,5 @@
 
   <modules>
     <module>bw-wfmodules-wfextensions-calendar</module>
-    <module>bw-wfmodules-wfextensions-undertow-handlers</module>
   </modules>
 </project>
