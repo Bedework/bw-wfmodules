@@ -58,6 +58,11 @@
       <groupId>org.jolokia</groupId>
       <artifactId>jolokia-service-notif-sse</artifactId>
     </dependency>
+
+    <dependency>
+      <groupId>org.jolokia</groupId>
+      <artifactId>jolokia-json</artifactId>
+    </dependency>
   </dependencies>
 
   <build>
@@ -122,6 +127,12 @@
             <fileInfo>
               <groupId>org.jolokia</groupId>
               <artifactId>jolokia-service-notif-sse</artifactId>
+              <version>${jolokia.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>org.jolokia</groupId>
+              <artifactId>jolokia-json</artifactId>
               <version>${jolokia.version}</version>
             </fileInfo>
           </jarResources>

@@ -52,7 +52,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.database.jpa</name>
+              <name>org.bedework.database.hibernate</name>
             </moduleDependency>
 
             <moduleDependency>

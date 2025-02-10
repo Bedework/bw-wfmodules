@@ -41,6 +41,12 @@
     </dependency> -->
 
     <dependency>
+      <groupId>javax.cache</groupId>
+      <artifactId>cache-api</artifactId>
+      <version>${javax.cache-api.version}</version>
+    </dependency>
+
+    <dependency>
       <groupId>org.antlr</groupId>
       <artifactId>antlr4</artifactId>
     </dependency>
@@ -143,6 +149,12 @@
               <version>5.3.6.Final</version>
             </fileInfo>
             -->
+
+            <fileInfo>
+              <groupId>javax.cache</groupId>
+              <artifactId>cache-api</artifactId>
+              <version>${javax.cache-api.version}</version>
+            </fileInfo>
 
             <fileInfo>
               <groupId>org.ehcache</groupId>

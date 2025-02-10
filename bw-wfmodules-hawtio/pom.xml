@@ -15,8 +15,8 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.checkerframework</groupId>
-      <artifactId>checker-qual</artifactId>
+      <groupId>com.github.ben-manes.caffeine</groupId>
+      <artifactId>caffeine</artifactId>
     </dependency>
 
     <dependency>
@@ -25,48 +25,33 @@
     </dependency>
 
     <dependency>
-      <groupId>org.json</groupId>
-      <artifactId>json</artifactId>
+      <groupId>org.jspecify</groupId>
+      <artifactId>jspecify</artifactId>
     </dependency>
 
     <dependency>
-      <groupId>com.googlecode.json-simple</groupId>
-      <artifactId>json-simple</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>com.google.code.findbugs</groupId>
-      <artifactId>jsr305</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>com.google.j2objc</groupId>
-      <artifactId>j2objc-annotations</artifactId>
+      <groupId>com.nimbusds</groupId>
+      <artifactId>nimbus-jose-jwt</artifactId>
     </dependency>
 
     <dependency>
       <groupId>io.hawt</groupId>
-      <artifactId>hawtio-core</artifactId>
+      <artifactId>hawtio-connect</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>io.hawt</groupId>
+      <artifactId>hawtio-log</artifactId>
     </dependency>
 
     <dependency>
       <groupId>io.hawt</groupId>
       <artifactId>hawtio-system</artifactId>
-      <exclusions>
-        <exclusion>
-          <groupId>org.json</groupId>
-          <artifactId>json</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>com.google.guava</groupId>
-          <artifactId>guava</artifactId>
-        </exclusion>
-      </exclusions>
     </dependency>
 
     <dependency>
       <groupId>io.hawt</groupId>
-      <artifactId>hawtio-util</artifactId>
+      <artifactId>hawtio-local-jvm-mbean</artifactId>
     </dependency>
   </dependencies>
 
@@ -82,9 +67,9 @@
 
           <jarResources>
             <fileInfo>
-              <groupId>org.checkerframework</groupId>
-              <artifactId>checker-qual</artifactId>
-              <version>${checker-qual.version}</version>
+              <groupId>com.github.ben-manes.caffeine</groupId>
+              <artifactId>caffeine</artifactId>
+              <version>${caffeine.version}</version>
             </fileInfo>
 
             <fileInfo>
@@ -94,32 +79,26 @@
             </fileInfo>
 
             <fileInfo>
-              <groupId>org.json</groupId>
-              <artifactId>json</artifactId>
-              <version>${json.version}</version>
+              <groupId>org.jspecify</groupId>
+              <artifactId>jspecify</artifactId>
+              <version>${jspecify.version}</version>
             </fileInfo>
 
             <fileInfo>
-              <groupId>com.googlecode.json-simple</groupId>
-              <artifactId>json-simple</artifactId>
-              <version>${json-simple.version}</version>
-            </fileInfo>
-
-            <fileInfo>
-              <groupId>com.google.code.findbugs</groupId>
-              <artifactId>jsr305</artifactId>
-              <version>${jsr305.version}</version>
-            </fileInfo>
-
-            <fileInfo>
-              <groupId>com.google.j2objc</groupId>
-              <artifactId>j2objc-annotations</artifactId>
-              <version>${j2objc-annotations.version}</version>
+              <groupId>com.nimbusds</groupId>
+              <artifactId>nimbus-jose-jwt</artifactId>
+              <version>${nimbus-jose-jwt.version}</version>
             </fileInfo>
 
             <fileInfo>
               <groupId>io.hawt</groupId>
-              <artifactId>hawtio-core</artifactId>
+              <artifactId>hawtio-connect</artifactId>
+              <version>${hawtio.version}</version>
+            </fileInfo>
+
+            <fileInfo>
+              <groupId>io.hawt</groupId>
+              <artifactId>hawtio-log</artifactId>
               <version>${hawtio.version}</version>
             </fileInfo>
 
@@ -131,10 +110,22 @@
 
             <fileInfo>
               <groupId>io.hawt</groupId>
-              <artifactId>hawtio-util</artifactId>
+              <artifactId>hawtio-local-jvm-mbean</artifactId>
               <version>${hawtio.version}</version>
             </fileInfo>
           </jarResources>
+
+          <!--
+           906581 Jan 18 06:34 caffeine-3.2.0.jar
+            19401 Nov 19 09:42 error_prone_annotations-2.36.0.jar
+             3819 Jul 17  2024 jspecify-1.0.0.jar
+           814025 Jan  4 03:01 nimbus-jose-jwt-10.0.1.jar
+
+             4891 Feb  6 14:43 hawtio-connect-4.3.0.jar
+             9918 Feb  6 14:42 hawtio-local-jvm-mbean-4.3.0.jar
+            29985 Feb  6 14:43 hawtio-log-4.3.0.jar
+           221981 Feb  6 14:42 hawtio-system-4.3.0.jar
+             -->
 
           <moduleDependencies>
             <moduleDependency>
@@ -154,6 +145,10 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.commons.logging</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.org.apache.httpcomponents.httpclient</name>
             </moduleDependency>
 
@@ -162,7 +157,19 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.org.jolokia.core</name>
+              <name>org.bedework.com.fasterxml.jackson.core.jackson-core</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.com.fasterxml.jackson.core.annotations</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.com.fasterxml.jackson.core.databind</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.jolokia.server</name>
             </moduleDependency>
 
             <moduleDependency>
