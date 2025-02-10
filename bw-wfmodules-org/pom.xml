@@ -19,10 +19,10 @@
     <module>bw-wfmodules-org-freemarker</module>
     <module>bw-wfmodules-org-hibernate-core</module>
     <module>bw-wfmodules-org-imgscalr-lib</module>
-    <module>bw-wfmodules-org-jolokia-core</module>
     <module>bw-wfmodules-org-openjpa</module>
     <module>bw-wfmodules-opensearch</module>
     <module>bw-wfmodules-postgresql</module>
     <module>bw-wfmodules-dom4j</module>
+    <module>bw-wfmodules-jolokia</module>
   </modules>
 </project>

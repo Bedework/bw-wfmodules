@@ -18,16 +18,6 @@
       <groupId>org.bedework</groupId>
       <artifactId>bw-util-jolokia</artifactId>
     </dependency>
-
-    <dependency>
-      <groupId>org.jolokia</groupId>
-      <artifactId>jolokia-client-java</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.jolokia</groupId>
-      <artifactId>jolokia-json</artifactId>
-    </dependency>
   </dependencies>
 
   <build>
@@ -47,23 +37,15 @@
               <artifactId>bw-util-jolokia</artifactId>
               <version>${bw-cliutil.version}</version>
             </jarResource>
-
-            <jarResource>
-              <groupId>org.jolokia</groupId>
-              <artifactId>jolokia-client-java</artifactId>
-              <version>${jolokia.client.version}</version>
-            </jarResource>
-
-            <jarResource>
-              <groupId>org.jolokia</groupId>
-              <artifactId>jolokia-json</artifactId>
-              <version>${jolokia.client.version}</version>
-            </jarResource>
           </jarResources>
 
           <moduleDependencies>
             <moduleDependency>
               <name>org.bedework.logging</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.jolokia.client</name>
             </moduleDependency>
 
             <moduleDependency>

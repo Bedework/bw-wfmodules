@@ -6,10 +6,10 @@
   <formats>
     <format>zip</format>
   </formats>
-  <baseDirectory>org/bedework/org/jolokia/core</baseDirectory>
+  <baseDirectory>org/bedework/org/jolokia/client</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${bw-build-module-base}/org/bedework/org/jolokia/core</directory>
+      <directory>${bw-build-module-base}/org/bedework/org/jolokia/client</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>

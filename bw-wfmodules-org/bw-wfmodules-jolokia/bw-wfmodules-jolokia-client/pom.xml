@@ -3,26 +3,29 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
   <parent>
-    <artifactId>bw-wfmodules-org</artifactId>
     <groupId>org.bedework.deploy</groupId>
+    <artifactId>bw-wfmodules-jolokia</artifactId>
     <version>2.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>bw-wfmodules-org-jolokia-core</artifactId>
+  <artifactId>bw-wfmodules-jolokia-client</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
       <groupId>org.jolokia</groupId>
-      <artifactId>jolokia-core</artifactId>
+      <artifactId>jolokia-client-java</artifactId>
     </dependency>
 
     <dependency>
       <groupId>org.jolokia</groupId>
-      <artifactId>jolokia-jsr160</artifactId>
-      <version>${jolokia.version}</version>
+      <artifactId>jolokia-json</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.jolokia</groupId>
+      <artifactId>jolokia-service-jmx</artifactId>
     </dependency>
   </dependencies>
 
@@ -33,30 +36,36 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.org.jolokia.core</moduleName>
+          <moduleName>org.bedework.org.jolokia.client</moduleName>
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <fileInfo>
               <groupId>org.jolokia</groupId>
-              <artifactId>jolokia-core</artifactId>
+              <artifactId>jolokia-client-java</artifactId>
               <version>${jolokia.version}</version>
             </fileInfo>
 
             <fileInfo>
               <groupId>org.jolokia</groupId>
-              <artifactId>jolokia-jsr160</artifactId>
+              <artifactId>jolokia-json</artifactId>
               <version>${jolokia.version}</version>
-            </fileInfo>
-
-            <fileInfo>
-              <groupId>com.googlecode.json-simple</groupId>
-              <artifactId>json-simple</artifactId>
-              <version>1.1.1</version>
             </fileInfo>
           </jarResources>
 
           <moduleDependencies>
+            <moduleDependency>
+              <name>org.bedework.commons.codec</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.apache.httpcomponents.httpclient</name>
+            </moduleDependency>
+
+            <moduleDependency>
+              <name>org.bedework.org.apache.httpcomponents.httpcore</name>
+            </moduleDependency>
+
             <moduleDependency>
               <name>jakarta.servlet.api</name>
             </moduleDependency>
