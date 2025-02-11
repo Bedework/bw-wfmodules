@@ -48,7 +48,7 @@
 
     <dependency>
       <groupId>org.antlr</groupId>
-      <artifactId>antlr4</artifactId>
+      <artifactId>antlr4-runtime</artifactId>
     </dependency>
 
     <dependency>
@@ -107,6 +107,7 @@
     <dependency>
       <groupId>org.ehcache</groupId>
       <artifactId>ehcache</artifactId>
+      <classifier>jakarta</classifier>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
@@ -125,6 +126,7 @@
         <configuration>
           <moduleName>org.bedework.org.hibernate.core</moduleName>
           <noArtifact>true</noArtifact>
+          <debug>true</debug>
 
           <jarResources>
             <!-- Install the hibernate core with a small
@@ -159,12 +161,13 @@
             <fileInfo>
               <groupId>org.ehcache</groupId>
               <artifactId>ehcache</artifactId>
+              <classifier>jakarta</classifier>
               <version>${ehcache.version}</version>
             </fileInfo>
 
             <fileInfo>
               <groupId>org.antlr</groupId>
-              <artifactId>antlr4</artifactId>
+              <artifactId>antlr4-runtime</artifactId>
               <version>${antlr.version}</version>
             </fileInfo>
 
