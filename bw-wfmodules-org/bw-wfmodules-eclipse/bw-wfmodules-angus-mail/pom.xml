@@ -40,6 +40,10 @@
 
           <moduleDependencies>
             <moduleDependency>
+              <name>jakarta.mail.api</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>jakarta.activation.api</name>
             </moduleDependency>
           </moduleDependencies>
