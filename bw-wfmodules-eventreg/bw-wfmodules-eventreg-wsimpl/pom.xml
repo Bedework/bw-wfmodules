@@ -52,6 +52,10 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.database.hibernate</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.logging</name>
             </moduleDependency>
 
