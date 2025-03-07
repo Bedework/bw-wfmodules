@@ -44,6 +44,10 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.database.hibernate</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.org.apache.commons.commons-csv</name>
             </moduleDependency>
 
