@@ -17,5 +17,6 @@
     <module>bw-wfmodules-fasterxml</module>
     <module>bw-wfmodules-h2database-h2</module>
     <module>bw-wfmodules-mysql</module>
+    <module>bw-wfmodules-ibm-icu</module>
   </modules>
 </project>
