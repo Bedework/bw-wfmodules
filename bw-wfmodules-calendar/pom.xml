@@ -20,7 +20,9 @@
     <module>bw-wfmodules-calendar-engine</module>
     <module>bw-wfmodules-calendar-ro-war</module>
     <module>bw-wfmodules-calendar-rw-war</module>
+    <!--
     <module>bw-wfmodules-calendar-llc</module>
     <module>bw-wfmodules-calendar-hlc</module>
+    -->
   </modules>
 </project>
