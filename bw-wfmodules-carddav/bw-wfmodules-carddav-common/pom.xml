@@ -84,6 +84,10 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.webdav</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.com.fasterxml.jackson.core.jackson-core</name>
             </moduleDependency>
 
