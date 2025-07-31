@@ -14,8 +14,7 @@
   <packaging>pom</packaging>
 
   <modules>
-    <module>bw-wfmodules-util-cli</module>
-    <module>bw-wfmodules-util-jolokia</module>
+    <module>bw-wfmodules-cli-jolokia</module>
     <module>bw-wfmodules-cli-app</module>
   </modules>
 </project>
