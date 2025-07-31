@@ -10,13 +10,13 @@
     <version>2.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>bw-wfmodules-util-jolokia</artifactId>
+  <artifactId>bw-wfmodules-cli-jolokia</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
       <groupId>org.bedework</groupId>
-      <artifactId>bw-util-jolokia</artifactId>
+      <artifactId>bw-cli-jolokia</artifactId>
     </dependency>
   </dependencies>
 
@@ -27,15 +27,15 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.cli.util-jolokia</moduleName>
+          <moduleName>org.bedework.cli.cli-jolokia</moduleName>
 
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <jarResource>
               <groupId>org.bedework</groupId>
-              <artifactId>bw-util-jolokia</artifactId>
-              <version>${bw-cliutil.version}</version>
+              <artifactId>bw-cli-jolokia</artifactId>
+              <version>${bw-cli.version}</version>
             </jarResource>
           </jarResources>
 
@@ -49,15 +49,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.cli.util-cli</name>
-            </moduleDependency>
-
-            <moduleDependency>
               <name>org.bedework.util.jmx</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.commons.lang3</name>
             </moduleDependency>
 
             <moduleDependency>
