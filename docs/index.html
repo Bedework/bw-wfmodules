@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.23">
+<title>Bedework Wildfly modules.</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<link rel="stylesheet" href="./asciidoctor.css">
+</head>
+<body class="article toc2 toc-left">
+<div id="header">
+<h1>Bedework Wildfly modules.</h1>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#introduction">Introduction</a>
+<ul class="sectlevel2">
+<li><a href="#_problems_encountered">Problems encountered</a>
+<ul class="sectlevel3">
+<li><a href="#_instanceof_doesnt_work_as_expected">instanceOf doesn&#8217;t work as expected.</a></li>
+</ul>
+</li>
+<li><a href="#_using_this_project">.1. Using this project</a></li>
+</ul>
+</li>
+<li><a href="#reports">1. Reports</a></li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div class="sect1">
+<h2 id="introduction">Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This project provides wildfly deployed modules for <a href="https://www.apereo.org/projects/bedework">Bedework</a>.</p>
+</div>
+<div class="paragraph">
+<p>The wildfly server allows the deployment of modules which provide (often shared) code for applications.</p>
+</div>
+<div class="paragraph">
+<p>This allows the deployed web applications to be very lightweight as they contain no deployable jars.</p>
+</div>
+<div class="paragraph">
+<p>The current downside is that we need to first build the jars and then execute the wildfly module deploy. Also, the server only loads modules on startup. However, it only takes seconds to start the server.</p>
+</div>
+<div class="sect2">
+<h3 id="_problems_encountered">Problems encountered</h3>
+<div class="sect3">
+<h4 id="_instanceof_doesnt_work_as_expected">instanceOf doesn&#8217;t work as expected.</h4>
+<div class="paragraph">
+<p>instanceOf only returns true if the class loaders are equal.
+One of the modules is ical4J and I had a test looking for an
+instance of a particular class. This failed and digging down I
+discovered this code: &#8230;&#8203;</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_using_this_project">.1. Using this project</h3>
+<div class="paragraph">
+<p>These are used as part of the build and deployment process and by the feature packs build to create the module structure.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="reports">1. Reports</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="reports/dependency-check-report.html">Dependency check</a></p>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2025-08-08 14:15:56 -0400
+</div>
+</div>
+</body>
+</html>

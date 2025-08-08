@@ -1,0 +1,2 @@
+=== Using this project
+These are used as part of the build and deployment process and by the feature packs build to create the module structure.

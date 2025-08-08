@@ -1,18 +1,20 @@
 # bw-wfmodules
-No source - will deploy bedework modules to wildfly and create zipped version in maven central.
+No source - will deploy bedework modules to wildfly and create a zipped version in maven central.
 
-##The intent
-The idea is to move all of the deployed jars out of teh deployed
-ears (in the lib directory) and into jboss modules that have the
-appropriate dependencies. The deployed ear will then depend on a
-single top level module.
+## Requirements
 
-Most of this has gone OK - there is a spring-based application 
-and that was difficult till I figured out the xml.
+1. JDK 21
+2. Maven 3
 
-##Problems encountered
-### instanceOf doesn't work as expected.
-instanceOf only returns true if the class loaders are equal.
-One of the modules is ical4J and I hada  test looking for an 
-instance of a particular class. This failed and digging down I 
-discovered this code:
+## Using this project
+See documentation at [github pages for this project](https://bedework.github.io/bw-wfmodules/)
+
+## Reporting Issues
+Please report issues via the github issues tab at
+> https://github.com/Bedework/bw-wfmodules/issues
+
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Security - Vulnerability reporting
+See [SECURITY.md](SECURITY.md).

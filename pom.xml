@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.bedework</groupId>
     <artifactId>bedework-parent</artifactId>
-    <version>227-SNAPSHOT</version>
+    <version>227</version>
   </parent>
 
   <groupId>org.bedework.deploy</groupId>
@@ -22,6 +22,7 @@
 
   <modules>
     <module>bw-wfmodules-access</module>
+    <module>bw-wfmodules-asciidocs</module>
     <module>bw-wfmodules-base</module>
     <module>bw-wfmodules-caldav</module>
     <module>bw-wfmodules-calendar</module>

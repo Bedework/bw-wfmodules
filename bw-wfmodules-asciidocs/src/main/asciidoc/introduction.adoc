@@ -1,0 +1,17 @@
+[[introduction]]
+== Introduction
+This project provides wildfly deployed modules for https://www.apereo.org/projects/bedework[Bedework].
+
+The wildfly server allows the deployment of modules which provide (often shared) code for applications.
+
+This allows the deployed web applications to be very lightweight as they contain no deployable jars.
+
+The current downside is that we need to first build the jars and then execute the wildfly module deploy. Also, the server only loads modules on startup. However, it only takes seconds to start the server.
+
+=== Problems encountered
+==== instanceOf doesn't work as expected.
+
+instanceOf only returns true if the class loaders are equal.
+One of the modules is ical4J and I had a test looking for an
+instance of a particular class. This failed and digging down I
+discovered this code: ...
