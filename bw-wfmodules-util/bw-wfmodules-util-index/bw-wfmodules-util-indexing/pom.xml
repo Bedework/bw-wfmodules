@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-util-indexing</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: util index indexing</name>
 
   <dependencies>
     <dependency>

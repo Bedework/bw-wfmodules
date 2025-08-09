@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-org-freemarker</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: org freemarker</name>
 
   <dependencies>
     <dependency>

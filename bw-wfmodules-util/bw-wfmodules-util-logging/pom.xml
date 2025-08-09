@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-util-logging</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: util logging</name>
 
   <dependencies>
     <dependency>

@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-opensearch</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: org opensearch</name>
 
   <modules>
     <module>bw-wfmodules-org-opensearch-opensearch</module>

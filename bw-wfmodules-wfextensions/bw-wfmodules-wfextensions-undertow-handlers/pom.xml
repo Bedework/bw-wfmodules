@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-wfextensions-undertow-handlers</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: wfextensions undertow-handlers</name>
 
   <dependencies>
     <dependency>

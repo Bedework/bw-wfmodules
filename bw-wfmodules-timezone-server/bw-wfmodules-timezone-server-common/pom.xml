@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-timezone-server-common</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: timezone-server common</name>
 
   <dependencies>
     <dependency>

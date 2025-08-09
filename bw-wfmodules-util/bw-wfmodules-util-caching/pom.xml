@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-util-caching</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: util caching</name>
 
   <dependencies>
     <dependency>

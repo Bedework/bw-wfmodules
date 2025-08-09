@@ -11,6 +11,7 @@
 
   <artifactId>bw-wfmodules-timezone-server-xml</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: timezone-server xml</name>
 
   <dependencies>
     <dependency>

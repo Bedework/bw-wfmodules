@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-util-tz</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: util network tz</name>
 
   <dependencies>
     <dependency>

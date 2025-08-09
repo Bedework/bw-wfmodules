@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-util-indexing-opensearch</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: util index opensearch</name>
 
   <dependencies>
     <dependency>

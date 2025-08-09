@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-util-servlet-filters</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: util network servlet-filters</name>
 
   <dependencies>
     <dependency>

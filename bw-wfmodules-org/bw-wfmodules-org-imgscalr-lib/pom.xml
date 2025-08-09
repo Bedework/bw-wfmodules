@@ -11,7 +11,7 @@
   </parent>
 
   <artifactId>bw-wfmodules-org-imgscalr-lib</artifactId>
-  <name>bw-wfmodules-org-imgscalr-lib</name>
+  <name>Bedework wfmodules: org imgscalr lib</name>
   <packaging>pom</packaging>
 
   <dependencies>

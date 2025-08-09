@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-util-conf</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: util conf</name>
 
   <modules>
     <module>bw-wfmodules-util-config</module>

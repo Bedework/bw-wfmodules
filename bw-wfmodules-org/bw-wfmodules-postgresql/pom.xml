@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-postgresql</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: org postgresql</name>
 
   <dependencies>
     <dependency>

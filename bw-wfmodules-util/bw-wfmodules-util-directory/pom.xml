@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-util-directory</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: util directory</name>
 
   <dependencies>
     <dependency>

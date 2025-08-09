@@ -12,7 +12,7 @@
   </parent>
 
   <artifactId>bw-wfmodules-timezone-server</artifactId>
-  <name>bw-wfmodules-timezone-server</name>
+  <name>Bedework wfmodules: timezone-server</name>
   <packaging>pom</packaging>
 
   <modules>

@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-util2-vcard</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: util2 vcard</name>
 
   <dependencies>
     <dependency>

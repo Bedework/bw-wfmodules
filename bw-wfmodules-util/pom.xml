@@ -11,7 +11,7 @@
   </parent>
 
   <artifactId>bw-wfmodules-util</artifactId>
-  <name>bw-wfmodules-util</name>
+  <name>Bedework wfmodules: util</name>
   <packaging>pom</packaging>
 
   <modules>

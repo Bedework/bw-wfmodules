@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-util-args</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: util args</name>
 
   <dependencies>
     <dependency>

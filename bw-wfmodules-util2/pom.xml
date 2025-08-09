@@ -11,6 +11,8 @@
 
   <artifactId>bw-wfmodules-util2</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: util2</name>
+
   <modules>
     <module>bw-wfmodules-util2-calendar</module>
     <module>bw-wfmodules-util2-vcard</module>

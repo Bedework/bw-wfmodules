@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-schemaorgforj</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: schemaorgforj</name>
 
   <dependencies>
     <dependency>

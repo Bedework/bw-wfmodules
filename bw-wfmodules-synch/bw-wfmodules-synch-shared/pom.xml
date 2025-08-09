@@ -11,6 +11,7 @@
 
   <artifactId>bw-wfmodules-synch-shared</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: synch shared</name>
 
   <dependencies>
     <dependency>

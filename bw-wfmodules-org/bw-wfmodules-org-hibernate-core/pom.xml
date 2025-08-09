@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-org-hibernate-core</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: org hibernate core</name>
 
   <dependencies>
     <dependency>

@@ -11,6 +11,7 @@
 
   <artifactId>bw-wfmodules-util-dav</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: util network dav</name>
 
   <dependencies>
     <dependency>

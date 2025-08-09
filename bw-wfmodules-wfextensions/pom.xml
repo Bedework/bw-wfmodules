@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-wfextensions</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: wfextensions</name>
 
   <modules>
     <module>bw-wfmodules-wfextensions-calendar</module>

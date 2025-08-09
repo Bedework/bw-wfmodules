@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-webdav</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: webdav</name>
 
   <dependencies>
     <dependency>
