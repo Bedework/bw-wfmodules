@@ -11,6 +11,8 @@
 
   <artifactId>bw-wfmodules-database</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: database</name>
+
   <modules>
     <module>bw-wfmodules-database-db</module>
     <module>bw-wfmodules-database-hibernate</module>

@@ -11,6 +11,7 @@
 
   <artifactId>bw-wfmodules-eventreg-wsimpl</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: eventreg wsimpl</name>
 
   <dependencies>
     <dependency>

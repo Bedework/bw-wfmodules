@@ -11,6 +11,8 @@
 
   <artifactId>bw-wfmodules-category</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: category</name>
+
   <modules>
     <module>bw-wfmodules-category-common</module>
     <module>bw-wfmodules-category-impl</module>

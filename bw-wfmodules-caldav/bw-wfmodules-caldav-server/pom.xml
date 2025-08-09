@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-caldav-server</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: caldav server</name>
 
   <dependencies>
     <dependency>

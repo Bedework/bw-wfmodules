@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-com-fasterxml-jackson-dataformat-yaml</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: com fasterxml jackson dataformat yaml</name>
 
   <dependencies>
     <dependency>

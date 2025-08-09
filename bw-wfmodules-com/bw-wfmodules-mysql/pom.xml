@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-mysql</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: com mysql</name>
 
   <dependencies>
     <dependency>

@@ -27,7 +27,7 @@ This required many dependencies to be updated or added.
 - Remove last of spring support 
 
 ## [1.0.8] - 2025-02-06
-This release was focussed on preparing for the move to the jakarta world. Mostly this involved upgrading to the latest struts2 6.x release and changing the database related code to be more aligned with jpf.
+This release was focussed on preparing for the move to the jakarta world. Mostly this involved upgrading to the latest struts2 6.x release and changing the database related code to be more aligned with jpa.
 This required many dependencies to be updated or added.
 
 ### Added

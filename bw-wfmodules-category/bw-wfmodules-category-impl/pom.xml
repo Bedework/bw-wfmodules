@@ -11,6 +11,7 @@
 
   <artifactId>bw-wfmodules-category-impl</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: category impl</name>
 
   <dependencies>
     <dependency>

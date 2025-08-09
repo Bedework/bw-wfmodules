@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-com-fasterxml-jackson-core-annotations</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: com fasterxml jackson core annotations</name>
 
   <dependencies>
     <dependency>

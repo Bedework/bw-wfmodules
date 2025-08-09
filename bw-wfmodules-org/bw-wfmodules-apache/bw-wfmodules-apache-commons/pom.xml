@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-apache-commons</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: org apache commons</name>
 
   <modules>
     <module>bw-wfmodules-commons-csv</module>

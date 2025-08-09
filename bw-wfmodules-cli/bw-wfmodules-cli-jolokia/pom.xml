@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-cli-jolokia</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: cli jolokia</name>
 
   <dependencies>
     <dependency>

@@ -11,6 +11,7 @@
 
   <artifactId>bw-wfmodules-note-shared</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: note shared</name>
 
   <dependencies>
     <dependency>

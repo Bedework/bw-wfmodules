@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-ical4j-vcard</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: ical4j-vcard</name>
 
   <dependencies>
     <dependency>

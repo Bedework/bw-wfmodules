@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-base</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: base</name>
 
   <dependencies>
     <dependency>

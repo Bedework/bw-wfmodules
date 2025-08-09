@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-ical4j</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: ical4j</name>
 
   <dependencies>
     <dependency>

@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-httpcomponents</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: org apache httpcomponents</name>
 
   <modules>
     <module>bw-wfmodules-org-apache-httpcomponents-httpclient</module>

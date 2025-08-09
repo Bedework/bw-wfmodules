@@ -11,6 +11,7 @@
 
   <artifactId>bw-wfmodules-jolokia-client</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: org jolokia client</name>
 
   <dependencies>
     <dependency>

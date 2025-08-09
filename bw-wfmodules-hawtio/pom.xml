@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-hawtio</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: hawtio</name>
 
   <dependencies>
     <dependency>

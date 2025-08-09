@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-calendar-client</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: calendar client</name>
 
   <modules>
     <module>bw-wfmodules-calendar-client-admin</module>

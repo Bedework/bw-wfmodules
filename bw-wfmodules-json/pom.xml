@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-json</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: json</name>
 
   <dependencies>
     <dependency>

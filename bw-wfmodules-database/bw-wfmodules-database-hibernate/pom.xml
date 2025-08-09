@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-database-hibernate</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: database hibernate</name>
 
   <dependencies>
     <dependency>

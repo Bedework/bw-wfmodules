@@ -11,6 +11,7 @@
 
   <artifactId>bw-wfmodules-ibm-icu</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: com ibm icu</name>
 
   <dependencies>
     <dependency>

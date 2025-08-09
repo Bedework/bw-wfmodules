@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-calendar-engine-rw</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: calendar engine rw</name>
 
   <build>
     <plugins>

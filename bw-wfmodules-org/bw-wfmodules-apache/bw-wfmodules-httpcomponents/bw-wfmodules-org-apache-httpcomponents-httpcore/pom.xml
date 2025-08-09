@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-org-apache-httpcomponents-httpcore</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: org apache httpcomponents httpcore</name>
 
   <dependencies>
     <dependency>

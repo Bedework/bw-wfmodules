@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-net</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: net</name>
 
   <modules>
     <module>bw-wfmodules-saxonhe</module>

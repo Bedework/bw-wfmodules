@@ -11,6 +11,7 @@
 
   <artifactId>bw-wfmodules-calendar-common-sysevents-common</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: calendar common sysevents common</name>
 
   <dependencies>
     <dependency>

@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-jsforj</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: jsforj</name>
 
   <dependencies>
     <dependency>

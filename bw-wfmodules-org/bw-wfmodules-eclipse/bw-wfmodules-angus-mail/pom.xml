@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-angus-mail</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: org eclipse angus-mail</name>
 
   <dependencies>
     <dependency>

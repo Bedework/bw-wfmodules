@@ -11,6 +11,7 @@
 
   <artifactId>bw-wfmodules-calendar-client-web-ro</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: calendar client web ro</name>
 
   <dependencies>
     <dependency>

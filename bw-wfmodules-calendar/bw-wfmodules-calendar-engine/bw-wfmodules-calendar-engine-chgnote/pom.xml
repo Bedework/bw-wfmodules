@@ -11,6 +11,7 @@
 
   <artifactId>bw-wfmodules-calendar-engine-chgnote</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: calendar engine chgnote</name>
 
   <dependencies>
     <dependency>

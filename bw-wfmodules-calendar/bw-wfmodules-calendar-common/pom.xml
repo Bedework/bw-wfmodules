@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-calendar-common</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: calendar common</name>
 
   <modules>
     <module>bw-wfmodules-calendar-common-annotations</module>

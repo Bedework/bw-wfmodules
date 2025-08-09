@@ -11,6 +11,7 @@
 
   <artifactId>bw-wfmodules-calendar-engine-interfaces</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: calendar engine interfaces</name>
 
   <dependencies>
     <dependency>

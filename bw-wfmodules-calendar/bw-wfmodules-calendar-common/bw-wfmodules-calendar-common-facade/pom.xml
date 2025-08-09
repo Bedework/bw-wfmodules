@@ -11,6 +11,7 @@
 
   <artifactId>bw-wfmodules-calendar-common-facade</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: calendar common facade</name>
 
   <dependencies>
     <dependency>

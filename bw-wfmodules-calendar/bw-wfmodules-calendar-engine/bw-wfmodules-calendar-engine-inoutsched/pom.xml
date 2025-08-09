@@ -11,6 +11,7 @@
 
   <artifactId>bw-wfmodules-calendar-engine-inoutsched</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: calendar engine inoutsched</name>
 
   <dependencies>
     <dependency>

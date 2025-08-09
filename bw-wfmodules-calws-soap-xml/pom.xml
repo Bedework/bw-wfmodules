@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-calws-soap-xml</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: calws-soap xml</name>
 
   <dependencies>
     <dependency>

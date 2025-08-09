@@ -11,6 +11,7 @@
 
   <artifactId>bw-wfmodules-calendar-engine-tools</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: calendar engine tools</name>
 
   <dependencies>
     <dependency>

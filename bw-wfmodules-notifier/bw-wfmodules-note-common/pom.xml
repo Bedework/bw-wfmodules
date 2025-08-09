@@ -11,6 +11,7 @@
 
   <artifactId>bw-wfmodules-note-common</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: note common</name>
 
   <dependencies>
     <dependency>

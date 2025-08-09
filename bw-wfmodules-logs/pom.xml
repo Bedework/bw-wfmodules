@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-logs</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: logs</name>
 
   <dependencies>
     <dependency>

@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-cli-app</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: cli app</name>
 
   <dependencies>
     <dependency>

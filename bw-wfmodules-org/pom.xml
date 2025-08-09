@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-org</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: org</name>
 
   <modules>
     <module>bw-wfmodules-apache</module>

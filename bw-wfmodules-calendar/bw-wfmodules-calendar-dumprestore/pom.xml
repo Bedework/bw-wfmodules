@@ -11,6 +11,7 @@
 
   <artifactId>bw-wfmodules-calendar-dumprestore</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: calendar dumprestore</name>
 
   <dependencies>
     <dependency>

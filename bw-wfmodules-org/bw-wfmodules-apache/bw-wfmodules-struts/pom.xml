@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-struts</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: org apache struts</name>
 
   <modules>
     <module>bw-wfmodules-struts2-core</module>

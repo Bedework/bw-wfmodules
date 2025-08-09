@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-fasterxml</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: com fasterxml</name>
 
   <modules>
     <module>bw-wfmodules-jackson</module>

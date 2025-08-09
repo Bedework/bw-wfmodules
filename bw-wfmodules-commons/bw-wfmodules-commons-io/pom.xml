@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-commons-io</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: commons io</name>
 
   <dependencies>
     <dependency>
