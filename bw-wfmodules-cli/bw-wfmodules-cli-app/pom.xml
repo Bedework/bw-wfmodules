@@ -128,14 +128,6 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.cli.util-cli</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.cli.util-jolokia</name>
-            </moduleDependency>
-
-            <moduleDependency>
               <name>org.bedework.util.args</name>
             </moduleDependency>
 
