@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.bedework</groupId>
     <artifactId>bedework-parent</artifactId>
-    <version>229</version>
+    <version>231</version>
   </parent>
 
   <groupId>org.bedework.deploy</groupId>
