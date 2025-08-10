@@ -12,6 +12,7 @@
 
   <artifactId>bw-wfmodules-commons-text</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: org apache commons text</name>
 
   <dependencies>
     <dependency>

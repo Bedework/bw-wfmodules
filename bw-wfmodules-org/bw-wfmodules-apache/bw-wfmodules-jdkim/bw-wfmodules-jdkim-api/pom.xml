@@ -11,6 +11,7 @@
 
   <artifactId>bw-wfmodules-jdkim-api</artifactId>
   <packaging>pom</packaging>
+  <name>Bedework wfmodules: jdkim api</name>
 
   <dependencies>
     <dependency>
