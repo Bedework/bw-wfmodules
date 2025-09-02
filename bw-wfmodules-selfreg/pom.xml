@@ -103,10 +103,6 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.org.eclipse.angus.mail</name>
-            </moduleDependency>
-
-            <moduleDependency>
               <name>jakarta.mail.api</name>
             </moduleDependency>
 
