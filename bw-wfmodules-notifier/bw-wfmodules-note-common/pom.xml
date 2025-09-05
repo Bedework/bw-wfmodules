@@ -104,7 +104,7 @@
             </moduleDependency>
 
             <moduleDependency>
-              <name>org.bedework.access</name>
+              <name>org.bedework.dav.access</name>
             </moduleDependency>
 
             <moduleDependency>

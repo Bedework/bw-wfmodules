@@ -17,7 +17,7 @@
   <dependencies>
     <dependency>
       <groupId>org.bedework</groupId>
-      <artifactId>bw-access</artifactId>
+      <artifactId>bw-dav-access</artifactId>
     </dependency>
   </dependencies>
 
@@ -28,14 +28,14 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.access</moduleName>
+          <moduleName>org.bedework.dav.access</moduleName>
 
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <jarResource>
               <groupId>org.bedework</groupId>
-              <artifactId>bw-access</artifactId>
+              <artifactId>bw-dav-access</artifactId>
               <version>${bw-access.version}</version>
             </jarResource>
           </jarResources>
