@@ -120,6 +120,10 @@
 
           <moduleDependencies>
             <moduleDependency>
+              <name>org.bedework.cli.cli-jolokia</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.base</name>
             </moduleDependency>
 
