@@ -13,66 +13,8 @@
   <packaging>pom</packaging>
   <name>Bedework wfmodules: calendar dumprestore</name>
 
-  <dependencies>
-    <dependency>
-      <groupId>org.bedework</groupId>
-      <artifactId>bw-calendar-dumprestore</artifactId>
-    </dependency>
-  </dependencies>
-
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.bedework</groupId>
-        <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
-
-        <configuration>
-          <moduleName>org.bedework.calendar.dumprestore</moduleName>
-          <noArtifact>true</noArtifact>
-
-          <jarResources>
-            <jarResource>
-              <groupId>org.bedework</groupId>
-              <artifactId>bw-calendar-dumprestore</artifactId>
-              <version>${bw-calendar-dumprestore.version}</version>
-            </jarResource>
-          </jarResources>
-
-          <moduleDependencies>
-            <moduleDependency>
-              <name>org.bedework.calendar.common.api.rw</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.calendar.common.convert</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.calendar.engine.api</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.calendar.engine.impl</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.base</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.util.jmx</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.commons.digester</name>
-            </moduleDependency>
-          </moduleDependencies>
-        </configuration>
-      </plugin>
-
-      <plugin>
-        <artifactId>maven-assembly-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </build>
+  <modules>
+    <module>bw-wfmodules-calendar-dumprestore-common</module>
+    <module>bw-wfmodules-calendar-dumprestore-service</module>
+  </modules>
 </project>

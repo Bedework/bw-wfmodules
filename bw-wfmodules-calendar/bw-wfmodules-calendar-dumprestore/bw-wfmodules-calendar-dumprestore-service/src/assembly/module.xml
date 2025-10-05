@@ -6,10 +6,10 @@
   <formats>
     <format>zip</format>
   </formats>
-  <baseDirectory>org/bedework/calendar/dumprestore</baseDirectory>
+  <baseDirectory>org/bedework/calendar/dumprestore/service</baseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${bw-build-module-base}/org/bedework/calendar/dumprestore</directory>
+      <directory>${bw-build-module-base}/org/bedework/calendar/dumprestore/service</directory>
       <outputDirectory/>
     </fileSet>
   </fileSets>
