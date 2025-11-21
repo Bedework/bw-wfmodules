@@ -16,7 +16,7 @@
   <dependencies>
     <dependency>
       <groupId>org.bedework</groupId>
-      <artifactId>bw-calendar-annotations</artifactId>
+      <artifactId>bw-calendar-config</artifactId>
     </dependency>
   </dependencies>
 
