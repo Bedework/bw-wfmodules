@@ -18,5 +18,6 @@
     <module>bw-wfmodules-util-http</module>
     <module>bw-wfmodules-util-servlet</module>
     <module>bw-wfmodules-util-servlet-filters</module>
+    <module>bw-wfmodules-util-struts2</module>
   </modules>
 </project>

@@ -56,6 +56,11 @@
               <name>org.bedework.util.servlet</name>
             </moduleDependency>
 
+            <!-- This to force the module to be loaded -->
+            <moduleDependency>
+              <name>org.bedework.util.struts2</name>
+            </moduleDependency>
+
             <moduleDependency>
               <name>org.bedework.util.servlet.filters</name>
             </moduleDependency>
