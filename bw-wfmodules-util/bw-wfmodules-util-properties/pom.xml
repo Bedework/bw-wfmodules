@@ -2,21 +2,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
   <parent>
-    <artifactId>bw-wfmodules-util-conf</artifactId>
+    <artifactId>bw-wfmodules-util</artifactId>
     <groupId>org.bedework.deploy</groupId>
     <version>2.2.0-SNAPSHOT</version>
   </parent>
-  <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>bw-wfmodules-util-config</artifactId>
+  <artifactId>bw-wfmodules-util-properties</artifactId>
   <packaging>pom</packaging>
-  <name>Bedework wfmodules: util conf config</name>
+  <name>Bedework wfmodules: util misc</name>
 
   <dependencies>
     <dependency>
       <groupId>org.bedework</groupId>
-      <artifactId>bw-util-config</artifactId>
+      <artifactId>bw-util-properties</artifactId>
     </dependency>
   </dependencies>
 
@@ -27,14 +28,15 @@
         <artifactId>bw-util-maven-deploy-wfmodule</artifactId>
 
         <configuration>
-          <moduleName>org.bedework.util.config</moduleName>
+          <moduleName>org.bedework.util.properties</moduleName>
+
           <noArtifact>true</noArtifact>
 
           <jarResources>
             <jarResource>
               <groupId>org.bedework</groupId>
-              <artifactId>bw-util-config</artifactId>
-              <version>${bw-util-conf.version}</version>
+              <artifactId>bw-util-properties</artifactId>
+              <version>${bw-util.version}</version>
             </jarResource>
           </jarResources>
 
@@ -45,14 +47,6 @@
 
             <moduleDependency>
               <name>org.bedework.logging</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.util.properties</name>
-            </moduleDependency>
-
-            <moduleDependency>
-              <name>org.bedework.util.xml</name>
             </moduleDependency>
           </moduleDependencies>
         </configuration>
