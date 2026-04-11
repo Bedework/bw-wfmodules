@@ -2,17 +2,24 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
   <parent>
-    <groupId>org.bedework.deploy</groupId>
     <artifactId>bw-wfmodules-util-network</artifactId>
+    <groupId>org.bedework.deploy</groupId>
     <version>2.2.0-SNAPSHOT</version>
   </parent>
-
-  <modelVersion>4.0.0</modelVersion>
 
   <artifactId>bw-wfmodules-util-struts2</artifactId>
   <packaging>pom</packaging>
   <name>Bedework wfmodules: util struts2</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.bedework</groupId>
+      <artifactId>bw-util-struts2</artifactId>
+    </dependency>
+  </dependencies>
 
   <build>
     <plugins>
