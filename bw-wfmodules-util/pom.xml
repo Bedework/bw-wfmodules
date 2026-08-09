@@ -29,5 +29,6 @@
     <module>bw-wfmodules-util-security</module>
     <module>bw-wfmodules-util-tz</module>
     <module>bw-wfmodules-util-xml</module>
+    <module>bw-wfmodules-util-dates</module>
   </modules>
 </project>

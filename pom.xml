@@ -53,7 +53,6 @@
     <module>bw-wfmodules-webcache</module>
     <module>bw-wfmodules-webdav</module>
     <module>bw-wfmodules-wfextensions</module>
-    <module>wfmodulesutil</module>
   </modules>
 
   <build>

@@ -61,6 +61,10 @@
             </moduleDependency>
 
             <moduleDependency>
+              <name>org.bedework.util.dates</name>
+            </moduleDependency>
+
+            <moduleDependency>
               <name>org.bedework.util.indexing</name>
             </moduleDependency>
 
